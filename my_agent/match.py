@@ -24,7 +24,7 @@ For each requirement, decide:
 - partial: the profile shows closely related or adjacent experience, or demonstrates part of it.
 - unmet: nothing in the profile addresses it.
 
-evidence: copy ONE line from the profile exactly as written, or a contiguous substring of one line.
+evidence: copy ONE line from the profile exactly as written, or a contiguous substring of one line. Do not include the leading ‘- ‘ bullet.
 Never combine lines, never paraphrase, never add words. For unmet, evidence is null.
 
 Be strict:
@@ -45,6 +45,9 @@ _TYPO = str.maketrans(
     }
 )
 
+_BULLET = re.compile(r"^\s*[-*•]\s+")
+
+
 class _Judgment(BaseModel):
     requirement_index: int
     status: Status
@@ -61,6 +64,11 @@ def _agent() -> Agent:
 
 def _norm(s: str) -> str:
     return re.sub(r"\s+", " ", s.translate(_TYPO)).strip()
+
+
+def _strip_bullet(s: str | None) -> str | None:
+    """Remove a leading list marker the model may copy from profile_text."""
+    return _BULLET.sub("", s) if s else s
 
 
 def profile_lines(profile: ResumeProfile) -> list[str]:
@@ -100,7 +108,8 @@ def verify(
         if j is None:  # model skipped it → unmet, no credit
             matches.append(RequirementMatch(requirement=req, status=Status.unmet))
             continue
-        ok = evidence_in_profile(j.evidence, lines)
+        evidence = _strip_bullet(j.evidence)
+        ok = evidence_in_profile(evidence, lines)
         status = j.status
         if status == Status.met and not ok:
             status = Status.partial
@@ -108,7 +117,7 @@ def verify(
             RequirementMatch(
                 requirement=req,
                 status=status,
-                evidence=j.evidence,
+                evidence=evidence,
                 evidence_verified=ok,
             )
         )
