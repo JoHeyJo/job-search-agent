@@ -20,12 +20,16 @@ from models import Listing, Requirement, RequirementMatch, ResumeProfile, Status
 SYSTEM_PROMPT = """You compare job requirements against a candidate profile.
 
 For each requirement, decide:
-- met: the profile explicitly demonstrates it.
-- partial: the profile shows closely related or adjacent experience, or demonstrates part of it.
-- unmet: nothing in the profile addresses it.
+- met: a profile line explicitly demonstrates the whole requirement.
+- partial: a profile line demonstrates the requirement with one clear, nameable gap —
+  fewer years than asked, a sibling technology in the same family, the same task at
+  smaller scale, or one half of an "A and B" requirement explicitly satisfied.
+- unmet: nothing in the profile addresses it. If you would need to explain why the
+  evidence is related, it is unmet. When torn between partial and unmet, choose unmet.
 
-evidence: copy ONE line from the profile exactly as written, or a contiguous substring of one line. Do not include the leading ‘- ‘ bullet.
-Never combine lines, never paraphrase, never add words. For unmet, evidence is null.
+evidence: for met or partial, copy ONE profile line (or a contiguous substring of one)
+exactly as written. Do not include the leading ‘- ‘ bullet. The line must support the specific part you are crediting. For unmet,
+evidence is null.
 
 Be strict:
 - A skill merely listed does not satisfy a stated minimum of years. Use partial unless the
@@ -190,3 +194,25 @@ if __name__ == "__main__":
                 print(f'          ↳ "{m.evidence}"')
 
     print(f"\n{len(listings)} listings · {downgraded} met→partial downgrades")
+
+"""
+            (Shouldn't this be unmet?)
+            partial [R] Fluency in English and Turkish (written and spoken)
+          ↳ "Spoken language: Spanish"
+
+            (Here is correct but the proof of "Spoken language: Spanish" doesn't make sense.)
+            met     [R GATE] Fluency in English is required.
+          ↳ "Spoken language: Spanish"
+
+            (Does the supporting quote actually translate to a partial? These are soft skills that could actually require its own section in the future. But this could be ok as a partial for now.)
+            partial [R] Curiosity, initiative, and a demonstrated ability to learn new technologies quickly
+          ↳ "Open Source Contributor — Open Disclosure (Ruby, JavaScript, Jekyll): optimized campaign-contribution calculation algorithm; used Slack and code reviews to align on technical strategy."
+
+          (Does the supporting quote actually translate toa partial. Seems like a stretch.)
+          partial [P] Experience creating reusable technical assets such as demonstrations, code samples, technical documentation, reference architectures, or customer workshops
+          ↳ "upheld coding standards via code reviews"
+
+            (These don't seem to support a partial rating)
+            partial [P] Experience working with SMB or Digital Native Business customers
+          ↳ "Built and shipped full stack app (React/TypeScript front end, Python/PostgreSQL back end) now live in beta with local businesses"
+"""
