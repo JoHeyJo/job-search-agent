@@ -1,22 +1,3 @@
-from strands import Agent
-from models import ResumeProfile
-
-SYSTEM_PROMPT = """
-Convert a résumé into a compact, factual profile.
-Rules:
-- Only record what the résumé states. Do not infer skills, seniority, or years not written there.
-- Every list entry is one short, self-contained line that could be quoted as evidence on its own.
-- experience: one line per role, formatted "Title, Company, start–end: 2–4 concrete things done."
-  Keep the dates exactly as written.
-- skills: concrete technologies, languages, tools. No soft skills.
-- education: degree, school, year if given.
-- other: certifications, work authorization, languages, publications — only if explicitly stated.
-- Leave a list empty rather than guess.
-- Report tool failures rather than answering from memory."""
-
-agent = Agent(system_prompt=SYSTEM_PROMPT, structured_output_model=ResumeProfile, callback_handler=None)
-
-
 """The agent layer. Four tools over the Phase 7 pipeline; a REPL so follow-ups share context.
 
     python agent.py resume.pdf
@@ -183,11 +164,7 @@ def _render(view: list[Summary], res: RankedResult, header: str | None = None) -
 
 
 def make_agent() -> Agent:
-    model = BedrockModel(
-        model_id=settings.bedrock_model_id, region_name=settings.aws_region
-    )
     return Agent(
-        model=model,
         system_prompt=SYSTEM_PROMPT,
         tools=[discover_boards, rank_jobs, explain_match, filter_results],
         callback_handler=None,
