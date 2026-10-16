@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     AWS_REGION: str
     tavily_api_key: str 
     data_dir: Path = Path("data")
+    concurrency: int = 8
 
 
 settings = Settings()
