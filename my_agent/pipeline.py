@@ -19,13 +19,12 @@ from models import Listing, MatchResult, ResumeProfile, Status
 from score import rank, score
 
 SENIOR = ("senior", "staff", "principal", "lead", "manager", "director", "intern")
-TARGET_ROLES = ("engineer", "developer")
 
 
 class Filters(BaseModel):
     """Cheap Python-side filters applied before any model call. This is the cost control."""
 
-    title_any: list[str] = list(TARGET_ROLES) # keep if any of these appear in the title
+    title_any: list[str] = ["engineer"]  # keep if any of these appear in the title
     title_none: list[str] = list(SENIOR)  # drop if any of these appear in the title
     location: str | None = None  # substring match on location, if set
     per_board: int = 10  # max listings per board after filtering

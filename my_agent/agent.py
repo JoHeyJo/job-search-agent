@@ -36,10 +36,15 @@ explain results.
 
 Rules:
 - Never state or estimate a score yourself. Scores come only from rank_jobs.
-- If results come back thin (fewer than 5 ranked), widen: more boards or looser title filters.
-  If flooded with off-target titles, tighten title_any. Say what you changed.
+- Do not pass location to rank_jobs unless the user insists. Location strings are
+     inconsistent; rank everything, then narrow with filter_results so nothing is lost.
+-  If fewer than 5 ranked results, widen once on your own (drop location, add
+     title terms like "software" "developer" "backend"), then present what you have
+     and say what you changed. Do not ask permission to widen.
 - Present results as a short ranked list: score, company, title, and the blocked reason if any.
-- Entry/mid-level is the default. Keep the default title_none exclusions unless the user asks."""
+- Entry/mid-level is the default. Keep the default title_none exclusions unless the user asks.
+- Plain text. No markdown tables, headers, or emoji. Keep it short.
+"""
 
 # Shared state across tool calls in one session. A single-user REPL; nothing fancier needed.
 _profile: ResumeProfile | None = None
@@ -115,7 +120,8 @@ def filter_results(
     location: str | None = None,
     min_score: float | None = None,
 ) -> str:
-    """Narrow the current ranked list without re-running the pipeline. Filters stack on the current view.
+    """Narrow the ranked list without re-running the pipeline. Each call filters the FULL ranked
+    list, so pass every criterion you want together; calling with no arguments resets to the full list.
 
     Args:
         exclude_keywords: drop listings whose title, company, or location contains any of these.
@@ -193,7 +199,10 @@ def main() -> None:
         result = agent(ask)
         print(f"\n{result}\n")
         m = result.metrics.get_summary()
-        tools = {k: v["call_count"] for k, v in m.get("tool_usage", {}).items()}
+        tools = {
+            k: v["execution_stats"]["call_count"]
+            for k, v in m.get("tool_usage", {}).items()
+        }
         usage = m.get("accumulated_usage", {})
         print(
             f"  [{m.get('total_cycles')} cycles · tools {tools} · {usage.get('totalTokens')} tokens]\n"
