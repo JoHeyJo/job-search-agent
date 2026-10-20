@@ -28,7 +28,9 @@ Rules:
   a required degree, a required location, or a stated minimum years of experience.
 - Only extract from requirement/qualification sections. Skip responsibilities, company blurbs,
   and benefits.
-- If the posting has no requirements, return an empty list. Never invent."""
+- Skip personality and soft-skill items (curiosity, communication, team player, collaboration, passion, ownership, or mindset) — they cannot be verified against a résumé.
+- If the posting has no requirements, return an empty list. Never invent.
+"""
 
 # Python's own view of what a gate is, independent of the model's flag.
 GATE_PATTERNS = [
@@ -134,7 +136,7 @@ if __name__ == "__main__":
         in_gates = any(r.gate and years.search(r.source_span) for r in kept)
         if in_posting != in_gates:
             print(f"MISMATCH  posting={in_posting} gate={in_gates}  {l.title}")
-        
+
         print(
             f"\n=== {l.title}  ({len(kept)} kept, {len(dropped)} dropped)\n    {l.url}"
         )
