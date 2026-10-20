@@ -168,12 +168,17 @@ def _render(view: list[Summary], res: RankedResult, header: str | None = None) -
             )
     return "\n".join(lines)
 
+def _show_tools(**kw):
+    t = kw.get("current_tool_use")
+    if t and t.get("input"):
+        print(f"  → {t['name']}({t['input']})", file=sys.stderr)
+
 
 def make_agent() -> Agent:
     return Agent(
         system_prompt=SYSTEM_PROMPT,
         tools=[discover_boards, rank_jobs, explain_match, filter_results],
-        callback_handler=None,
+        callback_handler=_show_tools,
     )
 
 
