@@ -2,9 +2,11 @@
 
 score = Σ weight(req) × credit(status) / Σ weight(req) × 100
 
-Weights and credits are module constants. Change them and re-run: every match is cached, so
-re-scoring ten listings costs nothing. That's the point of keeping scoring out of the model.
+Weights, credits, and the gate policy are module constants. Change them and re-run: every match
+is cached, so re-scoring costs nothing. That's the point of keeping scoring out of the model.
 """
+
+import re
 
 from models import Listing, MatchResult, RequirementMatch, Status
 
@@ -13,9 +15,33 @@ WEIGHT_PREFERRED = 1.0
 
 CREDIT = {Status.met: 1.0, Status.partial: 0.5, Status.unmet: 0.0}
 
-# A gate blocks only when fully unmet. A partial gate ("2 years" vs "3+ years") costs points
-# but doesn't sink the listing — close enough to be worth seeing.
+# --- Gate policy -------------------------------------------------------------------------------
+# A gate blocks a listing (moves it to the blocked bucket) when:
+#   - the model marked it unmet, or
+#   - it states a minimum number of years above MAX_YEARS and the model didn't find it fully met.
+# A gate never blocks when it sits in a preferred section or its own wording softens it
+# ("or equivalent experience", "encouraged to apply").
+
 BLOCKING_STATUSES = {Status.unmet}
+MAX_YEARS = (
+    4  # entry/mid: "5+ years" blocks even at partial; "3+ years" at partial still ranks
+)
+
+SOFT_GATE = re.compile(r"or equivalent|encouraged|preferred|a plus|bonus", re.I)
+_YEARS = re.compile(r"(\d+)\s*\+?\s*(?:years|yrs)", re.I)
+
+
+def _blocks(m: RequirementMatch) -> bool:
+    r = m.requirement
+    if not r.gate or r.preferred or SOFT_GATE.search(r.source_span):
+        return False
+    if m.status in BLOCKING_STATUSES:
+        return True
+    yrs = _YEARS.search(r.source_span)
+    return bool(yrs) and int(yrs.group(1)) > MAX_YEARS and m.status != Status.met
+
+
+# --- Scoring -----------------------------------------------------------------------------------
 
 
 def score(listing_id: str, matches: list[RequirementMatch]) -> MatchResult:
@@ -28,7 +54,7 @@ def score(listing_id: str, matches: list[RequirementMatch]) -> MatchResult:
         w = WEIGHT_PREFERRED if m.requirement.preferred else WEIGHT_REQUIRED
         possible += w
         earned += w * CREDIT[m.status]
-        if m.requirement.gate and m.status in BLOCKING_STATUSES:
+        if _blocks(m):
             blocked_by.append(m.requirement.text)
 
     return MatchResult(
