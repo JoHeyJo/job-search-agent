@@ -30,8 +30,8 @@ explain results.
 - discover_boards: find company job boards for a role. Call this first unless the user named companies.
 - rank_jobs: run the full pipeline on a set of boards with title/location filters. Returns a ranked
   summary. This is the expensive call — run it once per distinct search, not per question.
-- explain_match: the requirement-by-requirement evidence table for one ranked listing. Use it for any
-  "why" question. Quote the evidence; do not add reasons that aren't in the table.
+- explain_match: Reproduce each requirement with its status and the evidence line exactly as the table shows it. 
+  One sentence of summary at the end is fine; do not add reasons, qualifiers, or judgments the table doesn't contain.
 - filter_results: narrow the current results without re-running anything. Use it for "drop X",
   "only remote", "score above N".
 

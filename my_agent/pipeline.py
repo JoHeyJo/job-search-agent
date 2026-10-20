@@ -102,10 +102,22 @@ async def rank_listings(
     )
     fetched = sum(len(bl) for bl in board_lists)
 
-    # 2. Filter in Python, cap per board. Only these cost model calls.
+    # 2. Filter in Python, drop duplicate postings, cap per board. Only these cost model calls.
+    seen: set[tuple[str, str, str]] = set()
     listings: list[Listing] = []
     for bl in board_lists:
-        listings.extend([l for l in bl if _keep(l, f)][: f.per_board])
+        kept = 0
+        for l in bl:
+            if not _keep(l, f):
+                continue
+            key = (l.company.lower(), l.title.lower(), (l.location or "").lower())
+            if key in seen:
+                continue
+            seen.add(key)
+            listings.append(l)
+            kept += 1
+            if kept >= f.per_board:
+                break
 
     # 3. Extract + match, bounded. match_listing calls extract_requirements internally; both cached.
     sem = asyncio.Semaphore(settings.concurrency)
