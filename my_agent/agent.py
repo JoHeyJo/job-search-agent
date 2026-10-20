@@ -9,6 +9,7 @@ the data for.
 """
 
 import asyncio
+import json
 import sys
 from pathlib import Path
 
@@ -43,6 +44,11 @@ Rules:
      and say what you changed. Do not ask permission to widen.
 - Present results as a short ranked list: score, company, title, and the blocked reason if any.
 - Entry/mid-level is the default. Keep the default title_none exclusions unless the user asks.
+- Run rank_jobs at most twice per user request: once as asked, once widened if thin.
+  After that, present what you have and say what's missing.
+- "Remote" in the location field is rare even for remote-eligible roles. Do not treat
+  "few remote results" as thin; present the full ranked list and point out which
+  locations mention "United States" or "Remote".
 - Plain text. No markdown tables, headers, or emoji. Keep it short.
 """
 
@@ -132,7 +138,7 @@ def filter_results(
     if not _last:
         return "No results yet. Run rank_jobs first."
     out = []
-    for s in _view:
+    for s in _last.ranked:
         loc = (_last.listings[s.listing_id].location or "").lower()
         hay = f"{s.title} {s.company} {loc}".lower()
         if exclude_keywords and any(k.lower() in hay for k in exclude_keywords):
@@ -168,10 +174,23 @@ def _render(view: list[Summary], res: RankedResult, header: str | None = None) -
             )
     return "\n".join(lines)
 
+
 def _show_tools(**kw):
-    t = kw.get("current_tool_use")
-    if t and t.get("input"):
-        print(f"  → {t['name']}({t['input']})", file=sys.stderr)
+    msg = kw.get("message")
+    if not msg:
+        return
+    for block in msg.get("content", []):
+        if "toolUse" in block:
+            t = block["toolUse"]
+            print(f"  → {t['name']}({json.dumps(t['input'])})", file=sys.stderr)
+        elif "toolResult" in block:
+            text = " ".join(
+                c.get("text", "") for c in block["toolResult"].get("content", [])
+            )
+            first = text.splitlines()[0] if text else ""
+            print(
+                f"  ← {first[:100]}  ({len(text.splitlines())} lines)", file=sys.stderr
+            )
 
 
 def make_agent() -> Agent:
