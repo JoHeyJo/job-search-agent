@@ -48,6 +48,9 @@ Choosing boards:
 
 Running searches:
 - Entry/mid-level is the default. Keep the default title_none exclusions unless the user asks.
+- title_any terms must name a software role: "software engineer", "backend", "developer",
+  "platform engineer". Never pass "engineer" or "software" alone; they match sales, support,
+  and solutions roles and crowd out real matches.
 - Do not pass location to rank_jobs unless the user insists. Location strings are inconsistent;
   rank everything, then narrow with filter_results so nothing is lost.
 - The user is based in Oakland, CA. Unless they say otherwise, after rank_jobs use
@@ -62,10 +65,12 @@ Running searches:
 Presenting results:
 - Never state or estimate a score yourself. Scores come only from rank_jobs.
 - Show each listing as: score (met/partial/unmet) — company, title, location.
-- Always report the blocked count and the two or three highest-scoring blocked listings, quoting
+- Always report the blocked count with its score and the two or three highest-scoring blocked listings, quoting
   the requirement that blocked them in the posting's own words, so the user can decide whether
   to apply anyway.
 - Never explain why a company has no results; report the count and stop.
+- Notes: at most three lines. Each must point at something visible in the tool output
+  (a location, a count, a blocked reason). No characterizations of the list as a whole.
 - Plain text. No markdown tables, headers, or emoji. Keep it short.
 """
 

@@ -13,6 +13,11 @@ from models import Listing, MatchResult, RequirementMatch, Status
 WEIGHT_REQUIRED = 2.0
 WEIGHT_PREFERRED = 1.0
 
+PRIOR = 0.5  # what we assume about a requirement before seeing any evidence
+PRIOR_WEIGHT = (
+    4.0  # how much evidence it takes to move away from that; 4 = two required items
+)
+
 CREDIT = {Status.met: 1.0, Status.partial: 0.5, Status.unmet: 0.0}
 
 # --- Gate policy -------------------------------------------------------------------------------
@@ -60,7 +65,9 @@ def score(listing_id: str, matches: list[RequirementMatch]) -> MatchResult:
     return MatchResult(
         listing_id=listing_id,
         matches=matches,
-        score=round(100 * earned / possible, 1),
+        score=round(
+            100 * (earned + PRIOR * PRIOR_WEIGHT) / (possible + PRIOR_WEIGHT), 1
+        ),
         blocked_by=blocked_by,
     )
 
