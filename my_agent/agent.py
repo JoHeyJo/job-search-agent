@@ -48,6 +48,7 @@ Rules:
      title terms like "software" "developer" "backend"), then present what you have
      and say what you changed. Do not ask permission to widen.
 - Present results as a short ranked list: score, company, title, and the blocked reason if any.
+When reporting blocked listings, say which requirement blocked them in the posting's own words, so the user can decide whether to apply anyway.
 - Entry/mid-level is the default. Keep the default title_none exclusions unless the user asks.
 - Run rank_jobs at most twice per user request: once as asked, once widened if thin.
   After that, present what you have and say what's missing.

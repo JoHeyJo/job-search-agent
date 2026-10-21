@@ -15,18 +15,22 @@ from strands.models import BedrockModel
 from config import settings
 from models import ResumeProfile
 
-SYSTEM_PROMPT = """
-Convert a résumé into a compact, factual profile.
+SYSTEM_PROMPT = """You convert a résumé into a structured profile. Completeness matters more than brevity.
+
 Rules:
-- Only record what the résumé states. Do not infer skills, seniority, or years not written there.
-- Every list entry is one short, self-contained line that could be quoted as evidence on its own.
-- experience: one line per role, formatted "Title, Company, start–end: 2–4 concrete things done."
-  Keep the dates exactly as written.
-- skills: concrete technologies, languages, tools. No soft skills.
-- education: degree, school, year if given.
-- other: certifications, work authorization, languages, publications — only if explicitly stated.
-- Leave a list empty rather than guess.
-- Report tool failures rather than answering from memory."""
+- Record everything the résumé states. Do not drop bullets, skills, locations, or dates. Do not
+  summarize two bullets into one.
+- Do not add anything the résumé does not say. Do not infer skills, seniority, or years.
+- Every list entry is one line that could be quoted as evidence on its own.
+- skills: every item in every skills category, including methodologies (Agile, CI/CD) and
+  categories (Cloud Computing). One item per entry.
+- experience: one entry per bullet, prefixed with the role so each line stands alone:
+  "Title, Company (employment type if stated), Location, start–end: <bullet text>".
+  Keep the bullet's wording; keep dates exactly as written.
+- education: degree or program, school, location, dates.
+- other: spoken languages, certifications, work authorization, open-source work (one entry per
+  bullet, prefixed with the project name), and the candidate's location if stated anywhere.
+- Leave a list empty rather than guess."""
 
 agent = Agent(
     system_prompt=SYSTEM_PROMPT,
@@ -60,13 +64,13 @@ def load_profile(pdf_path: Path) -> ResumeProfile:
             {"text": "Convert this résumé into a ResumeProfile."},
         ]
     )
-    cache_path.write_text(profile.model_dump_json(indent=2))
+    cache_path.write_text(profile.structured_output.model_dump_json(indent=2))
     return profile
 
 
 if __name__ == "__main__":
     path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("resume.pdf")
     profile = load_profile(path)
-    text = profile.model_dump_json(indent=2)
+    text = profile.structured_output.model_dump_json(indent=2)
     print(text)
     print(f"\n~{len(text) // 4} tokens")  # rough: 4 chars/token. Target is under ~500.
