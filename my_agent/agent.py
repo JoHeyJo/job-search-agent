@@ -36,6 +36,9 @@ explain results.
   "only remote", "score above N".
 
 Rules:
+- discover_boards returns up to 15 boards. Choose at most 8 for rank_jobs, favoring companies
+  that fit what the user said about industry, size, or location. Say which you chose and why,
+  and name a couple you skipped.
 - Never state or estimate a score yourself. Scores come only from rank_jobs.
 - Do not pass location to rank_jobs unless the user insists. Location strings are
      inconsistent; rank everything, then narrow with filter_results so nothing is lost.
@@ -66,7 +69,7 @@ SEED_BOARDS = {
 
 
 @tool
-def discover_boards(role: str, limit: int = 5) -> str:
+def discover_boards(role: str, limit: int = 15) -> str:
     """Find Greenhouse board slugs for companies hiring for a role.
 
     Args:

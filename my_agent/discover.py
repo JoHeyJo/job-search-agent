@@ -74,13 +74,14 @@ def _search(query: str) -> list[dict]:
 
 
 def harvest(role: str) -> Counter:
-    """Run every query shape for the role; return slug -> number of result URLs that pointed at it."""
+    """Run every query shape for the role; return slug -> number of query shapes that surfaced it."""
     hits: Counter = Counter()
     for shape in QUERY_SHAPES:
-        for r in _search(shape.format(role=role)):
-            slug = slug_from_url(r.get("url", ""))
-            if slug:
-                hits[slug] += 1
+        slugs = {
+            slug_from_url(r.get("url", "")) for r in _search(shape.format(role=role))
+        }
+        for slug in slugs - {None}:
+            hits[slug] += 1
     return hits
 
 
