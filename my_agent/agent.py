@@ -37,9 +37,10 @@ explain results.
   "only remote", "score above N".
 
 Rules:
-- discover_boards returns up to 15 boards. Choose at most 8 for rank_jobs, favoring companies
-  that fit what the user said about industry, size, or location. Say which you chose and why,
-  and name a couple you skipped.
+- Show each listing as "score (met/partial/unmet)" so the user can tell a 90 over three requirements from a 90 over twelve.
+- Discover_boards returns up to 15 boards. Choose at most 8 for rank_jobs, favoring companies
+  that fit what the user said about industry, size, or location. When you choose boards, 
+  list the ones you skipped and the reason, one line each.
 - Never state or estimate a score yourself. Scores come only from rank_jobs.
 - Do not pass location to rank_jobs unless the user insists. Location strings are
      inconsistent; rank everything, then narrow with filter_results so nothing is lost.
@@ -81,7 +82,10 @@ def discover_boards(role: str, limit: int = 8) -> str:
     if not boards:
         return f"no boards found for '{role}'; fall back to the seed list: {', '.join(SEED_BOARDS['default'])}"
     lines = [f"{len(boards)} boards for '{role}' (slug — company, open jobs):"]
-    lines += [f"  {b.slug} — {b.company}, {b.jobs} jobs" for b in boards]
+    lines += [
+        f"  {b.slug} — {b.company}, {b.matching} open matching roles ({b.jobs} total)"
+        for b in boards
+    ]
     return "\n".join(lines)
 
 
@@ -114,17 +118,19 @@ async def rank_jobs(
 
 
 @tool
-def explain_match(rank: int) -> str:
-    """Show the requirement → status → evidence table for one listing in the current ranked list.
+def explain_match(rank: int, blocked: bool = False) -> str:
+    """Show the requirement → status → evidence table for one listing.
 
     Args:
         rank: 1-based position in the most recent ranked list shown.
+        blocked: if true, rank refers to the blocked list instead of the ranked list.
     """
-    if not _view:
+    source = _last.blocked if blocked else _view
+    if not source:
         return "No results yet. Run rank_jobs first."
-    if not 1 <= rank <= len(_view):
-        return f"rank must be between 1 and {len(_view)}."
-    s = _view[rank - 1]
+    if not 1 <= rank <= len(source):
+        return f"rank must be between 1 and {len(source)}."
+    s = source[rank - 1]
     return explain(_last.results[s.listing_id], _last.listings[s.listing_id])
 
 

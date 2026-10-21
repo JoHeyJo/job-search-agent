@@ -22,6 +22,7 @@ from tavily import TavilyClient
 
 from config import settings
 from greenhouse import fetch_board
+from pipeline import Filters, _keep
 
 GREENHOUSE_HOSTS = ["boards.greenhouse.io", "job-boards.greenhouse.io"]
 
@@ -47,6 +48,7 @@ class Board:
     slug: str
     company: str
     jobs: int
+    matching: int
     hits: int  # how many search results pointed at this slug — a weak relevance signal
 
 
@@ -94,7 +96,15 @@ def verify(slug: str) -> Board | None:
         return None
     if not listings:
         return None
-    return Board(slug=slug, company=listings[0].company, jobs=len(listings), hits=0)
+    f = Filters()
+    matching = sum(_keep(l, f) for l in listings)
+    return Board(
+        slug=slug,
+        company=listings[0].company,
+        jobs=len(listings),
+        matching=matching,
+        hits=0,
+    )
 
 
 def _watchlist_path():
@@ -144,7 +154,7 @@ def discover(role: str, limit: int = 10) -> list[Board]:
         wl[b.slug] = row
     save_watchlist(wl)
 
-    boards.sort(key=lambda b: (-b.hits, -b.jobs))
+    boards.sort(key=lambda b: (-b.matching, -b.hits))
     return boards[:limit]
 
 
@@ -170,7 +180,7 @@ if __name__ == "__main__":
     bad = set(hits) - {b.slug for b in boards}
     print(f"{'slug':22} {'company':30} {'jobs':>5} {'hits':>4}")
     for b in boards:
-        print(f"{b.slug:22} {b.company[:30]:30} {b.jobs:5} {b.hits:4}")
+        print(f"{b.slug:22} {b.company[:30]:30} {b.jobs:5} {b.hits:4} {b.matching}")
     print(
         f"\n{len(boards)} verified · {len(bad)} failed verification: {', '.join(sorted(bad)) or '—'}"
     )
