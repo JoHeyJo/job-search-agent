@@ -130,9 +130,12 @@ def save_watchlist(rows: dict[str, dict]) -> None:
         for slug in sorted(rows):
             w.writerow(rows[slug])
 
-
 def discover(role: str, limit: int = 10) -> list[Board]:
     hits = harvest(role)
+    for slug in load_watchlist():
+        hits.setdefault(
+            slug, 0
+        )  # known boards are candidates even if today's search missed them
     boards: list[Board] = []
     for slug, n in hits.most_common():
         b = verify(slug)
