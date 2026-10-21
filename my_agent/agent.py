@@ -21,6 +21,7 @@ from models import ResumeProfile
 from pipeline import Filters, RankedResult, Summary, rank_listings
 from resume import load_profile
 from score import explain
+from discover import discover
 
 SYSTEM_PROMPT = """You help a software engineer find job listings that fit their résumé.
 
@@ -69,15 +70,19 @@ SEED_BOARDS = {
 
 
 @tool
-def discover_boards(role: str, limit: int = 15) -> str:
-    """Find Greenhouse board slugs for companies hiring for a role.
+def discover_boards(role: str, limit: int = 8) -> str:
+    """Search for Greenhouse job boards of companies hiring for a role. Slow (30–90s); call once per role.
 
     Args:
-        role: the kind of role, e.g. "backend engineer", "frontend", "software engineer".
-        limit: maximum number of boards to return.
+        role: the kind of role, e.g. "backend engineer", "software engineer".
+        limit: maximum number of boards to return, best first.
     """
-    slugs = SEED_BOARDS["default"][:limit]
-    return f"boards for '{role}': {', '.join(slugs)}  (seed list; live discovery not yet enabled)"
+    boards = discover(role, limit)
+    if not boards:
+        return f"no boards found for '{role}'; fall back to the seed list: {', '.join(SEED_BOARDS['default'])}"
+    lines = [f"{len(boards)} boards for '{role}' (slug — company, open jobs):"]
+    lines += [f"  {b.slug} — {b.company}, {b.jobs} jobs" for b in boards]
+    return "\n".join(lines)
 
 
 @tool
