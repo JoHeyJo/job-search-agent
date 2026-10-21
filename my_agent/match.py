@@ -10,6 +10,7 @@ import json
 import re
 
 from pydantic import BaseModel
+from datetime import date
 from strands import Agent
 from strands.models import BedrockModel
 
@@ -147,9 +148,13 @@ def match_listing(profile: ResumeProfile, listing: Listing) -> list[RequirementM
         f"{i}. [{'preferred' if r.preferred else 'required'}] {r.text}"
         for i, r in enumerate(reqs)
     )
+    today = date.today().strftime("%B %Y")
+
     prompt = (
+        f"Today is {today}. Treat 'Present' in the profile as {today}.\n\n"
         f"# Candidate profile\n{profile_text(profile)}\n\n# Requirements\n{req_block}"
     )
+
     result = _agent().structured_output(_Matching, prompt)
 
     matches = verify(result.judgments, reqs, profile_lines(profile))

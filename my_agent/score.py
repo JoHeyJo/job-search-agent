@@ -28,7 +28,7 @@ MAX_YEARS = (
 )
 
 SOFT_GATE = re.compile(r"or equivalent|encouraged|preferred|a plus|bonus", re.I)
-_YEARS = re.compile(r"(\d+)\s*\+?\s*(?:years|yrs)", re.I)
+_YEARS = re.compile(r"(\d+)(?:\s*[–-]\s*\d+)?\s*\+?\s*(?:years|yrs)", re.I)
 
 
 def _blocks(m: RequirementMatch) -> bool:
