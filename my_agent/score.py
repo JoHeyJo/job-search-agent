@@ -100,8 +100,10 @@ def explain(result: MatchResult, listing: Listing) -> str:
         gate = " gate" if r.gate else ""
         lines.append(f"  {m.status.value:7} {kind}{gate:5} {r.text}")
         if m.evidence:
-            tick = "" if m.evidence_verified else "  (unverified)"
-            lines.append(f"          ↳ {m.evidence}{tick}")
+          for e in m.evidence:
+              lines.append(f"          ↳ {e}")
+          if m.evidence and not m.evidence_verified:
+              lines.append("          (one or more evidence lines not found in profile)")
     return "\n".join(lines)
 
 

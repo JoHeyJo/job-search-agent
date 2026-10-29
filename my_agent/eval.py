@@ -162,7 +162,7 @@ def run(resume_path: Path) -> None:
                 continue
             kind = "generous" if ORDER[got] > ORDER[want] else "strict"
             tot[kind] += 1
-            ev = f"  ↳ {pair.evidence}" if pair.evidence else ""
+            ev = f"  ↳ {' | '.join(pair.evidence)}" if pair.evidence else ""
             disagreements.append(
                 f'[{kind:8}] you={want.value:7} model={got.value:7} {g["company"]}: "{q["span"]}"{ev}'
             )

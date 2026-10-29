@@ -33,6 +33,10 @@ Use more than one line when the requirement needs it: for "N years of X", cite e
 whose dates should count; for compound requirements, cite the line for each part. For unmet,
 evidence is an empty list. Do not include the leading ‘- ‘ bullet.
 
+- A requirement listing alternatives ("X, Y, or Z"; "such as A or B") is met if any one alternative
+  is met. The named tools are examples, not a checklist.
+- A requirement offering "or equivalent experience" is judged on the experience branch.
+
 Be strict:
 - A skill merely listed does not satisfy a stated minimum of years. Use partial unless the
   experience lines clearly cover the duration.
@@ -57,7 +61,7 @@ _BULLET = re.compile(r"^\s*[-*•]\s+")
 class _Judgment(BaseModel):
     requirement_index: int
     status: Status
-    evidence: str | None = None
+    evidence: list[str] = []
 
 
 class _Matching(BaseModel):
@@ -102,8 +106,7 @@ def evidence_in_profile(evidence: str | None, lines: list[str]) -> bool:
 def verify(
     judgments: list[_Judgment], reqs: list[Requirement], lines: list[str]
 ) -> list[RequirementMatch]:
-    """Pure Python: zip judgments back to requirements, check evidence, apply the downgrade rule."""
-    _Judgment.evidence: list[str] = []
+    """Pure Python: zip judgments back to requirements, check every evidence line, apply the downgrade rule."""
     by_index = {
         j.requirement_index: j
         for j in judgments
@@ -115,17 +118,16 @@ def verify(
         if j is None:  # model skipped it → unmet, no credit
             matches.append(RequirementMatch(requirement=req, status=Status.unmet))
             continue
-        evidence = _strip_bullet(j.evidence)
-        ok = evidence_in_profile(evidence, lines)
+        evidence = [
+            e for e in j.evidence if e
+        ]  # drop empty strings the model sometimes emits
+        ok = bool(evidence) and all(evidence_in_profile(e, lines) for e in evidence)
         status = j.status
         if status == Status.met and not ok:
             status = Status.partial
         matches.append(
             RequirementMatch(
-                requirement=req,
-                status=status,
-                evidence=evidence,
-                evidence_verified=ok,
+                requirement=req, status=status, evidence=evidence, evidence_verified=ok
             )
         )
     return matches
