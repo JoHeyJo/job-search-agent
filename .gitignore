@@ -1,5 +1,5 @@
-my_agent/venv/
+venv/
 my_agent/.env
-my_agent/notes.md
+notes.md
 my_agent/data/*
 my_agent/__pycache__
