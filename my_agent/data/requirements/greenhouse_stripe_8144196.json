@@ -1,0 +1,89 @@
+{
+  "kept": [
+    {
+      "text": "4+ years of experience as an engineer shipping production systems",
+      "source_span": "4+ years of experience as an engineer shipping production systems",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Strong backend engineering fundamentals: debugging failing systems, tracing issues across services, and reasoning about data flows",
+      "source_span": "Strong backend engineering fundamentals: you can debug a failing system, trace issues across services, and reason about data flows",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building and deploying AI agents, LLM-powered tools, or workflow automation beyond basic prompt engineering",
+      "source_span": "Experience building and deploying AI agents, LLM-powered tools, or workflow automation beyond basic prompt engineering",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Proficiency in at least two of: Ruby, Node.js, Python, or Next.js",
+      "source_span": "Proficiency in at least two of: Ruby, Node.js, Python, or Next.js",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with cloud infrastructure (AWS, GCP) including deployment, monitoring, and basic DevOps",
+      "source_span": "Familiarity with cloud infrastructure (AWS, GCP) including deployment, monitoring, and basic DevOps",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building internal tools, developer platforms, or workflow automation",
+      "source_span": "Experience building internal tools, developer platforms, or workflow automation",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to work across multiple codebases and technology stacks simultaneously",
+      "source_span": "Demonstrated ability to work across multiple codebases and technology stacks simultaneously",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Hands-on experience using AI/LLM tools in engineering workflow",
+      "source_span": "Hands-on experience using AI/LLM tools in your engineering workflow\u2014you're fluent with AI-assisted development but not dependent on it; you can reason through problems and debug without AI as a crutch",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience designing systems that non-engineers can build on top of or extend themselves (e.g., platforms, low-code frameworks, template systems)",
+      "source_span": "Experience designing systems that non-engineers can build on top of or extend themselves (e.g., platforms, low-code frameworks, template systems)",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience in a Solutions Engineering, Sales Engineering, or GTM Engineering role\u2014or a product engineering role where you worked closely with customers or go-to-market teams",
+      "source_span": "Experience in a Solutions Engineering, Sales Engineering, or GTM Engineering role\u2014or a product engineering role where you worked closely with customers or go-to-market teams",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with Stripe's products, APIs, or the payments/fintech domain",
+      "source_span": "Familiarity with Stripe's products, APIs, or the payments/fintech domain",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience integrating with third-party platforms (Salesforce, Gong, etc.)",
+      "source_span": "Experience integrating with third-party platforms (Salesforce, Gong, etc.)",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Track record of building tools or systems that were adopted beyond your immediate team",
+      "source_span": "Track record of building tools or systems that were adopted beyond your immediate team",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Background in consulting, professional services, or other roles that blend technical depth with business context",
+      "source_span": "Background in consulting, professional services, or other roles that blend technical depth with business context",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

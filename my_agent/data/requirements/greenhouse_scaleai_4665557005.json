@@ -1,0 +1,41 @@
+{
+  "kept": [
+    {
+      "text": "4+ years of full-time engineering experience, post-graduation",
+      "source_span": "4+ years of full-time engineering experience, post-graduation",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience scaling products at hyper growth startups",
+      "source_span": "Experience scaling products at hyper growth startups",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience tinkering with or productizing LLMs, vector databases, and the other latest AI technologies",
+      "source_span": "Experience tinkering with or productizing LLMs, vector databases, and the other latest AI technologies",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Proficient in Python or Javascript/Typescript, and SQL",
+      "source_span": "Proficient in Python or Javascript/Typescript, and SQL",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with Kubernetes",
+      "source_span": "Experience with Kubernetes",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with major cloud providers (AWS, Azure, GCP)",
+      "source_span": "Experience with major cloud providers (AWS, Azure, GCP)",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

@@ -1,0 +1,71 @@
+{
+  "kept": [
+    {
+      "text": "5+ years of experience conducting threat intelligence, threat hunting, or technical incident response within cyber security, product abuse, or trust domains.",
+      "source_span": "5+ years of experience conducting threat intelligence, threat hunting, or technical incident response within cyber security, product abuse, or trust domains.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "5+ years of experience analyzing large, complex datasets using data analytics tools to identify anomalies, map behavioral trends, and solve complex fraud problems.",
+      "source_span": "5+ years of experience analyzing large, complex datasets using data analytics tools to identify anomalies, map behavioral trends, and solve complex fraud problems.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "B.S. or M.S. in Computer Science, Cybersecurity, or a related technical field, or equivalent practical experience.",
+      "source_span": "B.S. or M.S. in Computer Science, Cybersecurity, or a related technical field, or equivalent practical experience.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Expert proficiency in Python and SQL, with demonstrated experience using code and scripting to automate workflows, build investigative tools, or query big data pipelines.",
+      "source_span": "Expert proficiency in Python and SQL, with demonstrated experience using code and scripting to automate workflows, build investigative tools, or query big data pipelines.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Hands-on experience in log analysis (e.g., application logs, API route telemetry, network security events), digital forensics, and cyber investigation methodologies.",
+      "source_span": "Hands-on experience in log analysis (e.g., application logs, API route telemetry, network security events), digital forensics, and cyber investigation methodologies.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Deep technical understanding of threat actor motivations, infrastructure, and TTPs specific to financial fraud (e.g., ATO, Card Testing, Credential Stuffing).",
+      "source_span": "Deep technical understanding of threat actor motivations, infrastructure, and TTPs specific to financial fraud (e.g., ATO, Card Testing, Credential Stuffing).",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with standardized taxonomies such as FT3 or MITRE ATT&CK.",
+      "source_span": "Familiarity with standardized taxonomies such as FT3 or MITRE ATT&CK.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Proficiency with engineering, data processing, and analysis platforms such as Databricks, Trino, PySpark, Pandas, or Scikit-Learn.",
+      "source_span": "Proficiency with engineering, data processing, and analysis platforms such as Databricks, Trino, PySpark, Pandas, or Scikit-Learn.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Proven background utilizing Threat Intelligence Platforms (TIPs), tactical threat feeds, OSINT, and breach intelligence.",
+      "source_span": "Proven background utilizing Threat Intelligence Platforms (TIPs), tactical threat feeds, OSINT, and breach intelligence.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Demonstrated capability building or leveraging agentic LLM tools, automated testing systems, or control validation frameworks to model adversary behavior at scale.",
+      "source_span": "Demonstrated capability building or leveraging agentic LLM tools, automated testing systems, or control validation frameworks to model adversary behavior at scale.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Participation in industry conferences, webinars, or threat-sharing groups, alongside relevant professional certifications (e.g., GCTI, GCFA, OSCP).",
+      "source_span": "Participation in industry conferences, webinars, or threat-sharing groups, alongside relevant professional certifications (e.g., GCTI, GCFA, OSCP).",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

@@ -1,0 +1,65 @@
+{
+  "kept": [
+    {
+      "text": "6+ years of practical experience as a full-stack software engineer",
+      "source_span": "Have 6+ years of practical experience as a full-stack software engineer",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience building consumer or enterprise products that prioritize accessibility, inclusivity, or served underserved populations",
+      "source_span": "Have experience building consumer or enterprise products that prioritize accessibility, inclusivity, or served underserved populations",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Technical expertise in identity management, billing systems, self-serve onboarding flows, or API integrations",
+      "source_span": "Have technical expertise in identity management, billing systems, self-serve onboarding flows, or API integrations",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with international markets, multilingual products, or accessibility features",
+      "source_span": "Experience with international markets, multilingual products, or accessibility features",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Background in nonprofit technology, social impact startups, or mission-driven organizations",
+      "source_span": "Background in nonprofit technology, social impact startups, or mission-driven organizations",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with AI/ML products and LLM applications",
+      "source_span": "Experience with AI/ML products and LLM applications",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with building products for resource-constrained environments or emerging markets",
+      "source_span": "Familiarity with building products for resource-constrained environments or emerging markets",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Understanding of compliance requirements in regulated sectors",
+      "source_span": "Understanding of compliance requirements in regulated sectors",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Startup experience, particularly in scaling products from zero to one",
+      "source_span": "Startup experience, particularly in scaling products from zero to one",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's degree or equivalent combination of education, training, and/or experience",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

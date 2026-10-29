@@ -1,0 +1,94 @@
+[
+  {
+    "requirement": {
+      "text": "5+ years of software engineering experience, ideally in customer-facing, forward-deployed, or government contexts",
+      "source_span": "5+ years of software engineering experience, ideally in customer-facing, forward-deployed, or government contexts.",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Strong production coding in Python and TypeScript (or comparable modern languages)",
+      "source_span": "Strong production coding in Python and TypeScript (or comparable modern languages).",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Comfort with cloud platforms (AWS, Azure, or GCP)",
+      "source_span": "Comfort across the stack, including cloud platforms (AWS, Azure, or GCP), containers, Linux, and networking fundamentals.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "An active TS/SCI clearance, or eligibility to obtain one",
+      "source_span": "An active TS/SCI clearance, or eligibility to obtain one.",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience building or deploying systems powered by LLMs or generative models",
+      "source_span": "Experience building or deploying systems powered by LLMs or generative models.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with Node and React, Kubernetes and Docker, and Terraform",
+      "source_span": "Familiarity with Node and React, Kubernetes and Docker, and Terraform.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Optimized users experience with intuitive, custom built, user-facing React features.",
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Data engineering background covering ETL pipelines, data modeling, and data governance",
+      "source_span": "Data engineering background covering ETL pipelines, data modeling, and data governance.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  }
+]

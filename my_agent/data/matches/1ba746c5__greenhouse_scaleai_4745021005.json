@@ -1,0 +1,118 @@
+[
+  {
+    "requirement": {
+      "text": "5+ years of experience building and deploying enterprise and public sector solutions across AWS, Azure, GCP, OCI and on-premises",
+      "source_span": "5+ years of experience building and deploying enterprise and public sector solutions across AWS, Azure, GCP, OCI and on-premises",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Deep expertise in infrastructure design, networking engineering, VPNs, load balancers, and firewalls",
+      "source_span": "Deep expertise in infrastructure design, networking engineering, VPNs, load balancers, and firewalls",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Deep proficiency with IaC, containerisation and orchestration tools and technologies (Kubernetes, Terraform, Docker)",
+      "source_span": "Deep proficiency with IaC, containerisation and orchestration tools and technologies (Kubernetes, Terraform, Docker)",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Comprehensive understanding of CI/CD pipelines and software delivery principles using GitHub Actions or CircleCI",
+      "source_span": "Comprehensive understanding of CI/CD pipelines and software delivery principles using GitHub Actions or CircleCI.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Uphold coding standards through comprehensive code reviews while managing Agile task delegation for high-quality, on-time delivery."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with GitOps-style deployments and a track record of ensuring consistent, repeatable deployments",
+      "source_span": "Experience with GitOps-style deployments and a track record of ensuring consistent, repeatable deployments",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Strong debugging skills and the ability to navigate performance/security tradeoffs in production systems",
+      "source_span": "Strong debugging skills and the ability to navigate performance/security tradeoffs in production systems",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience as a founder or early engineer at an infrastructure-focused startup, owning a product end-to-end",
+      "source_span": "Experience as a founder or early engineer at an infrastructure-focused startup, owning a product end-to-end",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience running secure workloads in multi-tenant or untrusted environments (e.g., FaaS, CI sandboxes, remote notebooks)",
+      "source_span": "Experience running secure workloads in multi-tenant or untrusted environments (e.g., FaaS, CI sandboxes, remote notebooks)",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Open-source contributions to systems or developer-tools projects",
+      "source_span": "Open-source contributions to systems or developer-tools projects",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "History of on-call/incident response for production systems",
+      "source_span": "History of on-call/incident response for production systems",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  }
+]

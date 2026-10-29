@@ -1,0 +1,53 @@
+{
+  "kept": [
+    {
+      "text": "Hands-on clinical development experience: designing, running or analysing clinical trials, or assessing clinical evidence to decide which programmes go forward (e.g. due diligence or asset evaluation)",
+      "source_span": "Hands-on clinical development experience: designing, running or analysing clinical trials, or assessing clinical evidence to decide which programmes go forward (for example due diligence or asset evaluation).",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Drug repurposing work as part of clinical development experience",
+      "source_span": "Drug repurposing work as part of that is a strong plus",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Contributed to a regulatory submission for a trial",
+      "source_span": "having contributed to a regulatory submission for a trial",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Comfort with biomedical data: literature, omics, and real-world patient data (health records, registries, claims), ideally inside secure or trusted research environments",
+      "source_span": "Comfort with biomedical data: literature, omics, and real-world patient data (health records, registries, claims), ideally inside secure or trusted research environments.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong engineering skills: able to take an LLM-powered tool from prototype to production code and write evals to measure it",
+      "source_span": "Strong engineering skills: you can take an LLM-powered tool from prototype to production code, and write evals to measure it.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience working directly with external partners or customers in a technical role",
+      "source_span": "Experience working directly with external partners or customers in a technical role.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's degree or equivalent combination of education, training, and/or experience",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Field of study relevant to the role",
+      "source_span": "Required field of study: A field relevant to the role as demonstrated through coursework, training, or professional experience",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

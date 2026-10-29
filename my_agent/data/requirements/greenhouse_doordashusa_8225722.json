@@ -1,0 +1,47 @@
+{
+  "kept": [
+    {
+      "text": "Strong production C++ and Python experience",
+      "source_span": "Strong production C++ and Python experience.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with embedded Linux, robotics, autonomous vehicles, or complex mechatronic systems",
+      "source_span": "Experience with embedded Linux, robotics, autonomous vehicles, or complex mechatronic systems.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Solid understanding of operating systems, concurrency, networking, middleware, drivers, GPU acceleration, storage, or real-time performance",
+      "source_span": "Solid understanding of several of these areas: operating systems, concurrency, networking, middleware, drivers, GPU acceleration, storage, or real-time performance.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience debugging complex problems across multiple software and hardware layers",
+      "source_span": "Experience debugging complex problems across multiple software and hardware layers.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with profiling, tracing, observability, automated testing, and CI",
+      "source_span": "Experience with profiling, tracing, observability, automated testing, and CI.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with Bazel, Git, and modern software-development practices",
+      "source_span": "Familiarity with Bazel, Git, and modern software-development practices.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "ROS/ROS2 or comparable robotics middleware experience",
+      "source_span": "ROS/ROS2 or comparable robotics middleware experience is preferred.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

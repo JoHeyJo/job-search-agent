@@ -1,0 +1,81 @@
+[
+  {
+    "requirement": {
+      "text": "At least 1 year of backend engineering experience in a production environment",
+      "source_span": "1+ years backend engineering experience in a production environment",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Architected React components with a loosely coupled, modular pattern for improved scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "BS or MS in Computer Science or similar technical field of study",
+      "source_span": "BS/MS in Computer Science or similar technical field of study",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience developing and launching products",
+      "source_span": "Experience developing and launching products",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Working knowledge of Python and/or Go",
+      "source_span": "Working knowledge of Python and/or Go",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with REST APIs",
+      "source_span": "Familiarity with REST APIs",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Ability to read Python server code",
+      "source_span": "ability to read python server code a plus",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  }
+]

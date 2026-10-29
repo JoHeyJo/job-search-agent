@@ -1,0 +1,47 @@
+{
+  "kept": [
+    {
+      "text": "Hands-on experience connecting software to lab robots and instruments (liquid handlers, plate readers, scheduling software, LIMS), ideally in an automated lab",
+      "source_span": "Hands-on experience connecting software to lab robots and instruments (liquid handlers, plate readers, scheduling software, LIMS), ideally in an automated lab.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong engineering skills: able to take an LLM-powered tool from prototype to production code",
+      "source_span": "Strong engineering skills: you can take an LLM-powered tool from prototype to production code, and write evals to measure its performance.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to write evals to measure LLM-powered tool performance",
+      "source_span": "write evals to measure its performance.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "A scientist's instinct for how experiments work: able to spot what's worth automating and where AI might fail or be unsafe in the physical world",
+      "source_span": "A scientist's instinct for how experiments work: you can spot what's worth automating, and where AI might fail or be unsafe in the physical world.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience working directly with external customers or partners in a technical role",
+      "source_span": "Experience working directly with external customers or partners in a technical role.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Field of study relevant to the role as demonstrated through coursework, training, or professional experience",
+      "source_span": "Required field of study: A field relevant to the role as demonstrated through coursework, training, or professional experience",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

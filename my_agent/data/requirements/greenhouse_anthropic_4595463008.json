@@ -1,0 +1,113 @@
+{
+  "kept": [
+    {
+      "text": "7+ years of experience in software engineering with a focus on security, infrastructure and/or data pipelines",
+      "source_span": "7+ years of experience in software engineering with a focus on security, infrastructure and/or data pipelines",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Track record of building and maintaining internal developer tools or security platforms",
+      "source_span": "Track record of building and maintaining internal developer tools or security platforms",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong understanding of data processing pipelines and experience working with large-scale logging systems",
+      "source_span": "Strong understanding of data processing pipelines and experience working with large-scale logging systems",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with test-driven software development and/or CI/CD (plus for direct experience with Detection-as-code workflows)",
+      "source_span": "Test-driven software development and/or CI/CD (plus for direct experience with Detection-as-code workflows)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with infrastructure-as-code tools such as Terraform or CloudFormation",
+      "source_span": "Infrastructure-as-code (Terraform, CloudFormation)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with query optimization for large datasets",
+      "source_span": "Query optimization for large datasets",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with building stable and scalable services on cloud infrastructure and serverless architectures",
+      "source_span": "Experience with building stable and scalable services on cloud infrastructure and serverless architectures",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to write maintainable and secure code in Python",
+      "source_span": "Ability to write maintainable and secure code in Python",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience working with security teams and translating requirements into technical solutions",
+      "source_span": "Experience working with security teams and translating requirements into technical solutions",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's degree or an equivalent combination of education, training, and/or experience in a relevant field",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience building security tooling from the ground up",
+      "source_span": "Experience building security tooling from the ground up",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Background in implementing security monitoring solutions (SIEM, log aggregation, EDR)",
+      "source_span": "Background in implementing security monitoring solutions (SIEM, log aggregation, EDR)",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Background in detection engineering or security operations",
+      "source_span": "Background in detection engineering or security operations",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with SOAR platform/automation development",
+      "source_span": "SOAR platform/automation development",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with data lake or database architecture",
+      "source_span": "Data lake / Database architecture",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with API design and internal platform creation",
+      "source_span": "API design and internal platform creation",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Track record of applying ML/AI to security problems",
+      "source_span": "Track record of applying ML/AI to security problems",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience scaling security operations in a high-growth environment",
+      "source_span": "Experience scaling security operations in a high-growth environment",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

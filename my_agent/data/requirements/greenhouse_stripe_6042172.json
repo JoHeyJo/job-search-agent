@@ -1,0 +1,35 @@
+{
+  "kept": [
+    {
+      "text": "Ability to write high-quality code in programming languages like Go, Java, C/C++",
+      "source_span": "Ability to write high-quality code (in programming languages like Go, Java, C/C++ etc.)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "2\u201312+ years of professional hands-on software development experience",
+      "source_span": "2\u201312+ years of professional hands-on software development experience, able to write well-factored algorithms and have experience with commonly used data structures and algorithms",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience with commonly used data structures and algorithms, and ability to write well-factored algorithms",
+      "source_span": "able to write well-factored algorithms and have experience with commonly used data structures and algorithms",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Hands-on experience contributing to or building large-scale distributed systems",
+      "source_span": "Hands-on experience contributing to or building large-scale distributed systems",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience optimizing the end-to-end performance of distributed systems",
+      "source_span": "Experience optimizing the end-to-end performance of distributed systems",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

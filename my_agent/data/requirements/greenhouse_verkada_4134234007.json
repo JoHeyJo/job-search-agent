@@ -1,0 +1,53 @@
+{
+  "kept": [
+    {
+      "text": "Bachelor's or Master's degree in Computer Science, Computer Engineering, Electrical Engineering or a related field",
+      "source_span": "BS/MS in Computer Science, Computer Engineering, Electrical Engineering or a related field.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "3+ years of software development experience with a strong foundation in systems programming",
+      "source_span": "3+ years of software development experience, with a strong foundation in systems programming.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Proficiency in C++",
+      "source_span": "Proficiency in C++.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Working knowledge of optics, image sensors, ISP algorithms, and SDK integration for imaging components",
+      "source_span": "Working knowledge of optics, image sensors, ISP algorithms, and SDK integration for imaging components.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Deep understanding of digital camera systems such as auto exposure, auto focus, auto white balance, WDR, day/night transition",
+      "source_span": "Deep understanding of digital camera systems, such as auto exposure, auto focus, auto white balance, WDR (Wide Dynamic Range), day/night transition and so on.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Ability to detect and triage imaging artifacts and system faults across the hardware-software boundary",
+      "source_span": "Ability to detect and triage imaging artifacts and system faults across the hardware-software boundary (e.g., sensor artifacts, mechanical malfunctions, or ISP stability).",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Background in developing on-device software for IoT systems or embedded Linux environments",
+      "source_span": "Background in developing on-device software for IoT systems or embedded Linux environments.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Ability to evaluate image quality both objectively and subjectively, including noise, sharpness, color accuracy, and overall visual performance",
+      "source_span": "Ability to evaluate image quality both objectively and subjectively, including noise, sharpness, color accuracy, and overall visual performance.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

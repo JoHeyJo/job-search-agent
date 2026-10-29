@@ -1,0 +1,71 @@
+{
+  "kept": [
+    {
+      "text": "6+ years of industry experience building and shipping machine learning models in production",
+      "source_span": "6+ years of industry experience building and shipping machine learning models in production.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Strong programming skills in Python and experience with common data and machine learning tools such as SQL, Spark, and XGBoost",
+      "source_span": "Strong programming skills in Python and experience with common data and machine learning tools, such as SQL, Spark, and XGBoost.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong knowledge of production machine learning systems, including data pipelines, feature development, model evaluation, deployment, monitoring, and iteration",
+      "source_span": "Strong knowledge of production machine learning systems, including data pipelines, feature development, model evaluation, deployment, monitoring, and iteration.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience working with large and complex datasets and applying data analysis, statistics, and experimentation fundamentals",
+      "source_span": "Experience working with large and complex datasets and applying data analysis, statistics, and experimentation fundamentals.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Demonstrated ability to take an open-ended business problem, determine where machine learning can help, and own the solution through production",
+      "source_span": "Demonstrated ability to take an open-ended business problem, determine where machine learning can help, and own the solution through production.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong judgment in selecting practical modeling approaches and evaluating tradeoffs among model performance, system complexity, latency, and business impact",
+      "source_span": "Strong judgment in selecting practical modeling approaches and evaluating tradeoffs among model performance, system complexity, latency, and business impact.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience applying machine learning to fraud detection, risk modeling, payment authorization, identity, account security, or another adversarial domain",
+      "source_span": "Experience applying machine learning to fraud detection, risk modeling, payment authorization, identity, account security, or another adversarial domain.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience building real-time, low-latency machine learning or risk decisioning systems at scale",
+      "source_span": "Experience building real-time, low-latency machine learning or risk decisioning systems at scale.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience integrating models into production services and designing reliable systems around model outputs",
+      "source_span": "Experience integrating models into production services and designing reliable systems around model outputs.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with payments, fintech, digital wallets, or money movement",
+      "source_span": "Experience with payments, fintech, digital wallets, or money movement.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Strong software engineering skills and experience designing solutions across the machine learning and product stack",
+      "source_span": "Strong software engineering skills and experience designing solutions across the machine learning and product stack.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

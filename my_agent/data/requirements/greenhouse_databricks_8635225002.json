@@ -1,0 +1,29 @@
+{
+  "kept": [
+    {
+      "text": "4+ years of software engineering experience with a track record of shipping production web systems",
+      "source_span": "4+ years of software engineering experience with a track record of shipping production web systems",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Strong fundamentals across the web stack including component architecture, rendering strategies, build systems, and deployment pipelines",
+      "source_span": "Strong fundamentals across the web stack including component architecture, rendering strategies, build systems, and deployment pipelines",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building on or integrating with content management systems like Drupal, Contentful",
+      "source_span": "Experience building on or integrating with content management systems like Drupal, Contentful",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with headless CMS architectures, edge delivery, or modern frontend frameworks",
+      "source_span": "Familiarity with headless CMS architectures, edge delivery, or modern frontend frameworks is a strong plus",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

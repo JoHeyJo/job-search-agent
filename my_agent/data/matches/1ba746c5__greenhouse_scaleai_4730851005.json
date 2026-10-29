@@ -1,0 +1,108 @@
+[
+  {
+    "requirement": {
+      "text": "Graduation date in Fall 2026 or Spring 2027 with a Bachelor's degree (or equivalent) in a relevant field (Computer Science, EECS, Computer Engineering, Statistics)",
+      "source_span": "A graduation date in Fall 2026 or Spring 2027 with a Bachelor's degree (or equivalent) in a relevant field (Computer Science, EECS, Computer Engineering, Statistics)",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Product engineering experience such as building web apps full-stack, integrating with relevant APIs and services",
+      "source_span": "Product engineering experience such as building web apps full-stack, integrating with relevant APIs and services, talking to customers, figuring out 'what' to build and then iterating",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Previous Product/Software Engineering internship experience",
+      "source_span": "Previous Product/Software Engineering internship experience",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Track record of shipping high-quality products and features at scale",
+      "source_span": "Track record of shipping high-quality products and features at scale",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Conducted thorough code reviews that reduced bug-related issues by 40%, ensuring high-quality production features."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience building systems that process large volumes of data",
+      "source_span": "Experience building systems that process large volumes of data",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with Python, Typescript, React, and/or MongoDB",
+      "source_span": "Experience with Python, Typescript, React, and/or MongoDB",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity.",
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Hands-on experience with LLMs, evaluations, or agentic systems \u2014 whether from internships, research, or personal projects",
+      "source_span": "Hands-on experience with LLMs, evaluations, or agentic systems \u2014 whether from internships, research, or personal projects",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence.",
+      "Split the work so the AI makes only judgment calls (what a posting asks for, whether a r\u00e9sum\u00e9 meets it) and Python does everything else: fetching, verifying, scoring, ranking. Cut a typical search from 16 AI steps to 3\u20134."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Open source contributions or a portfolio of shipped side projects",
+      "source_span": "Open source contributions or a portfolio of shipped side projects",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence.",
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  }
+]

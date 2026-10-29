@@ -1,0 +1,35 @@
+{
+  "kept": [
+    {
+      "text": "Experience building and maintaining production Python backend applications, including APIs, asynchronous or background processing, and data models.",
+      "source_span": "Experience building and maintaining production Python backend applications, including APIs, asynchronous or background processing, and data models.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with LLM application frameworks such as LangGraph, or designing and shipping AI-powered backend features or harnesses.",
+      "source_span": "Experience with LLM application frameworks such as LangGraph, or designing and shipping AI-powered backend features or harnesses.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Skill in designing or extending APIs (REST, GraphQL or gRPC) with attention to scalability, maintainability and backward compatibility.",
+      "source_span": "Skill in designing or extending APIs (REST, GraphQL or gRPC) with attention to scalability, maintainability and backward compatibility.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with Ruby on Rails and/or JavaScript and Vue.",
+      "source_span": "Familiarity with Ruby on Rails and/or JavaScript and Vue is a plus.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience finding and fixing performance bottlenecks in applications.",
+      "source_span": "Experience finding and fixing performance bottlenecks in applications.",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

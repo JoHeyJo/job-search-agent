@@ -1,0 +1,47 @@
+{
+  "kept": [
+    {
+      "text": "Active secret clearance and ability & willingness to upgrade to TS/SCI with CI Poly",
+      "source_span": "At least an active secret clearance and the ability & willingness to up level to TS/SCI with CI Poly. This is a requirement and candidates will not be considered who do not hold at least a secret clearance",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Full stack development proficiency in both front-end and back-end development",
+      "source_span": "Full Stack Development: Proficiency in both front-end and back-end development, including experience with modern web development frameworks, programming languages, and databases.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience developing and delivering software to air-gapped and isolated environments",
+      "source_span": "Experience with developing & delivering software to air-gapped & isolated environments is a plus.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Understanding of containerization (e.g., Docker) and container orchestration (e.g., Kubernetes)",
+      "source_span": "Understanding of containerization (e.g., Docker) and container orchestration (e.g., Kubernetes) is desired.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with cloud platforms (e.g., AWS, Azure, GCP) and experience developing and deploying applications in a cloud-native environment",
+      "source_span": "Familiarity with cloud platforms (e.g., AWS, Azure, GCP) and experience in developing and deploying applications in a cloud-native environment.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with Federal Compliance frameworks and requirements (e.g., Cloud SRG, FedRAMP, STIG Benchmarks)",
+      "source_span": "Experience with Federal Compliance frameworks, and requirements(e.g, Cloud SRG, FedRAMP, STIG Benchmarks, etc).",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience developing software and technical solutions that meet strict security and regulatory compliance requirements",
+      "source_span": "Experience developing software & technical solutions that meet strict security & regulatory compliance requirements.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

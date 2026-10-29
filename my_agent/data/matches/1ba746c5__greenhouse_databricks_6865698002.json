@@ -1,0 +1,55 @@
+[
+  {
+    "requirement": {
+      "text": "Graduate in fall 2026 or spring 2027 with a degree in Computer Science, Engineering, or related subject",
+      "source_span": "You will graduate in fall 2026 or spring 2027 with a degree in Computer Science, Engineering, or related subject",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Implementation skills with a general purpose programming language such as Python, Java, or C++",
+      "source_span": "You have implementation skills with a general purpose program language, such as Python, Java, or C++",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Knowledge of algorithms, data structures, and OOP principles",
+      "source_span": "You have knowledge of algorithms, data structures, and OOP principles",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Architected React components with a loosely coupled, modular pattern for improved scalability.",
+      "Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience managing end-to-end projects",
+      "source_span": "You have experience managing end-to-end projects",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  }
+]

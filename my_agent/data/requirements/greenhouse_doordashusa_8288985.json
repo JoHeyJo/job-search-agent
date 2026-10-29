@@ -1,0 +1,35 @@
+{
+  "kept": [
+    {
+      "text": "Bachelor's or Master's degree in Electrical Engineering, Computer Engineering, or a related field",
+      "source_span": "Bachelor's or Master's degree in Electrical Engineering, Computer Engineering, or a related field",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "5+ years of experience designing electronics circuits in highly cross-functional work environments",
+      "source_span": "You have 5+ years of experience designing electronics circuit in highly cross-functional work environments",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Ability to design and bring up a board with a microcontroller, integrate sensors and actuators, and design mixed-signal circuitry supporting interfaces such as analog, SPI, CAN, or Ethernet",
+      "source_span": "You can design and bring-up a board with a micro-controller, integrate sensors, actuators, and design mixed-signal circuitry to support interfaces such as analog, SPI, CAN or ethernet",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to own and prototype the entire electrical design of a small robotic system",
+      "source_span": "You can own and prototype the entire electrical design of a small robotic system",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to debug a complex system and identify issues caused by signal integrity, electromagnetic interference, firmware, or mechanical design",
+      "source_span": "You can debug a complex system and identify issues caused by signal integrity, electromagnetic interference,  firmware or mechanical design",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

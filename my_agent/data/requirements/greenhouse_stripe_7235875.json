@@ -1,0 +1,59 @@
+{
+  "kept": [
+    {
+      "text": "Deep experience building and maintaining a production system at scale",
+      "source_span": "Deep experience building and maintaining a production system at scale",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Understanding of modern API development best practices and design",
+      "source_span": "An understanding of modern API development best practices and design",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience in building data models, managing database migrations and best practices, and infrastructure configuration",
+      "source_span": "Experience in building data models, managing database migrations and best practices, and infrastructure configuration",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to write maintainable, well-tested, modular code",
+      "source_span": "An ability to write maintainable, well-tested, modular code, but also be pragmatic about moving fast",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience in an API-driven business within payments, fintech, or crypto",
+      "source_span": "Experience in an API-driven business within payments, fintech, or crypto",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Built or contributed to open-source developer tooling",
+      "source_span": "Built or contributed to open-source developer tooling",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Published work (open source code, talks, blog posts, etc.)",
+      "source_span": "Published work (open source code, talks, blog posts, etc.)",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience working with blockchain protocols and designing or interacting with smart contracts",
+      "source_span": "Experience working with blockchain protocols and designing or interacting with smart contracts",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience in authentication, identity, or security",
+      "source_span": "Experience in authentication, identity, or security",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

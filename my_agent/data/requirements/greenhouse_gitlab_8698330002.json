@@ -1,0 +1,47 @@
+{
+  "kept": [
+    {
+      "text": "Strong proficiency with TypeScript across frontend and backend systems",
+      "source_span": "Strong proficiency with TypeScript across frontend and backend systems, including experience building and maintaining Node.js services.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building and maintaining Node.js services",
+      "source_span": "including experience building and maintaining Node.js services.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with modern build and packaging tools, including monorepos, multi-module builds, ECMAScript modules (ESM), and dependency management",
+      "source_span": "Experience with modern build and packaging tools, including monorepos, multi-module builds, ECMAScript modules (ESM), and dependency management.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with Vue 3 and the Composition API, or comparable component-based frontend experience",
+      "source_span": "Experience with Vue 3 and the Composition API, or comparable component-based frontend experience and a willingness to learn Vue.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience designing APIs that other people use, with the ability to explain what you'd do differently",
+      "source_span": "Experience designing APIs that other people use, with the ability to explain what you'd do differently.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Understanding of the differences between running code in Node.js and in the browser, and how to write code that works in both",
+      "source_span": "Understanding of the differences between running code in Node.js and in the browser, and how to write code that works in both.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Security-minded development approach, including careful credential handling and performance optimization",
+      "source_span": "A security-minded development approach, including careful credential handling and performance optimization.",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

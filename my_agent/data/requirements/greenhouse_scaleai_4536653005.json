@@ -1,0 +1,47 @@
+{
+  "kept": [
+    {
+      "text": "4+ years of experience developing large-scale backend or infrastructure systems, with a strong emphasis on distributed services, reliability, and scalability",
+      "source_span": "4+ years of experience developing large-scale backend or infrastructure systems, with a strong emphasis on distributed services, reliability, and scalability.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Proficiency in Python or TypeScript",
+      "source_span": "Proficiency in Python or TypeScript, with experience designing high-performance APIs and backend architectures using frameworks such as FastAPI, Flask, Express, or NestJS.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience designing high-performance APIs and backend architectures using frameworks such as FastAPI, Flask, Express, or NestJS",
+      "source_span": "experience designing high-performance APIs and backend architectures using frameworks such as FastAPI, Flask, Express, or NestJS.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Deep familiarity with cloud infrastructure (AWS and Azure preferred), including container orchestration (Kubernetes, Docker) and Infrastructure-as-Code tools like Terraform",
+      "source_span": "Deep familiarity with cloud infrastructure (AWS and Azure preferred), including container orchestration (Kubernetes, Docker) and Infrastructure-as-Code tools like Terraform.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience managing relational and NoSQL databases (PostgreSQL, DynamoDB, etc.) and building pipelines for data-intensive applications",
+      "source_span": "Experience managing data systems such as relational and NoSQL databases (PostgreSQL, DynamoDB, etc.) and building pipelines for data-intensive applications.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Hands-on experience with GenAI applications, model integration, or AI agent systems\u2014understanding how to deploy, evaluate, and scale AI workloads in production",
+      "source_span": "Hands-on experience with GenAI applications, model integration, or AI agent systems\u2014understanding how to deploy, evaluate, and scale AI workloads in production.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong understanding of observability, CI/CD, and security best practices for running services in enterprise or multi-tenant environments",
+      "source_span": "Strong understanding of observability, CI/CD, and security best practices for running services in enterprise or multi-tenant environments.",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

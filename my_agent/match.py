@@ -33,6 +33,12 @@ Use more than one line when the requirement needs it: for "N years of X", cite e
 whose dates should count; for compound requirements, cite the line for each part. For unmet,
 evidence is an empty list. Do not include the leading ‘- ‘ bullet.
 
+- The evidence must demonstrate the requirement, not share a word with it. Not evidence:
+  "Spoken language: English" for localization systems; using Slack and GitHub for integrating
+  IT platforms; a deployment bullet mentioning "security" for security judgment; mentoring a
+  cohort for building platforms others build on. If the only link is a shared word, say unmet.
+- For "N years of X", count only role lines that name X, and sum their date ranges.
+
 - A requirement listing alternatives ("X, Y, or Z"; "such as A or B") is met if any one alternative
   is met. The named tools are examples, not a checklist.
 - A requirement offering "or equivalent experience" is judged on the experience branch.

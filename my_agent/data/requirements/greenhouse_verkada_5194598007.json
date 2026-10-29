@@ -1,0 +1,41 @@
+{
+  "kept": [
+    {
+      "text": "At least 1 year of backend engineering experience in a production environment",
+      "source_span": "1+ years backend engineering experience in a production environment",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "BS or MS in Computer Science or similar technical field of study",
+      "source_span": "BS/MS in Computer Science or similar technical field of study",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience developing and launching products",
+      "source_span": "Experience developing and launching products",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Working knowledge of Python and/or Go",
+      "source_span": "Working knowledge of Python and/or Go",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with REST APIs",
+      "source_span": "Familiarity with REST APIs",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to read Python server code",
+      "source_span": "ability to read python server code a plus",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

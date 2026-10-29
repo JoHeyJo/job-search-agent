@@ -1,0 +1,83 @@
+{
+  "kept": [
+    {
+      "text": "3+ years of professional software development experience, including meaningful experience building and shipping mobile applications or SDKs",
+      "source_span": "3+ years of professional software-development experience, including meaningful experience building and shipping mobile applications or SDKs.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience developing for at least one major mobile platform using Kotlin or Java for Android",
+      "source_span": "Experience developing for at least one major mobile platform using technologies such as Kotlin or Java for Android.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong software design fundamentals and experience creating maintainable APIs, components, or frameworks",
+      "source_span": "Strong software-design fundamentals and experience creating maintainable APIs, components, or frameworks.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience delivering mobile functionality beyond an isolated UI layer, e.g. integrating with APIs and services, handling local state, or working with device capabilities",
+      "source_span": "Experience delivering mobile functionality beyond an isolated UI layer for example, integrating with APIs and services, handling local state, or working with device capabilities.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience testing, debugging, monitoring, and improving mobile software in production",
+      "source_span": "Experience testing, debugging, monitoring, and improving mobile software in production.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building mobile SDKs, shared libraries, or developer-facing APIs used outside your immediate team",
+      "source_span": "Experience building mobile SDKs, shared libraries, or developer-facing APIs used outside your immediate team.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with both iOS and Android, or with cross-platform technologies such as React Native or Kotlin Multiplatform",
+      "source_span": "Experience with both iOS and Android, or with cross-platform technologies such as React Native or Kotlin Multiplatform.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with camera, image-processing, document-capture, biometrics, or other device-integrated mobile experiences",
+      "source_span": "Experience with camera, image-processing, document-capture, biometrics, or other device-integrated mobile experiences.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience designing mobile software that handles sensitive data and applies security and privacy principles by default",
+      "source_span": "Experience designing mobile software that handles sensitive data and applies security and privacy principles by default.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with accessibility, internationalization, mobile performance, and unreliable network conditions",
+      "source_span": "Familiarity with accessibility, internationalization, mobile performance, and unreliable network conditions.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with mobile CI, automated testing, release automation, observability, or developer-productivity tooling",
+      "source_span": "Experience with mobile CI, automated testing, release automation, observability, or developer-productivity tooling.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience contributing to backend APIs or services that support mobile products",
+      "source_span": "Experience contributing to backend APIs or services that support mobile products.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with Stripe's products, ideally through integrating Stripe APIs or SDKs into another application",
+      "source_span": "Familiarity with Stripe's products, ideally through integrating Stripe APIs or SDKs into another application.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "requirement": {
+      "text": "2+ years of industry full-stack development experience",
+      "source_span": "2+ years of industry full-stack development experience, building consumer or business facing products",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Designed a polished, responsive UI/UX with React and Tailwind, elevating the product's visual quality.",
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Bachelor's or Master's degree in a relevant field such as Computer Science, or equivalent experience",
+      "source_span": "Bachelor's or Master's degree in a relevant field such as Computer Science, or equivalent experience",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Proficiency in one or more common backend and frontend tech stacks (e.g. Javascript, React, API, storage, caching and data processing)",
+      "source_span": "Proficiency in one or more common backend and frontend tech stacks: e.g. Javascript, React, API, storage, caching and data processing",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability.",
+      "Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience following best practices in writing reliable and maintainable code that may be used by many other engineers",
+      "source_span": "Experience in following best practices in writing reliable and maintainable code that may be used by many other engineers",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity.",
+      "Conducted thorough code reviews that reduced bug-related issues by 40%, ensuring high-quality production features.",
+      "Architected React components with a loosely coupled, modular pattern for improved scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Ability to keep up-to-date with new technologies to understand what should be incorporated",
+      "source_span": "Ability to keep up-to-date with new technologies to understand what should be incorporated",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Job Search Agent (GitHub): Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence."
+    ],
+    "evidence_verified": true
+  }
+]

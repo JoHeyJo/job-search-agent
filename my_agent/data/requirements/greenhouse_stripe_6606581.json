@@ -1,0 +1,41 @@
+{
+  "kept": [
+    {
+      "text": "2-12+ years of industry software engineering experience (does not include internships or co-ops)",
+      "source_span": "2-12+ years of industry software engineering experience (does not include internships or co-ops).",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Enjoys data modeling challenges with a high bar for expressive yet simple solutions",
+      "source_span": "You enjoy data modeling challenges and have a high bar for keeping your solutions expressive yet simple to use.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Works as a generalist on both frontend and backend",
+      "source_span": "Enjoy being a generalist working on both the frontend, backend, and anything it takes to solve problems and delight users both internally and externally.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Upholds best practices in engineering, security, and design",
+      "source_span": "Uphold best practices in engineering, security, and design.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience working in high-growth teams similar to Stripe",
+      "source_span": "Experience working in high-growth teams similar to Stripe.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience building financial systems or tools for financial experts",
+      "source_span": "Experience building financial systems or tools for financial experts.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

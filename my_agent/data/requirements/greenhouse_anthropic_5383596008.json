@@ -1,0 +1,65 @@
+{
+  "kept": [
+    {
+      "text": "5+ years of experience in developer relations, developer experience, or technical product/engineering roles",
+      "source_span": "You have 5+ years of experience in developer relations, developer experience, or technical product/engineering roles, with a track record of shipping content or tools that measurably grew a developer ecosystem",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Track record of shipping content or tools that measurably grew a developer ecosystem",
+      "source_span": "with a track record of shipping content or tools that measurably grew a developer ecosystem",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to deeply understand AI/ML and API concepts and translate complex technical ideas for various audiences",
+      "source_span": "You can deeply understand AI/ML and API concepts and translate complex technical ideas for various audiences, from individual developers to enterprise engineers",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Can write production-quality code demos, critically review developer samples for quality and best practices, and give specific, actionable technical feedback",
+      "source_span": "You can write production-quality code demos, critically review developer samples for quality and best practices, and give specific, actionable technical feedback",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Real insight into developer psychology and behavior, knowing how to reach developers through the right channels, build authentic affinity for products, and design content that drives meaningful adoption",
+      "source_span": "You have real insight into developer psychology and behavior. You know how to reach developers through the right channels, build authentic affinity for products, and design content that drives meaningful adoption",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience working specifically with large language models or generative AI",
+      "source_span": "Experience working specifically with large language models or generative AI",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Background in AI safety, ethics, or responsible AI development",
+      "source_span": "Background in AI safety, ethics, or responsible AI development",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Public speaking experience at industry conferences and events",
+      "source_span": "Public speaking experience at industry conferences and events",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Content creation experience (technical writing, video tutorials, etc.)",
+      "source_span": "Content creation experience (technical writing, video tutorials, etc.)",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's degree or an equivalent combination of education, training, and/or experience in a field relevant to the role",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

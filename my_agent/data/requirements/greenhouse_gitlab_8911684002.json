@@ -1,0 +1,83 @@
+{
+  "kept": [
+    {
+      "text": "Professional experience developing with Ruby on Rails",
+      "source_span": "Professional experience developing with Ruby on Rails and modern JavaScript, along with solid Git, feature development, and deployment workflows.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Professional experience developing with modern JavaScript",
+      "source_span": "Professional experience developing with Ruby on Rails and modern JavaScript, along with solid Git, feature development, and deployment workflows.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Solid Git, feature development, and deployment workflows",
+      "source_span": "Professional experience developing with Ruby on Rails and modern JavaScript, along with solid Git, feature development, and deployment workflows.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience working with relational databases",
+      "source_span": "Experience working with relational databases and a solid understanding of web performance optimization.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Solid understanding of web performance optimization",
+      "source_span": "Experience working with relational databases and a solid understanding of web performance optimization.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Track record of shipping features to production and owning them after release",
+      "source_span": "A track record of shipping features to production and owning them after release.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to use product data to decide what to build, keep, or roll back",
+      "source_span": "Ability to use product data to decide what to build, keep, or roll back.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with Vue.js",
+      "source_span": "Preferred, not required: experience with Vue.js, PostgreSQL, A/B testing, feature flags, experimentation frameworks, or SaaS sign-up, trial, billing, or checkout flows.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with PostgreSQL",
+      "source_span": "Preferred, not required: experience with Vue.js, PostgreSQL, A/B testing, feature flags, experimentation frameworks, or SaaS sign-up, trial, billing, or checkout flows.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with A/B testing",
+      "source_span": "Preferred, not required: experience with Vue.js, PostgreSQL, A/B testing, feature flags, experimentation frameworks, or SaaS sign-up, trial, billing, or checkout flows.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with feature flags",
+      "source_span": "Preferred, not required: experience with Vue.js, PostgreSQL, A/B testing, feature flags, experimentation frameworks, or SaaS sign-up, trial, billing, or checkout flows.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with experimentation frameworks",
+      "source_span": "Preferred, not required: experience with Vue.js, PostgreSQL, A/B testing, feature flags, experimentation frameworks, or SaaS sign-up, trial, billing, or checkout flows.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with SaaS sign-up, trial, billing, or checkout flows",
+      "source_span": "Preferred, not required: experience with Vue.js, PostgreSQL, A/B testing, feature flags, experimentation frameworks, or SaaS sign-up, trial, billing, or checkout flows.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

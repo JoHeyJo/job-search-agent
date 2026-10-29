@@ -1,0 +1,89 @@
+[
+  {
+    "requirement": {
+      "text": "Minimum of 2 years of experience in analytics engineering or data solutions",
+      "source_span": "Minimum of 2 years of experience delivering analytics engineering or data solutions in a fast-paced, data-driven environment.",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience using SQL and Python, R or a comparable programming language to work with large, high-dimensional datasets, including nested data structures, window functions, query optimization and data partitioning",
+      "source_span": "Experience using SQL and Python, R or a comparable programming language to work with large, high-dimensional datasets, including nested data structures, window functions, query optimization and data partitioning.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience building and operating data workflows, including workflow orchestration, ETL/ELT pipelines and DAG dependencies across complex datasets",
+      "source_span": "Experience building and operating data workflows, including workflow orchestration, ETL/ELT pipelines and DAG dependencies across complex datasets.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience translating open-ended partner needs into clear, impactful technical objectives and collaborating across Product, Engineering, Data Science, Data Engineering and Business Intelligence teams",
+      "source_span": "Experience translating open-ended partner needs into clear, impactful technical objectives and collaborating across Product, Engineering, Data Science, Data Engineering and Business Intelligence teams.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Demonstrated ability to use AI to improve speed and quality in day-to-day engineering workflows",
+      "source_span": "Demonstrated ability to use AI to improve speed and quality in day-to-day engineering workflows.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Job Search Agent (GitHub): Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence.",
+      "Job Search Agent (GitHub): Split the work so the AI makes only judgment calls (what a posting asks for, whether a r\u00e9sum\u00e9 meets it) and Python does everything else: fetching, verifying, scoring, ranking. Cut a typical search from 16 AI steps to 3\u20134."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Track record of critically evaluating and verifying AI-assisted work through testing, data validation, source-checking or peer review",
+      "source_span": "Strong track record of critically evaluating and verifying AI-assisted work through testing, data validation, source-checking or peer review.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Job Search Agent (GitHub): Added an automatic check that rejects any AI claim it can't point to in the source text, so fabrication can't reach the results.",
+      "Job Search Agent (GitHub): Redesigned an early version that hallucinated qualifications: Python now fetches full postings directly from company job boards, so the AI only ever reads real text."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Bachelor's degree in Computer Science, Statistics, Mathematics or a related discipline, or equivalent experience",
+      "source_span": "Bachelor's degree in a relevant field such as Computer Science, Statistics, Mathematics or a related discipline, or equivalent experience.",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "requirement": {
+      "text": "2\u201310+ years of industry software engineering experience",
+      "source_span": "2\u201310+ years of industry software engineering experience (does not include internships or co-ops)",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Strong coding skills in any programming language",
+      "source_span": "Strong coding skills in any programming language",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity.",
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with large-scale financial tracking systems",
+      "source_span": "Experience with large-scale financial tracking systems",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Good understanding and practical knowledge in cloud-based services",
+      "source_span": "Good understanding and practical knowledge in cloud-based services",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "EC2",
+      "S3"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with, or enthusiasm for, building with AI and agentic workflows",
+      "source_span": "Experience with, or enthusiasm for, building with AI and agentic workflows",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence.",
+      "Split the work so the AI makes only judgment calls (what a posting asks for, whether a r\u00e9sum\u00e9 meets it) and Python does everything else: fetching, verifying, scoring, ranking. Cut a typical search from 16 AI steps to 3\u20134."
+    ],
+    "evidence_verified": true
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "kept": [
+    {
+      "text": "Minimum 4 years of industry full-stack or backend development experience",
+      "source_span": "Minimum 4 years of industry full-stack or backend development experience, building consumer or business facing products",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Bachelor's or Master's degree in a relevant field such as Computer Science, or equivalent experience",
+      "source_span": "Bachelor's or Master's degree in a relevant field such as Computer Science, or equivalent experience",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Proficiency in one or more common backend and frontend tech stacks (e.g. Javascript, React, API, storage, caching and data processing)",
+      "source_span": "Proficiency in one or more common backend and frontend tech stacks: e.g. Javascript, React, API, storage, caching and data processing",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience following best practices in writing reliable and maintainable code that may be used by many other engineers",
+      "source_span": "Experience in following best practices in writing reliable and maintainable code that may be used by many other engineers",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to keep up-to-date with new technologies to understand what should be incorporated",
+      "source_span": "Ability to keep up-to-date with new technologies to understand what should be incorporated",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

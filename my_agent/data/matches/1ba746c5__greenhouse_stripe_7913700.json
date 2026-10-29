@@ -1,0 +1,74 @@
+[
+  {
+    "requirement": {
+      "text": "6+ years of experience in a Software Engineering role, with a focus on building and maintaining data services or data-intensive applications",
+      "source_span": "Must have 6+ years of experience in a Software Engineering role, with a focus on building and maintaining data services or data-intensive applications",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Designed a polished, responsive UI/UX with React and Tailwind, elevating the product's visual quality.",
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Prior experience with writing and debugging data pipelines using a distributed data framework (Spark, Hadoop, Pig, etc.)",
+      "source_span": "Prior experience with writing and debugging data pipelines using a distributed data framework (Spark, Hadoop, Pig, etc.)",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Knowledge of a backend development language (such as Scala, Java, or Go)",
+      "source_span": "Knowledge of a backend development language (such as Scala, Java, or Go) and strong SQL experience",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Strong SQL experience",
+      "source_span": "Knowledge of a backend development language (such as Scala, Java, or Go) and strong SQL experience",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience creating and maintaining data marts to power business reporting needs",
+      "source_span": "Experience creating and maintaining data marts to power business reporting needs",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience working with Product or GTM (Sales and Marketing) teams",
+      "source_span": "Experience working with Product or GTM (Sales and Marketing) teams",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  }
+]

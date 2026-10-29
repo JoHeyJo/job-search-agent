@@ -1,0 +1,65 @@
+{
+  "kept": [
+    {
+      "text": "Professional experience building and shipping production backend applications",
+      "source_span": "Professional experience building and shipping production backend applications, with strong programming, API, database, testing, debugging, and performance fundamentals.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong programming, API, database, testing, debugging, and performance fundamentals",
+      "source_span": "with strong programming, API, database, testing, debugging, and performance fundamentals.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with Ruby/Rails, Go, or any other modern backend language",
+      "source_span": "Experience with Ruby/Rails, Go, or any other modern backend language.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Practical experience with AI coding tools, including the ability to review and correct what they generate",
+      "source_span": "Practical experience with AI coding tools, including the ability to review and correct what they generate.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with production Go services, APIs, concurrency, profiling, or gRPC",
+      "source_span": "Production Go services, APIs, concurrency, profiling, or gRPC.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with Docker, Kubernetes, Helm, CI/CD, or cloud deployment",
+      "source_span": "Docker, Kubernetes, Helm, CI/CD, or cloud deployment.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with Rust, particularly for systems, security, performance, or platform work",
+      "source_span": "Rust, particularly for systems, security, performance, or platform work.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with PostgreSQL, schema evolution, caching, queues, messaging, or event-driven workflows",
+      "source_span": "PostgreSQL, schema evolution, caching, queues, messaging, or event-driven workflows.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Observability using metrics, logs, traces, dashboards, and alerts",
+      "source_span": "Observability using metrics, logs, traces, dashboards, and alerts.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience contributing to a modular monolith, bounded context, shared component, or independently operated service",
+      "source_span": "Contributing to a modular monolith, bounded context, shared component, or independently operated service.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

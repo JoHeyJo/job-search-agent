@@ -1,0 +1,103 @@
+[
+  {
+    "requirement": {
+      "text": "At least 1.5 years of experience as a software engineer",
+      "source_span": "You have a total of 1.5+ years of experience as a software engineer.",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience designing, developing, and launching backend systems",
+      "source_span": "You have experience designing, developing and launching backend systems",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Proficiency in Python or Kotlin",
+      "source_span": "are proficient in one of Python or Kotlin.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with building blocks of distributed systems and technologies like AWS, MySQL, and Kubernetes",
+      "source_span": "You are familiar with the building blocks of distributed systems, and the technologies like AWS, MySQL and Kubernetes.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Ability to translate a simple problem or business scenario into a solution interacting with multiple software components, writing clear, well-tested, and extensible code",
+      "source_span": "You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality.",
+      "Implemented real-time communication features with WebSockets (Socket.IO), enabling live updates and messaging between concurrent logged-in clients."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Comfortable navigating a large codebase, debugging others' code, and providing feedback through code reviews",
+      "source_span": "You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Conducted thorough code reviews that reduced bug-related issues by 40%, ensuring high-quality production features.",
+      "Coach engineers on core professional skills: debugging, troubleshooting, version control, and effective research methods, accelerating their growth and collaboration.",
+      "Uphold coding standards through comprehensive code reviews while managing Agile task delegation for high-quality, on-time delivery."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Bachelor's degree in a related field or equivalent practical experience",
+      "source_span": "This position requires either equivalent practical experience or a Bachelor's degree in a related field.",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  }
+]

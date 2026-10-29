@@ -1,0 +1,53 @@
+{
+  "kept": [
+    {
+      "text": "7+ years of experience building GenAI applications, including RAG, multi-agent systems, Text2SQL, fine-tuning, etc., with tools such as HuggingFace, LangChain, and DSPy",
+      "source_span": "7+ years of experience building GenAI applications, including RAG, multi-agent systems, Text2SQL, fine-tuning, etc., with tools such as HuggingFace, LangChain, and DSPy",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Expertise in deploying production-grade GenAI applications, including evaluation and optimizations",
+      "source_span": "Expertise in deploying production-grade GenAI applications, including evaluation and optimizations",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Extensive hands-on industry data science experience using tools like pandas, scikit-learn, PyTorch, etc.",
+      "source_span": "Extensive years of hands-on industry data science experience, leveraging common machine learning and data science tools, i.e. pandas, scikit-learn, PyTorch, etc.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building production-grade machine learning deployments on AWS, Azure, or GCP",
+      "source_span": "Experience building production-grade machine learning deployments on AWS, Azure, or GCP",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Graduate degree in a quantitative discipline (Computer Science, Engineering, Statistics, Operations Research, etc.) or equivalent practical experience",
+      "source_span": "Graduate degree in a quantitative discipline (Computer Science, Engineering, Statistics, Operations Research, etc.) or equivalent practical experience",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience communicating and/or teaching technical concepts to non-technical and technical audiences alike",
+      "source_span": "Experience communicating and/or teaching technical concepts to non-technical and technical audiences alike",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience using the Databricks Intelligence Platform and Apache Spark\u2122 to process large-scale distributed datasets",
+      "source_span": "[Preferred] Experience using the Databricks Intelligence Platform and Apache Spark\u2122 to process large-scale distributed datasets",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Native-level fluency in Korean and professional working proficiency in English",
+      "source_span": "Language Proficiency: Native-level fluency in Korean and professional working proficiency in English (both written and verbal).",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

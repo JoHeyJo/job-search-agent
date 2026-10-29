@@ -1,0 +1,137 @@
+[
+  {
+    "requirement": {
+      "text": "Professional experience building backend web applications, services, or APIs",
+      "source_span": "Professional experience building backend web applications, services, or application programming interfaces, with experience using Ruby and GraphQL.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability.",
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience using Ruby",
+      "source_span": "Professional experience building backend web applications, services, or application programming interfaces, with experience using Ruby and GraphQL.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Ruby"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience using GraphQL",
+      "source_span": "Professional experience building backend web applications, services, or application programming interfaces, with experience using Ruby and GraphQL.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Understanding of relational databases, SQL, data modeling, caching, background processing, and backend performance practices",
+      "source_span": "An understanding of relational databases, structured query language, data modeling, caching, background processing, and backend performance practices.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality.",
+      "SQL"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience contributing to user-facing workflows and maintaining their underlying systems",
+      "source_span": "Experience contributing to user-facing workflows and maintaining their underlying systems.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Optimized users experience with intuitive, custom built, user-facing React features.",
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience writing backend unit and integration tests",
+      "source_span": "Experience writing backend unit and integration tests, with familiarity with the testing pyramid, Git, and collaborative code review processes.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with the testing pyramid",
+      "source_span": "Experience writing backend unit and integration tests, with familiarity with the testing pyramid, Git, and collaborative code review processes.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with Git",
+      "source_span": "Experience writing backend unit and integration tests, with familiarity with the testing pyramid, Git, and collaborative code review processes.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Lead and mentor cohorts of student engineers through month-long React projects, guiding teams from planning through delivery across Git, GitHub, and Slack."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with collaborative code review processes",
+      "source_span": "Experience writing backend unit and integration tests, with familiarity with the testing pyramid, Git, and collaborative code review processes.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Conducted thorough code reviews that reduced bug-related issues by 40%, ensuring high-quality production features.",
+      "Uphold coding standards through comprehensive code reviews while managing Agile task delegation for high-quality, on-time delivery."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience using AI coding agents and reviewing their output, or an interest in building these skills in a complex monorepo",
+      "source_span": "Experience using artificial intelligence coding agents and reviewing their output, or an interest in building these skills in a complex monorepo.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence.",
+      "Split the work so the AI makes only judgment calls (what a posting asks for, whether a r\u00e9sum\u00e9 meets it) and Python does everything else: fetching, verifying, scoring, ranking. Cut a typical search from 16 AI steps to 3\u20134.",
+      "AI agent (AWS Bedrock, Strands)"
+    ],
+    "evidence_verified": true
+  }
+]

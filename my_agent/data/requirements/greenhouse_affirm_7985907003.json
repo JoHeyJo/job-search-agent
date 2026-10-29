@@ -1,0 +1,35 @@
+{
+  "kept": [
+    {
+      "text": "Previous work or internship experience shipping web apps using declarative UI frameworks like React or Vue",
+      "source_span": "You have previous work or internship experience shipping web apps using declarative UI frameworks like React or Vue.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Previous work or internship experience working with Javascript/Typescript",
+      "source_span": "You have previous work or internship experience working with Javascript/Typescript.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to translate a simple problem or business scenario into a solution interacting with multiple software components, writing clear, well tested and extensible code",
+      "source_span": "You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Comfortable navigating a large code base, debugging others' code, and providing feedback through code reviews",
+      "source_span": "You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Must reside in Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, Prince Edward Island, or Saskatchewan",
+      "source_span": "This remote role is open only to candidates residing in Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, Prince Edward Island, or Saskatchewan.",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

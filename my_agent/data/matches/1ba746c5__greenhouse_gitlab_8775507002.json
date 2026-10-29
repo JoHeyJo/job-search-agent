@@ -1,0 +1,135 @@
+[
+  {
+    "requirement": {
+      "text": "Professional experience building and shipping production backend applications",
+      "source_span": "Professional experience building and shipping production backend applications, with strong programming, API, database, testing, debugging, and performance fundamentals.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Strong programming, API, database, testing, debugging, and performance fundamentals",
+      "source_span": "with strong programming, API, database, testing, debugging, and performance fundamentals.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality.",
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with Ruby/Rails, Go, or any other modern backend language",
+      "source_span": "Experience with Ruby/Rails, Go, or any other modern backend language.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Ruby"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Practical experience with AI coding tools, including the ability to review and correct what they generate",
+      "source_span": "Practical experience with AI coding tools, including the ability to review and correct what they generate.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence.",
+      "Redesigned an early version that hallucinated qualifications: Python now fetches full postings directly from company job boards, so the AI only ever reads real text.",
+      "Added an automatic check that rejects any AI claim it can't point to in the source text, so fabrication can't reach the results."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with production Go services, APIs, concurrency, profiling, or gRPC",
+      "source_span": "Production Go services, APIs, concurrency, profiling, or gRPC.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with Docker, Kubernetes, Helm, CI/CD, or cloud deployment",
+      "source_span": "Docker, Kubernetes, Helm, CI/CD, or cloud deployment.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with Rust, particularly for systems, security, performance, or platform work",
+      "source_span": "Rust, particularly for systems, security, performance, or platform work.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with PostgreSQL, schema evolution, caching, queues, messaging, or event-driven workflows",
+      "source_span": "PostgreSQL, schema evolution, caching, queues, messaging, or event-driven workflows.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Implemented real-time communication features with WebSockets (Socket.IO), enabling live updates and messaging between concurrent logged-in clients."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Observability using metrics, logs, traces, dashboards, and alerts",
+      "source_span": "Observability using metrics, logs, traces, dashboards, and alerts.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience contributing to a modular monolith, bounded context, shared component, or independently operated service",
+      "source_span": "Contributing to a modular monolith, bounded context, shared component, or independently operated service.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Architected React components with a loosely coupled, modular pattern for improved scalability."
+    ],
+    "evidence_verified": true
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "kept": [
+    {
+      "text": "3+ years of hands-on software engineering experience",
+      "source_span": "3+ years of hands-on software engineering experience",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Strong proficiency in Python for scripting, automation, and tooling",
+      "source_span": "strong proficiency in Python for scripting, automation, and tooling (required)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Solid working knowledge of Terraform (modules, state management)",
+      "source_span": "Solid working knowledge of Terraform (modules, state management) or Pulumi (preferred)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Knowledge of Pulumi (preferred over Terraform)",
+      "source_span": "Pulumi (preferred)",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Hands-on experience building and supporting production workloads in AWS (or Azure/GCP)",
+      "source_span": "Hands-on experience building and supporting production workloads in AWS (or Azure/GCP)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with Kubernetes and Docker fundamentals",
+      "source_span": "along with Kubernetes and Docker fundamentals",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Practical experience designing, maintaining, and troubleshooting pipelines using GitHub Actions or similar modern CI/CD tools",
+      "source_span": "Practical experience designing, maintaining, and troubleshooting pipelines using GitHub Actions or similar modern CI/CD tools",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Practical understanding of observability pillars (logging, metrics, tracing) and hands-on experience integrating tools such as Datadog, Prometheus, or Grafana",
+      "source_span": "Practical understanding of observability pillars (logging, metrics, tracing) and hands-on experience integrating tools such as Datadog, Prometheus, or Grafana",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

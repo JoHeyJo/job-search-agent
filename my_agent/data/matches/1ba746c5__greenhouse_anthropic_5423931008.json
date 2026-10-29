@@ -1,0 +1,172 @@
+[
+  {
+    "requirement": {
+      "text": "8+ years experience writing for developers or technical audiences, with a portfolio showing both technical and brand work",
+      "source_span": "Have 8+ years experience writing for developers or technical audiences, and a portfolio that shows both technical and brand work",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Has shipped work that developers actually shared, whether in-house at a developer tools or infrastructure company or at an agency serving those clients",
+      "source_span": "Have shipped work that developers actually shared, whether in-house at a developer tools or infrastructure company or at an agency serving those clients",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Has a strong, specific point of view on how brands should talk to developers, and can articulate it with examples",
+      "source_span": "Have a strong, specific point of view on how brands should talk to developers, and can articulate it with examples",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Can read a changelog or docs page and explain why a developer would or wouldn't trust it",
+      "source_span": "Can read a changelog or a docs page and explain why a developer would or wouldn't trust it",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Skilled at adapting expert material into sharp short-form copy and launch narratives without losing accuracy",
+      "source_span": "Are skilled at adapting expert material into sharp short-form copy and launch narratives without losing accuracy",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Works fluidly across the full range from technical content to pure brand writing",
+      "source_span": "Work fluidly across the full range from technical content to pure brand writing",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Already uses Claude or other AI models in their own writing practice and can talk concretely about how",
+      "source_span": "Already use Claude or other AI models in your own writing practice and can talk concretely about how",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience working directly alongside a Dev Rel or engineering team rather than through a brief",
+      "source_span": "Experience working directly alongside a Dev Rel or engineering team rather than through a brief",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Built or contributed to a voice and tone guide, style system, or writing templates that other people successfully used",
+      "source_span": "Built or contributed to a voice and tone guide, style system, or writing templates that other people successfully used",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Written for developer launches at a fast-moving product company, where accuracy and speed both mattered",
+      "source_span": "Written for developer launches at a fast-moving product company, where accuracy and speed both mattered",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with the AI developer ecosystem, including coding tools, APIs, and how developers evaluate them",
+      "source_span": "Familiarity with the AI developer ecosystem, including coding tools, APIs, and how developers evaluate them",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Job Search Agent (GitHub): Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience writing developer-credible work that also performs in enterprise or executive contexts",
+      "source_span": "Experience writing developer-credible work that also performs in enterprise or executive contexts",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "A personal writing practice, newsletter, or public work that demonstrates voice and judgment",
+      "source_span": "A personal writing practice, newsletter, or public work that demonstrates voice and judgment",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Worked within brand campaign systems and translated them for a skeptical or specialized audience",
+      "source_span": "Worked within brand campaign systems and translated them for a skeptical or specialized audience",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Bachelor's degree or an equivalent combination of education, training, and/or experience in a field relevant to the role",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  }
+]

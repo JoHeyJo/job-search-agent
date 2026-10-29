@@ -1,0 +1,77 @@
+{
+  "kept": [
+    {
+      "text": "Strong Ruby on Rails experience in a large production codebase",
+      "source_span": "Strong Ruby on Rails experience in a large production codebase",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Production experience with Python",
+      "source_span": "production experience with Python",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience driving substantial projects with several engineers over multiple months, with clear user or business outcomes",
+      "source_span": "Experience driving substantial projects with several engineers over multiple months, with clear user or business outcomes.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience owning features end to end, including shaping scope, making trade-offs, engaging with users, and learning from adoption after launch",
+      "source_span": "experience owning features end to end, including shaping scope, making trade-offs, engaging with users, and learning from adoption after launch",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Full stack background with a current focus on backend engineering",
+      "source_span": "A full stack background with a current focus on backend engineering",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to read modern frontend code and design effective APIs",
+      "source_span": "the ability to read modern frontend code and design effective APIs",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong API design fundamentals",
+      "source_span": "Strong application programming interface design and structured query language fundamentals.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong SQL fundamentals",
+      "source_span": "Strong application programming interface design and structured query language fundamentals.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience exploring AI-assisted development",
+      "source_span": "Experience exploring artificial intelligence-assisted development.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with GraphQL",
+      "source_span": "Experience with GraphQL, PostgreSQL performance at scale, or building and evaluating large language model or agent systems is helpful but not required.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with PostgreSQL performance at scale",
+      "source_span": "Experience with GraphQL, PostgreSQL performance at scale, or building and evaluating large language model or agent systems is helpful but not required.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience building and evaluating large language model or agent systems",
+      "source_span": "Experience with GraphQL, PostgreSQL performance at scale, or building and evaluating large language model or agent systems is helpful but not required.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

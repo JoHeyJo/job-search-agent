@@ -1,0 +1,140 @@
+[
+  {
+    "requirement": {
+      "text": "BS or graduate degree in Computer Science, Maths, Engineering, or science",
+      "source_span": "BS or a graduate degree in Computer Science, Maths, Engineering, or science",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "3+ years of experience working on Linux development as a Software Engineer",
+      "source_span": "3+ years of experience working on Linux development as a Software Engineer.",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Proficient in C/C++",
+      "source_span": "Proficient in C/C++.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Familiar with Linux servers, Linux device drivers, Linux kernel patches, secure operating systems and security focused programming",
+      "source_span": "Familiar with Linux servers, Linux device drivers, Linux kernel patches, secure operating systems and security focused programming.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience working with embedded Linux",
+      "source_span": "Preferred experience working with embedded Linux",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Bash scripting experience",
+      "source_span": "Bash scripting experience",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with Yocto",
+      "source_span": "Experience with Yocto",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with Secure Boot",
+      "source_span": "Familiarity with Secure Boot",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with Go and Python",
+      "source_span": "Familiarity with Go and Python.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with WebRTC",
+      "source_span": "Familiarity with WebRTC",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience working with Distributed Systems",
+      "source_span": "Experience working with Distributed Systems",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Understanding of HTTP and practical debugging techniques",
+      "source_span": "Understanding of HTTP and practical debugging techniques",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  }
+]

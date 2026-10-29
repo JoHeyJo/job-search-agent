@@ -1,0 +1,113 @@
+{
+  "kept": [
+    {
+      "text": "Bachelor's or Master's degree in Electrical Engineering (or equivalent experience)",
+      "source_span": "B.S. or M.S. in Electrical Engineering (or equivalent experience).",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "3\u20137+ years of experience designing complex embedded hardware systems",
+      "source_span": "3-7+ years of experience designing complex embedded hardware systems.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Expertise in high-speed digital circuit design and layout",
+      "source_span": "High-speed digital circuit design and layout",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Expertise in multi-layer PCB design and stack-up planning",
+      "source_span": "Multi-layer PCB design and stack-up planning",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Expertise in signal integrity and power integrity fundamentals",
+      "source_span": "Signal integrity and power integrity fundamentals",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Expertise in RF integration and antenna considerations",
+      "source_span": "RF integration and antenna considerations",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Expertise in cable harness and interconnect design",
+      "source_span": "Cable harness and interconnect design",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Expertise in EMI/EMC mitigation",
+      "source_span": "EMI/EMC mitigation",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience designing EMC/EMI input and output filters",
+      "source_span": "Experience designing EMC/EMI input and output filters",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience taking hardware products from concept to production",
+      "source_span": "Experience taking hardware products from concept to production.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with mobile or ruggedized systems operating in real-world environments",
+      "source_span": "Experience with mobile or ruggedized systems operating in real-world environments.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong debugging and lab bring-up experience",
+      "source_span": "Strong debugging and lab bring-up experience.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "VNA and Spectrum Analyzer experience (a plus)",
+      "source_span": "(VNA and Spectrum Analyzer experience is a plus)",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience in robotics, automotive, aerospace, or industrial automation",
+      "source_span": "Experience in robotics, automotive, aerospace, or industrial automation.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with safety-critical or high-reliability systems",
+      "source_span": "Familiarity with safety-critical or high-reliability systems.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with high-voltage battery systems",
+      "source_span": "Experience with high-voltage battery systems.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with environmental, vibration, and regulatory testing",
+      "source_span": "Experience with environmental, vibration, and regulatory testing.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Background working with contract manufacturers and NPI processes",
+      "source_span": "Background working with contract manufacturers and NPI processes.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

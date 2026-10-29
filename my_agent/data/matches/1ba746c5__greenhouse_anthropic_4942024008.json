@@ -1,0 +1,131 @@
+[
+  {
+    "requirement": {
+      "text": "6+ years of practical experience as a full-stack software engineer",
+      "source_span": "Have 6+ years of practical experience as a full-stack software engineer",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022",
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience building consumer or enterprise products that prioritize accessibility, inclusivity, or served underserved populations",
+      "source_span": "Have experience building consumer or enterprise products that prioritize accessibility, inclusivity, or served underserved populations",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Practicum Lead / Mentor, Code The Dream, Remote, Sep 2023 \u2013 Present: Lead and mentor cohorts of student engineers through month-long React projects, guiding teams from planning through delivery across Git, GitHub, and Slack."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Technical expertise in identity management, billing systems, self-serve onboarding flows, or API integrations",
+      "source_span": "Have technical expertise in identity management, billing systems, self-serve onboarding flows, or API integrations",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with international markets, multilingual products, or accessibility features",
+      "source_span": "Experience with international markets, multilingual products, or accessibility features",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Spoken language: English",
+      "Spoken language: Spanish"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Background in nonprofit technology, social impact startups, or mission-driven organizations",
+      "source_span": "Background in nonprofit technology, social impact startups, or mission-driven organizations",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Practicum Lead / Mentor, Code The Dream, Remote, Sep 2023 \u2013 Present: Lead and mentor cohorts of student engineers through month-long React projects, guiding teams from planning through delivery across Git, GitHub, and Slack."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with AI/ML products and LLM applications",
+      "source_span": "Experience with AI/ML products and LLM applications",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "LLMs",
+      "Job Search Agent (GitHub): Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with building products for resource-constrained environments or emerging markets",
+      "source_span": "Familiarity with building products for resource-constrained environments or emerging markets",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Understanding of compliance requirements in regulated sectors",
+      "source_span": "Understanding of compliance requirements in regulated sectors",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Startup experience, particularly in scaling products from zero to one",
+      "source_span": "Startup experience, particularly in scaling products from zero to one",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Bachelor's degree or equivalent combination of education, training, and/or experience",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "requirement": {
+      "text": "2+ years of backend engineering experience",
+      "source_span": "2+ years of backend engineering experience",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience working across geographies",
+      "source_span": "Experience working across geographies",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Practicum Lead / Mentor, Code The Dream, Remote, Sep 2023 \u2013 Present: Lead and mentor cohorts of student engineers through month-long React projects, guiding teams from planning through delivery across Git, GitHub, and Slack."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience building extensible, leveraged software solutions that scale to different kinds of user needs",
+      "source_span": "Experience building extensible, leveraged software solutions that scale to different kinds of user needs, with the ability to empathize with users and advocate for exceptional user experiences",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Architected React components with a loosely coupled, modular pattern for improved scalability.",
+      "Job Search Agent (GitHub): Split the work so the AI makes only judgment calls (what a posting asks for, whether a r\u00e9sum\u00e9 meets it) and Python does everything else: fetching, verifying, scoring, ranking. Cut a typical search from 16 AI steps to 3\u20134."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Previous experience working in payments and on payments technology",
+      "source_span": "Previous experiences working in payments and on payments technology",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Previous experience using Stripe products",
+      "source_span": "Previous experience using Stripe products",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  }
+]

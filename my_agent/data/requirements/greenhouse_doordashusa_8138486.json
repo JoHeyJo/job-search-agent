@@ -1,0 +1,47 @@
+{
+  "kept": [
+    {
+      "text": "Bachelor's, Master's, or PhD in Computer Science or equivalent",
+      "source_span": "B.S., M.S., or PhD. in Computer Science or equivalent",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "2+ years of industry experience working with backend tech stacks",
+      "source_span": "Prior experience (2+ years industry experience) working with backend tech stacks",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Proficiency in using AI coding tools (e.g., Claude Code, Codex, Cursor) in the full software development lifecycle, including designing, generating code, testing, monitoring and releasing software",
+      "source_span": "Proficiency in using AI coding tools (e.g., Claude Code, Codex, Cursor) in the full software development lifecycle, including designing, generating code, testing, monitoring and releasing software",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to analyze and improve efficiency, scalability, and stability of various system resources",
+      "source_span": "Ability to analyze and improve efficiency, scalability, and stability of various system resources",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with service oriented architecture, writing REST APIs, unit testing, and architectural design",
+      "source_span": "Experience with service oriented architecture, writing REST API's, unit testing, and architectural design",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Understanding of modern web stacks and architecture (HTTP, REST)",
+      "source_span": "Understanding of modern web stacks and architecture (HTTP, REST)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with SQL and NoSQL databases and other technologies (e.g. Postgres, Redis, Elasticsearch, RabbitMQ)",
+      "source_span": "Experience with SQL and NoSQL databases and other technologies (e.g. Postgres, Redis, Elasticsearch, RabbitMQ)",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

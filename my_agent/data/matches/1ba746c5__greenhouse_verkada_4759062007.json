@@ -1,0 +1,114 @@
+[
+  {
+    "requirement": {
+      "text": "BS, MS, or PhD in Computer Science, or similar technical field of study",
+      "source_span": "Must have a BS, MS, or PhD in Computer Science, or similar technical field of study",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "1+ years of experience on cloud infrastructure or backend systems",
+      "source_span": "1+ years of experience on cloud infrastructure or backend systems.",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "met",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience in Python and/or Go",
+      "source_span": "Experience in Python and/or Go",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with one of the major cloud platforms (preferably AWS)",
+      "source_span": "Experience with one of the major cloud platforms (preferably AWS)",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with Terraform",
+      "source_span": "Experience with Terraform is preferred",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with Kubernetes",
+      "source_span": "Experience with Kubernetes is preferred",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with a service mesh such as Istio",
+      "source_span": "Experience with a service mesh such as Istio is preferred",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with observability tools such as Datadog, Prometheus, or OpenTelemetry",
+      "source_span": "Experience with observability tools such as Datadog, prometheus or opentelemetry is preferred",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "CloudWatch",
+      "CloudTrail"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with contributing to open source projects",
+      "source_span": "Experience with contributing to open source projects is preferred",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  }
+]

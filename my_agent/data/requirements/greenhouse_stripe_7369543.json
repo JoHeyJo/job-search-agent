@@ -1,0 +1,29 @@
+{
+  "kept": [
+    {
+      "text": "2\u201312+ years of industry software engineering experience (excluding internships and co-ops)",
+      "source_span": "2-12+ years of industry software engineering experience (does not include internships nor includes co-ops)",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Strong coding skills in any programming language",
+      "source_span": "Strong coding skills in any programming language (we understand new languages can be learned on the job so our interview process is language agnostic)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with large-scale financial tracking systems",
+      "source_span": "Experience with large-scale financial tracking systems",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Understanding and practical knowledge in cloud-based services such as gRPC, GraphQL, Docker/Kubernetes, or AWS",
+      "source_span": "Good understanding and practical knowledge in cloud based services (e.g. gRPC, GraphQL, Docker/Kubernetes, cloud services such as AWS, etc.)",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

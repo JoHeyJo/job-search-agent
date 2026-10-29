@@ -1,0 +1,53 @@
+{
+  "kept": [
+    {
+      "text": "10+ years of technical customer-facing experience as a technical architect or lead on complex, enterprise-level projects within cloud networks, web infrastructure, or security",
+      "source_span": "10+ Years of Technical Customer Facing Experience: Proven track record as a technical architect or lead on complex, enterprise-level projects within cloud networks, web infrastructure, or security.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Extensive knowledge of Cloudflare's Application Security, Workers and Workers AI, cybersecurity, web performance, and cloud infrastructure",
+      "source_span": "Application Security Expertise: Extensive and proven knowledge of development platforms such as Cloudflare's Application Security, Workers and Workers AI, cybersecurity, web performance, and cloud infrastructure.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Extensive experience implementing and supporting complex technical solutions using Terraform for infrastructure management",
+      "source_span": "Terraform Proficiency: Extensive experience implementing and supporting complex technical solutions using Terraform for infrastructure management.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong technical understanding of AI/LLM concepts",
+      "source_span": "AI/LLM Knowledge: A strong technical understanding of and passion for AI/LLM concepts, fitting the culture of a cutting-edge AI-centric organization.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong knowledge of networking protocols, cybersecurity, and industry standards (e.g., Zero Trust/SASE)",
+      "source_span": "Technical Background: Strong knowledge of networking protocols, cybersecurity, and industry standards (e.g., Zero Trust/SASE).",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience or strong interest in transitioning application-heavy environments toward comprehensive Network Security and SASE models",
+      "source_span": "Network Security Background: Experience or strong interest in transitioning application-heavy environments toward comprehensive Network Security and SASE models.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Proficiency in coding/scripting languages beyond Terraform to automate tasks at scale and build proof-of-concept setups",
+      "source_span": "Scripting & Automation: Proficiency in coding languages beyond Terraform to automate tasks at scale and build proof-of-concept setups.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience managing or advising on project-based fund pools to maximize the value of a customer's strategic investment",
+      "source_span": "Financial Acumen: Experience managing or advising on project-based fund pools to maximize the value of a customer's strategic investment.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

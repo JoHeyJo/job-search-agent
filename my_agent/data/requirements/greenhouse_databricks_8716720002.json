@@ -1,0 +1,59 @@
+{
+  "kept": [
+    {
+      "text": "5+ years of combined experience as a developer advocate and in a hands-on technical role \u2014 software engineer, ML engineer, data scientist, or solutions architect.",
+      "source_span": "5+ years of combined experience as a developer advocate and in a hands-on technical role \u2014 software engineer, ML engineer, data scientist, or solutions architect.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Professional experience actually building and operating AI or ML systems, not only presenting about them.",
+      "source_span": "Professional experience actually building and operating AI or ML systems, not only presenting about them.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Subject matter knowledge of solving AI and ML problems at scale, including agent design, evaluation, and production operations.",
+      "source_span": "Subject matter knowledge of solving AI and ML problems at scale, including agent design, evaluation, and production operations.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Comprehensive understanding of the Databricks AI ecosystem, including Genie Agents, Genie, MLflow, and Databricks Unity AI Gateway.",
+      "source_span": "Comprehensive understanding of the Databricks AI ecosystem, including Genie Agents, Genie, MLflow, and Databricks Unity AI Gateway.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong Python skills and fluency with the current agent and ML tooling landscape.",
+      "source_span": "Strong Python skills and fluency with the current agent and ML tooling landscape.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Based in the Bay Area and genuinely willing to be out in the community on a regular basis, including evenings.",
+      "source_span": "Based in the Bay Area and genuinely willing to be out in the community on a regular basis, including evenings.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Active participation and recognized leadership in AI and ML community forums, chats, and meetups.",
+      "source_span": "Active participation and recognized leadership in AI and ML community forums, chats, and meetups \u2014 measured by what the community builds with your help, not by follower count.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "A public portfolio of technical work: tutorials, talks, repositories, or sustained community contributions.",
+      "source_span": "A public portfolio of technical work: tutorials, talks, repositories, or sustained community contributions.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Proven track record in nurturing developer communities, organizing user groups, and facilitating meetups.",
+      "source_span": "Proven track record in nurturing developer communities, organizing user groups, and facilitating meetups.",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

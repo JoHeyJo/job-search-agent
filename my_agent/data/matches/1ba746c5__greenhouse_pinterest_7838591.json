@@ -1,0 +1,108 @@
+[
+  {
+    "requirement": {
+      "text": "Bachelor's or Master's degree in Computer Science or a related technical field, expected by June 2027",
+      "source_span": "Bachelor's or Master's degree in Computer Science or a related technical field, expected by June 2027",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Must be available to start full-time between January 2027 and September 2027",
+      "source_span": "Must be available to start full-time between January 2027 and September 2027",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "At least one year of programming experience through internships, research, coursework, teaching, personal projects, open source, or hackathons",
+      "source_span": "At least one year of programming experience through internships, research, coursework, teaching, personal projects, open source, or hackathons",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Designed a polished, responsive UI/UX with React and Tailwind, elevating the product's visual quality.",
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Familiarity using AI as a learning, productivity, and engineering tool and as an iterative coding partner",
+      "source_span": "Familiarity using AI as a learning, productivity, and engineering tool, and as an iterative coding partner, to accelerate engineering work while exercising strong judgment around accuracy, security, and when to ask for help",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Job Search Agent (GitHub): Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence.",
+      "Split the work so the AI makes only judgment calls (what a posting asks for, whether a r\u00e9sum\u00e9 meets it) and Python does everything else: fetching, verifying, scoring, ranking. Cut a typical search from 16 AI steps to 3\u20134."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Strong foundation in computer science fundamentals, including data structures, algorithms, and software design",
+      "source_span": "Strong foundation in computer science fundamentals, including data structures, algorithms, and software design",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Architected React components with a loosely coupled, modular pattern for improved scalability.",
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Refactored a legacy codebase to an MVC pattern with comprehensive documentation, streamlining collaborative development."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with one or more programming languages such as Python, Java, JavaScript/TypeScript, Go, or C++, and familiarity with relevant frameworks, tools, or technologies such as React or similar",
+      "source_span": "Experience with one or more programming languages such as Python, Java, JavaScript/TypeScript, Go, or C++, and familiarity with relevant frameworks, tools, or technologies such as React or similar.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity.",
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Optimized users experience with intuitive, custom built, user-facing React features."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Previous software engineering internship experience strongly preferred",
+      "source_span": "Previous software engineering internship experience strongly preferred",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Must be currently legally authorized to work in the United States on a full-time basis; position is not eligible for immigration sponsorship",
+      "source_span": "For this role, applicants must be currently legally authorized to work in the United States on a full-time basis. The Company complies with all applicable federal, state, and/or local equal employment opportunity and/or anti-discrimination laws.\nThis position is not eligible for immigration sponsorship.",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  }
+]

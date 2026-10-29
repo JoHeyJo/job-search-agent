@@ -1,0 +1,146 @@
+[
+  {
+    "requirement": {
+      "text": "10+ years of software engineering experience, with a track record of operating as a Staff or Principal engineer (or equivalent) at a high-caliber organization",
+      "source_span": "Have 10+ years of software engineering experience, with a track record of operating as a Staff or Principal engineer (or equivalent) at a high-caliber organization",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Architected and owned complex, high-stakes systems\u2014pipelines, infrastructure, or platforms that orchestrate many components, handle significant state and logic, and serve multiple teams",
+      "source_span": "Have architected and owned complex, high-stakes systems\u2014pipelines, infrastructure, or platforms that orchestrate many components, handle significant state and logic, and serve multiple teams",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "History of setting technical direction that others follow\u2014through design docs, architectural decisions, or technical strategy that shaped how a team or org operates",
+      "source_span": "Have a history of setting technical direction that others follow\u2014through design docs, architectural decisions, or technical strategy that shaped how a team or org operates",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience as a power user of agentic coding tools with deep intuition about model capabilities and limitations",
+      "source_span": "Are a power user of agentic coding tools with deep intuition about model capabilities and limitations",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Job Search Agent (GitHub): Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence.",
+      "Job Search Agent (GitHub): Split the work so the AI makes only judgment calls (what a posting asks for, whether a r\u00e9sum\u00e9 meets it) and Python does everything else: fetching, verifying, scoring, ranking. Cut a typical search from 16 AI steps to 3\u20134.",
+      "AI agent (AWS Bedrock, Strands)"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Ability to dive into unfamiliar technical domains\u2014ML systems, research workflows, novel infrastructure\u2014and get to the frontier quickly",
+      "source_span": "Can dive into unfamiliar technical domains\u2014ML systems, research workflows, novel infrastructure\u2014and get to the frontier quickly",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience designing or scaling eval/evaluation frameworks for ML systems",
+      "source_span": "Designing or scaling eval/evaluation frameworks for ML systems",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with reinforcement learning infrastructure or training systems",
+      "source_span": "Reinforcement learning infrastructure or training systems",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience leading technical initiatives in high-performance, demanding environments\u2014trading firms, quant funds, frontier research labs, or fast-moving startups",
+      "source_span": "Leading technical initiatives in high-performance, demanding environments\u2014trading firms, quant funds, frontier research labs, or fast-moving startups where intensity and technical excellence are the norm",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with research computing, scientific infrastructure, or developer platforms at scale",
+      "source_span": "Research computing, scientific infrastructure, or developer platforms at scale",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Strong quantitative foundation (math, physics, or related fields)",
+      "source_span": "A strong quantitative foundation (math, physics, or related fields)",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Expertise in Python and TypeScript",
+      "source_span": "Expertise in Python and TypeScript",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Bachelor's degree or an equivalent combination of education, training, and/or experience in a field relevant to the role",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  }
+]

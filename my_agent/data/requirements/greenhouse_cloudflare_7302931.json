@@ -1,0 +1,23 @@
+{
+  "kept": [
+    {
+      "text": "At least 4 years of hands-on software development experience on meaningfully complex systems.",
+      "source_span": "At least 4 years of hands-on software development experience on meaningfully complex systems.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience building both backend systems and frontend widgets.",
+      "source_span": "Experience building both backend systems and frontend widgets.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience implementing tools, processes, internal instrumentation, and methodologies.",
+      "source_span": "Experience implementing tools, processes, internal instrumentation, and methodologies.",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

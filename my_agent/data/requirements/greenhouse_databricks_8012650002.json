@@ -1,0 +1,35 @@
+{
+  "kept": [
+    {
+      "text": "Bachelor's degree (or higher) in Computer Science or a related field",
+      "source_span": "BS (or higher) in Computer Science, or a related field",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "3+ years of production level experience in Java, Scala, C++, or similar language",
+      "source_span": "3+ years of production level experience in one of: Java, Scala, C++, or similar language",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience developing large-scale distributed systems",
+      "source_span": "Experience developing large-scale distributed systems",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience working on a SaaS platform or with Service-Oriented Architectures",
+      "source_span": "Experience working on a SaaS platform or with Service-Oriented Architectures",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Knowledge of SQL",
+      "source_span": "Knowledge of SQL",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

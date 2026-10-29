@@ -1,0 +1,29 @@
+{
+  "kept": [
+    {
+      "text": "Graduate in Fall 2026 or Spring 2027 with a degree in Computer Science, Engineering, or related subject",
+      "source_span": "You will graduate in Fall 2026 or Spring 2027 with a degree in Computer Science, Engineering, or related subject",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Implementation skills with a general purpose programming language such as Java or C++",
+      "source_span": "You have implementation skills with a general purpose program language, such as Java, or C++",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Knowledge of algorithms, data structures, and OOP principles",
+      "source_span": "You have knowledge of algorithms, data structures, and OOP principles",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience managing end-to-end projects",
+      "source_span": "You have experience managing end-to-end projects",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

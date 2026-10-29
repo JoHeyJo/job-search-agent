@@ -1,0 +1,89 @@
+{
+  "kept": [
+    {
+      "text": "Proficiency in Python or Go with 3 years of experience",
+      "source_span": "Proficiency in Python or Go [3yrs].",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience with Git-based development, automated testing, and CI/CD",
+      "source_span": "Experience with Git-based development, automated testing, and CI/CD.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong experience with REST APIs, OAuth2/authentication frameworks, event-driven integrations, and enterprise system integrations",
+      "source_span": "Strong experience with REST APIs, OAuth2/authentication frameworks, event-driven integrations, and enterprise system integrations.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Has shipped production LLM-powered applications or AI agents",
+      "source_span": "Shipped production LLM-powered applications or AI agents.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with agent patterns: tool/function calling, multi-step workflows, context management, RAG, structured outputs, and plan decomposition",
+      "source_span": "Experience with agent patterns: tool/function calling, multi-step workflows, context management, RAG, structured outputs, and plan decomposition.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Understanding of LLM failure modes: hallucination, incorrect tool use, ambiguous intent, prompt injection, excessive permissions, and non-deterministic behavior",
+      "source_span": "Understanding of LLM failure modes: hallucination, incorrect tool use, ambiguous intent, prompt injection, excessive permissions, and non-deterministic behavior.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience evaluating and improving AI systems using automated evals, traces, test datasets, human feedback, or similar approaches",
+      "source_span": "Experience evaluating and improving AI systems using automated evals, traces, test datasets, human feedback, or similar approaches.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong judgment around security, privacy, least privilege, and safe automation in an enterprise environment",
+      "source_span": "Strong judgment around security, privacy, least privilege, and safe automation in an enterprise environment.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with automation or integration platforms (Tines, MuleSoft, Workato, etc.)",
+      "source_span": "Experience with automation or integration platforms (Tines, MuleSoft, Workato, etc.).",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with MCP (Model Context Protocol) server development",
+      "source_span": "Experience with MCP (Model Context Protocol) server development.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building agents on Databricks (Agent Bricks) or with frameworks such as OpenAI Agents SDK or LangGraph/LangChain",
+      "source_span": "Experience building agents on Databricks (Agent Bricks) or with frameworks such as OpenAI Agents SDK or LangGraph/LangChain.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with MLflow tracing/evaluation, vector search, and LLM observability",
+      "source_span": "Experience with MLflow tracing/evaluation, vector search, and LLM observability.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience integrating IT platforms: Okta/Microsoft Entra ID, Google Workspace, Jira, Slack, Jamf, GitHub, Workday, or SaaS administration APIs",
+      "source_span": "Experience integrating IT platforms: Okta/Microsoft Entra ID, Google Workspace, Jira, Slack, Jamf, GitHub, Workday, or SaaS administration APIs.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with identity lifecycle, access management, device management, and software provisioning",
+      "source_span": "Familiarity with identity lifecycle, access management, device management, and software provisioning.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

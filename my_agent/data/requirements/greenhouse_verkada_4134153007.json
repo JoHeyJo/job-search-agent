@@ -1,0 +1,107 @@
+{
+  "kept": [
+    {
+      "text": "3+ years of experience working with embedded Linux",
+      "source_span": "3+ years of experience working with embedded Linux",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Strong, hands-on C skills \u2014 able to create, extend, and debug a real production C codebase",
+      "source_span": "Strong, hands-on C skills - you will create, extend and debug a real production C codebase",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Solid Linux fundamentals: processes, IPC, filesystems, boot flow, on-target debugging, networking",
+      "source_span": "Solid Linux fundamentals: processes, IPC, filesystems, boot flow, on-target debugging, networking",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with a multi-layered build system (Yocto/Buildroot)",
+      "source_span": "Experience with a multi-layered build system (Yocto/Buildroot)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Bash (CLI e.g. tar, find, grep, sed; basic scripting)",
+      "source_span": "Bash (CLI e.g. tar, find, grep, sed; basic scripting)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Git experience",
+      "source_span": "Git",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Communicative Polish and English (in writing and speaking)",
+      "source_span": "Communicative Polish and English (in writing and speaking)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to work in Polish on a daily basis (minimum C1)",
+      "source_span": "Ability to work in Polish on a daily basis (minimum C1)",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Ability to commute to the Verkada office in Krak\u00f3w every Thursday",
+      "source_span": "Ability to commute to the Verkada office in Krak\u00f3w every Thursday",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Practical, in-depth knowledge of Yocto",
+      "source_span": "Practical, in-depth knowledge of Yocto is a big plus",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with the Go programming language",
+      "source_span": "Experience with the Go programming language is a big plus",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Ability to read schematics and debug hardware issues",
+      "source_span": "Ability to read schematics and debug hardware issues",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with bootloaders (U-Boot) and secure boot",
+      "source_span": "Bootloaders (U-Boot), secure boot",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Programming in Python, C++ or Rust",
+      "source_span": "Programming in Python, C++ or Rust",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience working with lab equipment (scopes, multimeters, soldering stations, etc.)",
+      "source_span": "Working with lab equipment (scopes, multimeters, soldering stations, etc.)",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with RTOSes (e.g. Zephyr, FreeRTOS, Micrium OS)",
+      "source_span": "Experience with RTOSes (e.g. Zephyr, FreeRTOS, Micrium OS)",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Linux kernel module programming",
+      "source_span": "Linux kernel module programming",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

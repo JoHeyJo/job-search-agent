@@ -1,0 +1,53 @@
+{
+  "kept": [
+    {
+      "text": "Professional experience building and maintaining backend systems in production, with an understanding of reliability, maintainability, and how to support services over time",
+      "source_span": "Professional experience building and maintaining backend systems in production, with an understanding of reliability, maintainability, and how to support services over time (for example, incident response and follow-ups).",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Proficiency in at least one modern backend language",
+      "source_span": "Proficiency in at least one modern backend language and strong interest in Rust, with either prior Rust experience or clear evidence you can ramp quickly and deliver in a Rust-first, performance-sensitive codebase.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong interest in Rust, with either prior Rust experience or clear evidence you can ramp quickly and deliver in a Rust-first, performance-sensitive codebase",
+      "source_span": "strong interest in Rust, with either prior Rust experience or clear evidence you can ramp quickly and deliver in a Rust-first, performance-sensitive codebase.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Some exposure to distributed data or analytics systems (e.g., OLAP databases, Kafka- or NATS-style messaging, or change data capture pipelines)",
+      "source_span": "Some exposure to distributed data or analytics systems (for example, OLAP databases, Kafka- or NATS-style messaging, or change data capture (CDC) pipelines), or strong motivation to develop those skills in this role.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Interest in graph data modeling and query patterns (property graphs, multi-step traversals, aggregations)",
+      "source_span": "Interest in graph data modeling and query patterns (property graphs, multi-step (n-hop) traversals, aggregations), and willingness to learn the tools and concepts used in Knowledge Graph over time.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Practical experience (or strong interest) using AI tools in day-to-day development, along with a thoughtful approach to validating outputs and integrating AI into your workflow",
+      "source_span": "Practical experience (or strong interest) using AI tools in day-to-day development, along with a thoughtful approach to validating outputs and integrating AI into your workflow.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to pick up new languages and frameworks as needed (e.g., Ruby, Go, or TypeScript/Vue)",
+      "source_span": "A language-agnostic mindset and evidence that you can pick up new languages and frameworks as needed (for example, Ruby, Go, or TypeScript/Vue where the work touches adjacent systems).",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Solid fundamentals in system design, including ability to reason about trade-offs and align implementation work with documented architectural decisions",
+      "source_span": "Solid fundamentals in system design for your level, including the ability to reason about trade-offs, ask good questions, and align your implementation work with documented architectural decisions.",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

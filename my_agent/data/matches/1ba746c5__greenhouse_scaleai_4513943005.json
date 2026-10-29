@@ -1,0 +1,83 @@
+[
+  {
+    "requirement": {
+      "text": "4+ years of full-time engineering experience, post-graduation",
+      "source_span": "4+ years of full-time engineering experience, post-graduation",
+      "preferred": true,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience scaling products at hyper growth startups",
+      "source_span": "Experience scaling products at hyper growth startups",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience tinkering with or productizing LLMs, vector databases, and the other latest AI technologies",
+      "source_span": "Experience tinkering with or productizing LLMs, vector databases, and the other latest AI technologies",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Job Search Agent (GitHub): Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Proficient in Python or Javascript/Typescript, and SQL",
+      "source_span": "Proficient in Python or Javascript/Typescript, and SQL",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity.",
+      "Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with Kubernetes",
+      "source_span": "Experience with Kubernetes",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with major cloud providers (AWS, Azure, GCP)",
+      "source_span": "Experience with major cloud providers (AWS, Azure, GCP)",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "EC2",
+      "AI agent (AWS Bedrock, Strands)"
+    ],
+    "evidence_verified": true
+  }
+]

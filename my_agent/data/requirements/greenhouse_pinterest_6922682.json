@@ -1,0 +1,47 @@
+{
+  "kept": [
+    {
+      "text": "Deep understanding of iOS development and best practices in Objective C and/or Swift (e.g. xCode, app states, memory management)",
+      "source_span": "Deep understanding of iOS development and best practices in Objective C and/or Swift, e.g. xCode, app states, memory management, etc",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "2+ years of industry iOS application development experience, building consumer or business facing products",
+      "source_span": "2+ years of industry iOS application development experience, building consumer or business facing products",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience following best practices in writing reliable and maintainable code that may be used by many other engineers",
+      "source_span": "Experience in following best practices in writing reliable and maintainable code that may be used by many other engineers",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to keep up-to-date with new technologies to understand what should be incorporated",
+      "source_span": "Ability to keep up-to-date with new technologies to understand what should be incorporated",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's or Master's degree in a relevant field such as Computer Science, or equivalent experience",
+      "source_span": "Bachelor's or Master's degree in a relevant field such as Computer Science, or equivalent experience",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Demonstrated ability to use AI to improve speed and quality in day-to-day workflow",
+      "source_span": "Demonstrated ability to use AI to improve speed and quality in your day-to-day workflow for relevant outputs.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong track record of critical evaluation and verification of AI-assisted work (e.g., testing, source-checking, data validation, peer review)",
+      "source_span": "Strong track record of critical evaluation and verification of AI-assisted work (e.g., testing, source-checking, data validation, peer review).",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

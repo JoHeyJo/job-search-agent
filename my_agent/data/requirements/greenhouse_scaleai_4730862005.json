@@ -1,0 +1,59 @@
+{
+  "kept": [
+    {
+      "text": "Graduation date in Fall 2026 or Spring 2027",
+      "source_span": "A graduation date in Fall 2026 or Spring 2027",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Bachelor's degree (or equivalent) in a relevant field such as Computer Science, EECS, Computer Engineering, or Statistics",
+      "source_span": "a Bachelor's degree (or equivalent) in a relevant field (Computer Science, EECS, Computer Engineering, Statistics)",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Product engineering experience such as building web apps full-stack, integrating with relevant APIs and services",
+      "source_span": "Product engineering experience such as building web apps full-stack, integrating with relevant APIs and services, talking to customers, figuring out 'what' to build and then iterating",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Previous Product/Software Engineering internship experience",
+      "source_span": "Previous Product/Software Engineering internship experience",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Track record of shipping high-quality products and features at scale",
+      "source_span": "Track record of shipping high-quality products and features at scale",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building systems that process large volumes of data",
+      "source_span": "Experience building systems that process large volumes of data",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with Python, Typescript, React, and/or MongoDB",
+      "source_span": "Experience with Python, Typescript, React, and/or MongoDB",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Hands-on experience with LLMs, evaluations, or agentic systems \u2014 whether from internships, research, or personal projects",
+      "source_span": "Hands-on experience with LLMs, evaluations, or agentic systems \u2014 whether from internships, research, or personal projects",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Open source contributions or a portfolio of shipped side projects",
+      "source_span": "Open source contributions or a portfolio of shipped side projects",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

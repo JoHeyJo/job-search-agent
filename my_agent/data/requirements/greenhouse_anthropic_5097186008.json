@@ -1,0 +1,101 @@
+{
+  "kept": [
+    {
+      "text": "6+ years building and shipping web products, with deep expertise across the stack",
+      "source_span": "6+ years building and shipping web products, with deep expertise across the stack",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Strong front-end craft: TypeScript/JavaScript, React, CSS",
+      "source_span": "Strong front-end craft: TypeScript/JavaScript, React, CSS\u2014with an eye for interaction design, motion, and visual detail",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Solid back-end and data pipeline experience: Python, API design, analytics infrastructure",
+      "source_span": "Solid back-end and data pipeline experience: Python, API design, analytics infrastructure",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "A portfolio showcasing innovative interaction designs and high-quality implementations",
+      "source_span": "A portfolio showcasing innovative interaction designs and high-quality implementations",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Track record of independently driving features from prototype to production",
+      "source_span": "Track record of independently driving features from prototype to production",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience or genuine passion for skill development, HCI, developer tools, or products that help people become more capable",
+      "source_span": "Experience or genuine passion for skill development, HCI, developer tools, or products that help people become more capable",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to rapidly prototype, test with users, and iterate toward production",
+      "source_span": "Ability to rapidly prototype, test with users, and iterate toward production",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience setting vision, shaping team strategy, and building conviction across cross-functional stakeholders",
+      "source_span": "Experience setting vision, shaping team strategy, and building conviction across cross-functional stakeholders",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Track record of influencing roadmaps and decisions beyond your immediate team",
+      "source_span": "Track record of influencing roadmaps and decisions beyond your immediate team",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience in developer tools, creative tools, learning platforms, or other products where user skill development and mastery matter",
+      "source_span": "Experience in developer tools, creative tools, learning platforms, or other products where user skill development and mastery matter more than time-on-site",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Background in learning sciences, cognitive science, HCI, skill acquisition research, or educational psychology (formal or self-directed)",
+      "source_span": "Background in learning sciences, cognitive science, HCI, skill acquisition research, or educational psychology (formal or self-directed)",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with experimentation frameworks, A/B testing, or analytics that measure capability development in production",
+      "source_span": "Experience with experimentation frameworks, A/B testing, or analytics that measure capability development in production",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Previous experience in research labs, frontier tech companies, or startups with high autonomy and ambiguity",
+      "source_span": "Previous experience in research labs, frontier tech companies, or startups with high autonomy and ambiguity",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Published writing, talks, or open-source work on skill development, human-AI interaction, or product philosophy",
+      "source_span": "Published writing, talks, or open-source work on skill development, human-AI interaction, or product philosophy",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience building AI-native product experiences or working with LLMs in production contexts",
+      "source_span": "Experience building AI-native product experiences or working with LLMs in production contexts",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

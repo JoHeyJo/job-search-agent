@@ -1,0 +1,76 @@
+[
+  {
+    "requirement": {
+      "text": "Previous work or internship experience designing, developing and launching backend systems at scale",
+      "source_span": "You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using one of Python or Kotlin.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experienced using one of Python or Kotlin",
+      "source_span": "experienced using one of Python or Kotlin",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Familiar with the building blocks of distributed systems, and technologies like AWS, MySQL and Kubernetes",
+      "source_span": "You are familiar with the building blocks of distributed systems, and the technologies like AWS, MySQL and Kubernetes.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "EC2",
+      "Amazon RDS",
+      "VPC"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Ability to translate a simple problem or business scenario into a solution that interacts with multiple software components, writing clear, well tested and extensible code",
+      "source_span": "You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Comfortable navigating a large code base, debugging others' code, and providing feedback through code reviews",
+      "source_span": "You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Conducted thorough code reviews that reduced bug-related issues by 40%, ensuring high-quality production features.",
+      "Coach engineers on core professional skills: debugging, troubleshooting, version control, and effective research methods, accelerating their growth and collaboration.",
+      "Uphold coding standards through comprehensive code reviews while managing Agile task delegation for high-quality, on-time delivery."
+    ],
+    "evidence_verified": true
+  }
+]

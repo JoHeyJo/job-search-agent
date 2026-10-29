@@ -1,0 +1,95 @@
+{
+  "kept": [
+    {
+      "text": "Proficiency in Python or TypeScript",
+      "source_span": "Proficiency in Python or TypeScript, with experience shipping working software end to end",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience shipping working software end to end",
+      "source_span": "Proficiency in Python or TypeScript, with experience shipping working software end to end",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Hands-on experience building applications or agents on top of LLM APIs, including prompting, tool use, and retrieval",
+      "source_span": "Hands-on experience building applications or agents on top of LLM APIs, including prompting, tool use, and retrieval",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience designing integrations with third-party APIs, data sources, and services",
+      "source_span": "Experience designing integrations with third-party APIs, data sources, and services",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience in a demo engineering, solutions engineering, sales engineering, forward deployed engineering, developer relations, or product engineering role",
+      "source_span": "Experience in a demo engineering, solutions engineering, sales engineering, forward deployed engineering, developer relations, or product engineering role",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Track record of building reusable internal tools, templates, or self-service assets that other teams adopted",
+      "source_span": "A track record of building reusable internal tools, templates, or self-service assets that other teams adopted",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Hands-on experience with Claude Code, the Claude Agent SDK, the Model Context Protocol (MCP), Skills, or plugins",
+      "source_span": "Hands-on experience with Claude Code, the Claude Agent SDK, the Model Context Protocol (MCP), Skills, or plugins",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building evaluation or validation harnesses for AI systems, including reliability checks and graceful fallbacks",
+      "source_span": "Experience building evaluation or validation harnesses for AI systems, including reliability checks and graceful fallbacks",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building always-on or scheduled agentic systems that automate internal workflows",
+      "source_span": "Experience building always-on or scheduled agentic systems that automate internal workflows",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building synthetic or sanitized datasets that make demos realistic without exposing sensitive information",
+      "source_span": "Experience building synthetic or sanitized datasets that make demos realistic without exposing sensitive information",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Front-end or product design skills that help demos feel polished and intuitive",
+      "source_span": "Front-end or product design skills that help demos feel polished and intuitive",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience supporting product launches or running launch-readiness programs",
+      "source_span": "Experience supporting product launches or running launch-readiness programs",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "A history of turning field feedback into concrete product input that influenced a roadmap",
+      "source_span": "A history of turning field feedback into concrete product input that influenced a roadmap",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Required field of study relevant to the role as demonstrated through coursework, training, or professional experience",
+      "source_span": "Required field of study: A field relevant to the role as demonstrated through coursework, training, or professional experience",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

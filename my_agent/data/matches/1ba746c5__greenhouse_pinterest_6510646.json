@@ -1,0 +1,90 @@
+[
+  {
+    "requirement": {
+      "text": "4+ years of industry full-stack development experience, building consumer or business facing products",
+      "source_span": "4+ years of industry full-stack development experience, building consumer or business facing products",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Designed a polished, responsive UI/UX with React and Tailwind, elevating the product's visual quality.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Proven ability to build scalable web UIs using React, Typescript, Redux, GraphQL, and REST APIs",
+      "source_span": "Proven ability to build scalable web UIs using React, Typescript, Redux, GraphQL, and REST APIs",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Architected React components with a loosely coupled, modular pattern for improved scalability.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Comfortable architecting and building scalable web UIs with React, Typescript, Redux, GraphQL and REST APIs",
+      "source_span": "Comfortable architecting and building scalable web UIs with React, Typescript, Redux, GraphQL and REST APIs",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Architected React components with a loosely coupled, modular pattern for improved scalability.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Proficiency in one or more common frontend and fullstack tech stacks: e.g. Javascript, React, API, storage, caching and data processing",
+      "source_span": "Proficiency in one or more common frontend and fullstack tech stacks: e.g. Javascript, React, API, storage, caching and data processing.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Architected React components with a loosely coupled, modular pattern for improved scalability.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience following best practices in writing reliable and maintainable code",
+      "source_span": "Experience in following best practices in writing reliable and maintainable code that may be used by many other engineers",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Conducted thorough code reviews that reduced bug-related issues by 40%, ensuring high-quality production features.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity.",
+      "Practicum Lead / Mentor, Code The Dream, Remote, Sep 2023 \u2013 Present: Uphold coding standards through comprehensive code reviews while managing Agile task delegation for high-quality, on-time delivery."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Bachelor's or Master's degree in a relevant field such as Computer Science, or equivalent experience",
+      "source_span": "Bachelor's or Master's degree in a relevant field such as Computer Science, or equivalent experience",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  }
+]

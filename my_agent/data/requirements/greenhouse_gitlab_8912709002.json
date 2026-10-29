@@ -1,0 +1,65 @@
+{
+  "kept": [
+    {
+      "text": "Professional experience building backend web applications, services, or APIs",
+      "source_span": "Professional experience building backend web applications, services, or application programming interfaces, with experience using Ruby and GraphQL.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience using Ruby",
+      "source_span": "Professional experience building backend web applications, services, or application programming interfaces, with experience using Ruby and GraphQL.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience using GraphQL",
+      "source_span": "Professional experience building backend web applications, services, or application programming interfaces, with experience using Ruby and GraphQL.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Understanding of relational databases, SQL, data modeling, caching, background processing, and backend performance practices",
+      "source_span": "An understanding of relational databases, structured query language, data modeling, caching, background processing, and backend performance practices.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience contributing to user-facing workflows and maintaining their underlying systems",
+      "source_span": "Experience contributing to user-facing workflows and maintaining their underlying systems.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience writing backend unit and integration tests",
+      "source_span": "Experience writing backend unit and integration tests, with familiarity with the testing pyramid, Git, and collaborative code review processes.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with the testing pyramid",
+      "source_span": "Experience writing backend unit and integration tests, with familiarity with the testing pyramid, Git, and collaborative code review processes.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with Git",
+      "source_span": "Experience writing backend unit and integration tests, with familiarity with the testing pyramid, Git, and collaborative code review processes.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with collaborative code review processes",
+      "source_span": "Experience writing backend unit and integration tests, with familiarity with the testing pyramid, Git, and collaborative code review processes.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience using AI coding agents and reviewing their output, or an interest in building these skills in a complex monorepo",
+      "source_span": "Experience using artificial intelligence coding agents and reviewing their output, or an interest in building these skills in a complex monorepo.",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

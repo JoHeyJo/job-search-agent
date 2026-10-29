@@ -1,0 +1,59 @@
+{
+  "kept": [
+    {
+      "text": "Fluency in using AI-assisted and agentic development tools as part of day-to-day software engineering, including critically reviewing, validating, and improving generated code",
+      "source_span": "Fluency in using AI-assisted and agentic development tools as part of day-to-day software engineering, including critically reviewing, validating, and improving generated code",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "2+ years of professional software engineering experience, or equivalent practical experience, building, shipping, and operating production systems",
+      "source_span": "2+ years of professional software engineering experience, or equivalent practical experience, building, shipping, and operating production systems",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Strong knowledge of backend technologies and infrastructure, including the fundamentals of APIs, data storage, distributed systems, and production operations",
+      "source_span": "Strong knowledge of backend technologies and infrastructure, including the fundamentals of APIs, data storage, distributed systems, and production operations",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building backend-for-frontend systems, UI platform services, developer platforms, or shared infrastructure",
+      "source_span": "Experience building backend-for-frontend systems, UI platform services, developer platforms, or shared infrastructure",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience designing or integrating APIs, including GraphQL APIs",
+      "source_span": "Experience designing or integrating APIs, including GraphQL APIs",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with high-throughput event ingestion, feature flag or experimentation systems, or other latency-sensitive platform services",
+      "source_span": "Experience with high-throughput event ingestion, feature flag or experimentation systems, or other latency-sensitive platform services",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with caching, asynchronous systems, configuration systems, or data-consistency tradeoffs",
+      "source_span": "Familiarity with caching, asynchronous systems, configuration systems, or data-consistency tradeoffs",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience executing large migrations using automated validation, shadow traffic, feature flags, or staged rollouts",
+      "source_span": "Experience executing large migrations using automated validation, shadow traffic, feature flags, or staged rollouts",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience using data, developer feedback, or operational signals to improve a platform or developer-facing product",
+      "source_span": "Experience using data, developer feedback, or operational signals to improve a platform or developer-facing product",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

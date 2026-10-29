@@ -1,0 +1,29 @@
+{
+  "kept": [
+    {
+      "text": "3+ years of full-time software engineering experience",
+      "source_span": "3+ years of full-time software engineering experience",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Solid full-stack fundamentals with production ownership of features shipped",
+      "source_span": "Solid full-stack fundamentals with production ownership of features you've shipped",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with LLMs, embeddings, vector databases, or modern AI data products/tools",
+      "source_span": "Familiarity with LLMs, embeddings, vector databases, or modern AI data products/tools",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Exposure to distributed systems and cloud-based architectures",
+      "source_span": "Exposure to distributed systems and cloud-based architectures",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

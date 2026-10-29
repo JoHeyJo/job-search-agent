@@ -1,0 +1,88 @@
+{
+  "listing_id": "greenhouse:stripe:8311069",
+  "title": "Android Engineer, Identity ",
+  "company": "Stripe",
+  "url": "https://stripe.com/jobs/search?gh_jid=8311069",
+  "labeled": false,
+  "requirements": [
+    {
+      "span": "3+ years of professional software-development experience, including meaningful experience building and shipping mobile applications or SDKs.",
+      "preferred": false,
+      "gate": true,
+      "status": ""
+    },
+    {
+      "span": "Experience developing for at least one major mobile platform using technologies such as Kotlin or Java for Android.",
+      "preferred": false,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Strong software-design fundamentals and experience creating maintainable APIs, components, or frameworks.",
+      "preferred": false,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Experience delivering mobile functionality beyond an isolated UI layer for example, integrating with APIs and services, handling local state, or working with device capabilities.",
+      "preferred": false,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Experience testing, debugging, monitoring, and improving mobile software in production.",
+      "preferred": false,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Experience building mobile SDKs, shared libraries, or developer-facing APIs used outside your immediate team.",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Experience with both iOS and Android, or with cross-platform technologies such as React Native or Kotlin Multiplatform.",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Experience with camera, image-processing, document-capture, biometrics, or other device-integrated mobile experiences.",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Experience designing mobile software that handles sensitive data and applies security and privacy principles by default.",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Familiarity with accessibility, internationalization, mobile performance, and unreliable network conditions.",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Experience with mobile CI, automated testing, release automation, observability, or developer-productivity tooling.",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Experience contributing to backend APIs or services that support mobile products.",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Familiarity with Stripe's products, ideally through integrating Stripe APIs or SDKs into another application.",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    }
+  ],
+  "description": "Who we are\nAbout Stripe\nStripe is a financial infrastructure platform for businesses. Millions of companies from the world’s largest enterprises to the most ambitious startups use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.\nAbout the team\nBefore Stripe, every growing internet platform needed a payments team. Today, every growing internet platform needs a way to establish trust in its users.\nIdentity verification is a core piece of economic infrastructure for online businesses. Stripe Identity enables businesses to digitally verify their users through identity documents and other signals for fraud prevention, regulatory, and trust and safety use cases. We are building the future of identity verification and trust in the digital economy.\nThe Identity Product Experience team owns Stripe Identity’s mobile SDKs for iOS, Android, and React Native. These SDKs enable businesses to embed secure, high-quality identity-verification experiences directly in their mobile applications. Our work spans mobile user experience, reusable SDK architecture, camera and document-capture experiences, developer experience, security, accessibility, reliability, and integration with Stripe’s backend systems.\nWhy Stripe Identity?\nBuild mobile experiences that help establish trust between businesses and their users.\nSolve challenging product and technical problems involving mobile platforms, sensitive data, fraud prevention, and global scale.\nCreate SDKs used by developers across industries, including fintech, marketplaces, and online platforms.\nHelp shape the future of digital identity and make verification easier, safer, and more accessible.\nOur vision is to build the world’s most trusted store of verified identities, enabling frictionless identity verification across Stripe and beyond.\nWe’re looking for engineers who care deeply about mobile craft and the entire user journey. You should enjoy translating complex technical and regulatory requirements into simple, polished experiences; working through ambiguity; and learning new technologies and systems.\nJoin us to build mobile identity-verification experiences that businesses can integrate easily and that their users can trust.\nWhat you’ll do\nResponsibilities\nAs an Android engineer on the Identity team, you will:\nDesign, build, and maintain Stripe Identity’s mobile SDKs and verification experiences across iOS, Android, and React Native.\nCreate intuitive, polished experiences for complex flows such as identity-document and selfie capture, while accounting for accessibility, device capabilities, and varied real-world conditions.\nBuild reliable and extensible SDK APIs and reusable components that make it easy for developers to integrate Stripe Identity into their applications.\nWork across mobile clients, supporting APIs, and services to deliver features end to end rather than treating the mobile application as an isolated layer.\nImprove SDK performance, reliability, observability, testing, release processes, and backward compatibility.\nMake thoughtful architectural decisions that balance user experience, developer experience, security, privacy, and long-term maintainability.\nPartner closely with product managers, designers, machine-learning engineers, backend engineers, user researchers, and other mobile teams.\nWork with Stripe users and field teams to understand integration challenges and turn their feedback into product and platform improvements.\nHelp establish and evolve mobile-engineering practices across Identity and Stripe.\nOperate and maintain the systems and SDKs the team owns, including diagnosing production issues and improving them based on what we learn.\nWho you are\nWe’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.\nMinimum requirements\n3+ years of professional software-development experience, including meaningful experience building and shipping mobile applications or SDKs.\nExperience developing for at least one major mobile platform using technologies such as Kotlin or Java for Android.\nStrong software-design fundamentals and experience creating maintainable APIs, components, or frameworks.\nExperience delivering mobile functionality beyond an isolated UI layer for example, integrating with APIs and services, handling local state, or working with device capabilities.\nExperience testing, debugging, monitoring, and improving mobile software in production.\nAbility to collaborate effectively with engineering, product, design, and other technical and non-technical partners.\nA demonstrated commitment to building high-quality user and developer experiences.\nPreferred qualifications\nExperience building mobile SDKs, shared libraries, or developer-facing APIs used outside your immediate team.\nExperience with both iOS and Android, or with cross-platform technologies such as React Native or Kotlin Multiplatform.\nExperience with camera, image-processing, document-capture, biometrics, or other device-integrated mobile experiences.\nExperience designing mobile software that handles sensitive data and applies security and privacy principles by default.\nFamiliarity with accessibility, internationalization, mobile performance, and unreliable network conditions.\nExperience with mobile CI, automated testing, release automation, observability, or developer-productivity tooling.\nExperience contributing to backend APIs or services that support mobile products.\nAbility to simplify complex requirements and favor durable, scalable solutions.\nComfort reasoning clearly and moving with urgency in a fast-paced, ambiguous environment.\nFamiliarity with Stripe’s products, ideally through integrating Stripe APIs or SDKs into another application."
+}

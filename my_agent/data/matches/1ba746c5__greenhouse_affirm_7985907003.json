@@ -1,0 +1,72 @@
+[
+  {
+    "requirement": {
+      "text": "Previous work or internship experience shipping web apps using declarative UI frameworks like React or Vue",
+      "source_span": "You have previous work or internship experience shipping web apps using declarative UI frameworks like React or Vue.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed a polished, responsive UI/UX with React and Tailwind, elevating the product's visual quality.",
+      "Optimized users experience with intuitive, custom built, user-facing React features.",
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Previous work or internship experience working with Javascript/Typescript",
+      "source_span": "You have previous work or internship experience working with Javascript/Typescript.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity.",
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Ability to translate a simple problem or business scenario into a solution interacting with multiple software components, writing clear, well tested and extensible code",
+      "source_span": "You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality.",
+      "Architected React components with a loosely coupled, modular pattern for improved scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Comfortable navigating a large code base, debugging others' code, and providing feedback through code reviews",
+      "source_span": "You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Conducted thorough code reviews that reduced bug-related issues by 40%, ensuring high-quality production features.",
+      "Uphold coding standards through comprehensive code reviews while managing Agile task delegation for high-quality, on-time delivery.",
+      "Coach engineers on core professional skills: debugging, troubleshooting, version control, and effective research methods, accelerating their growth and collaboration."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Must reside in Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, Prince Edward Island, or Saskatchewan",
+      "source_span": "This remote role is open only to candidates residing in Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, Prince Edward Island, or Saskatchewan.",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "kept": [
+    {
+      "text": "4+ years as a Software Engineer, Forward Deployed Engineer, or technical founder with production experience shipping systems that real users depend on",
+      "source_span": "4+ years as a Software Engineer, Forward Deployed Engineer, or technical founder \u2014 with production experience shipping systems that real users depend on.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Deep research experience in life sciences, biomedical research, or scientific computing",
+      "source_span": "Deep research experience in life sciences, biomedical research, or scientific computing.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience in genomics, neuroscience, or drug discovery with ability to engage deeply with academics",
+      "source_span": "Bonus if you've studied genomics, neuroscience, or drug discovery specifically and are comfortable getting deeply technical with academics.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience building LLM-powered tools or applications: prompting, context engineering, agent architectures, evaluation frameworks",
+      "source_span": "Experience building LLM-powered tools or applications: prompting, context engineering, agent architectures, evaluation frameworks.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Builder credibility from shipping production code as a software engineer, forward-deployed engineer, or technical founder",
+      "source_span": "Builder credibility from shipping production code as a software engineer, forward-deployed engineer, or technical founder.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's degree or equivalent combination of education, training, and/or experience in a field relevant to the role",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

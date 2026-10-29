@@ -1,0 +1,60 @@
+[
+  {
+    "requirement": {
+      "text": "3+ years of full-time software engineering experience",
+      "source_span": "3+ years of full-time software engineering experience",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Solid full-stack fundamentals with production ownership of features shipped",
+      "source_span": "Solid full-stack fundamentals with production ownership of features you've shipped",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity.",
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with LLMs, embeddings, vector databases, or modern AI data products/tools",
+      "source_span": "Familiarity with LLMs, embeddings, vector databases, or modern AI data products/tools",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Exposure to distributed systems and cloud-based architectures",
+      "source_span": "Exposure to distributed systems and cloud-based architectures",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  }
+]

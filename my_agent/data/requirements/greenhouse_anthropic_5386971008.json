@@ -1,0 +1,65 @@
+{
+  "kept": [
+    {
+      "text": "Solid experience with modern frontend frameworks, particularly Next.js or similar React-based tooling",
+      "source_span": "solid experience with modern frontend frameworks, particularly Next.js or similar React-based tooling, and are comfortable working within a design system",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Comfortable working within a design system",
+      "source_span": "are comfortable working within a design system",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Understand CSS at a level that lets you implement complex layouts, animations, and interactive experiences with precision",
+      "source_span": "Understand CSS at a level that lets you implement complex layouts, animations, and interactive experiences with precision",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Hands-on experience with headless CMS platforms, including content modeling and structured data workflows",
+      "source_span": "Have hands-on experience with headless CMS platforms and can navigate content modeling, structured data workflows, and the operational side of keeping a large site running",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Has built internal tools or contributed to workflows that improve how teams work day-to-day",
+      "source_span": "Have built internal tools or contributed to workflows that improve how teams work day-to-day, and enjoy that kind of problem-solving",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Track record of contributing to production web properties at a mid-level scope",
+      "source_span": "Have a track record of contributing to production web properties at a mid-level scope, and are motivated to grow into owning larger, more complex projects",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with AI-assisted development workflows",
+      "source_span": "Experience with AI-assisted development workflows",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Interest in generative or programmatic design",
+      "source_span": "Interest in generative or programmatic design",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with localization or internationalization systems",
+      "source_span": "Familiarity with localization or internationalization systems",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's degree or equivalent combination of education, training, and/or experience in a relevant field",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

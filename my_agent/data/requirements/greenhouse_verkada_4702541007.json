@@ -1,0 +1,53 @@
+{
+  "kept": [
+    {
+      "text": "Deep, demonstrated experience with Go, including standard libraries, concurrency patterns, and developer tools (profiling, benchmarking, and debugging)",
+      "source_span": "Core Go Expertise: Deep, demonstrated experience with Go, including standard libraries, concurrency patterns, and developer tools (profiling, benchmarking, and debugging).",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Good hands-on experience with Embedded Linux user space and hardware-software interaction",
+      "source_span": "Embedded Linux: Good hands-on experience with Embedded Linux user space and hardware-software interaction.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Proven track record building and scaling resilient distributed systems using service-oriented architectures",
+      "source_span": "Distributed Systems & Backend: Proven track record building and scaling resilient distributed systems using service-oriented architectures.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Solid mastery of modern networking protocols, including TCP/IP, HTTP, gRPC, WebSockets, and WebRTC",
+      "source_span": "Networking Protocols: Solid mastery of modern networking protocols, including TCP/IP, HTTP, gRPC, WebSockets, and WebRTC.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Proficiency with Python and Bash for tooling, test automation, and systems scripting",
+      "source_span": "Scripting Proficiency: Proficiency with Python and Bash for tooling, test automation, and systems scripting.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Practical familiarity with C or C++ for low-level systems engineering, firmware interaction, and performance-critical code",
+      "source_span": "Practical familiarity with C or C++ for low-level systems engineering, firmware interaction, and performance-critical code.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Working knowledge of electrical circuits and hands-on experience using lab equipment (e.g., multimeters, oscilloscopes) to debug hardware-software boundaries",
+      "source_span": "Working knowledge of electrical circuits and hands-on experience using lab equipment (e.g., multimeters, oscilloscopes) to debug hardware-software boundaries.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience deploying, configuring, and maintaining services within Amazon Web Services (AWS) environments",
+      "source_span": "Experience deploying, configuring, and maintaining services within Amazon Web Services (AWS) environments.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

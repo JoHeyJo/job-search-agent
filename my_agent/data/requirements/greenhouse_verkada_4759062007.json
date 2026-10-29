@@ -1,0 +1,59 @@
+{
+  "kept": [
+    {
+      "text": "BS, MS, or PhD in Computer Science, or similar technical field of study",
+      "source_span": "Must have a BS, MS, or PhD in Computer Science, or similar technical field of study",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "1+ years of experience on cloud infrastructure or backend systems",
+      "source_span": "1+ years of experience on cloud infrastructure or backend systems.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience in Python and/or Go",
+      "source_span": "Experience in Python and/or Go",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with one of the major cloud platforms (preferably AWS)",
+      "source_span": "Experience with one of the major cloud platforms (preferably AWS)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with Terraform",
+      "source_span": "Experience with Terraform is preferred",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with Kubernetes",
+      "source_span": "Experience with Kubernetes is preferred",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with a service mesh such as Istio",
+      "source_span": "Experience with a service mesh such as Istio is preferred",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with observability tools such as Datadog, Prometheus, or OpenTelemetry",
+      "source_span": "Experience with observability tools such as Datadog, prometheus or opentelemetry is preferred",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with contributing to open source projects",
+      "source_span": "Experience with contributing to open source projects is preferred",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

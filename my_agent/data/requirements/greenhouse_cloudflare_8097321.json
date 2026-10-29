@@ -1,0 +1,35 @@
+{
+  "kept": [
+    {
+      "text": "4+ years in offensive security, application security or other relevant field",
+      "source_span": "4+ years in offensive security, application security or other relevant field",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Deep knowledge of AI, Coding agents, LLMs, prompt engineering, AI-related attack vectors (e.g., prompt injection, jailbreaking), and Agentic concepts",
+      "source_span": "Deep knowledge:  AI, Coding agents, LLMs, prompt engineering, AI-related attack vectors (e.g., prompt injection, jailbreaking), and Agentic concepts all for use in the red team but also testing Cloudflare  uses.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong background in manual penetration testing, exploit development, or cloud security (AWS/GCP/Bare Metal)",
+      "source_span": "A strong background in manual penetration testing, exploit development, or cloud security (AWS/GCP/Bare Metal).",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience using the MITRE ATT&CK framework to map coverage and identify blind spots in defensive telemetry",
+      "source_span": "Experience using the MITRE ATT&CK framework to map coverage and identify \"blind spots\" in defensive telemetry.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Knowledge of automated breach and attack simulation (BAS) tools, as well as custom-built frameworks for payload delivery and C2 infrastructure",
+      "source_span": "Knowledge of automated breach and attack simulation (BAS) tools, as well as custom-built frameworks for payload delivery and C2 infrastructure.",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

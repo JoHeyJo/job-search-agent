@@ -1,0 +1,29 @@
+{
+  "kept": [
+    {
+      "text": "Minimum 2 years of professional software development experience, or a PhD degree",
+      "source_span": "2+ years of professional software development experience, or alternatively a PhD degree.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Bachelor's degree or higher in Computer Science, related field, or equivalent experience",
+      "source_span": "Bachelor's degree or higher in Computer Science, related field, or equivalent experience.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Proficiency in one or more backend languages such as Java, Scala, or Go",
+      "source_span": "Proficiency in one or more backend languages such as Java, Scala, or Go.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Hands-on experience in developing and operating backend systems",
+      "source_span": "Hands-on experience in developing and operating backend systems.",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

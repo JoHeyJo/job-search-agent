@@ -1,0 +1,66 @@
+[
+  {
+    "requirement": {
+      "text": "BS (or higher) in Computer Science, or a related field",
+      "source_span": "BS (or higher) in Computer Science, or a related field",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "2+ years of production level experience in Java, Scala, C++, or similar language",
+      "source_span": "2+ years of production level experience in one of: Java, Scala, C++, or similar language.",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience developing large-scale distributed systems",
+      "source_span": "Experience developing large-scale distributed systems.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience working on a SaaS platform or with Service-Oriented Architectures",
+      "source_span": "Experience working on a SaaS platform or with Service-Oriented Architectures.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Good knowledge of SQL",
+      "source_span": "Good knowledge of SQL.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality."
+    ],
+    "evidence_verified": true
+  }
+]

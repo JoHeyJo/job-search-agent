@@ -1,0 +1,47 @@
+{
+  "kept": [
+    {
+      "text": "Proficiency with Ruby and Ruby on Rails",
+      "source_span": "Proficiency with Ruby and Ruby on Rails",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Proven experience writing testable code in Ruby on Rails",
+      "source_span": "Proven experience writing testable code in Ruby on Rails",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with Relational Database Management Systems",
+      "source_span": "Experience with Relational Database Management Systems (PostgreSQL is a plus)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with PostgreSQL",
+      "source_span": "PostgreSQL is a plus",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with GraphQL",
+      "source_span": "Experience with GraphQL is a plus",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with various stages of software development end-to-end",
+      "source_span": "Familiarity with various stages of software development end-to-end (Agile methodologies is a plus)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with Agile methodologies",
+      "source_span": "Agile methodologies is a plus",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

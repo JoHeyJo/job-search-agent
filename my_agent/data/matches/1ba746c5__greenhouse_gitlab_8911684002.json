@@ -1,0 +1,163 @@
+[
+  {
+    "requirement": {
+      "text": "Professional experience developing with Ruby on Rails",
+      "source_span": "Professional experience developing with Ruby on Rails and modern JavaScript, along with solid Git, feature development, and deployment workflows.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Professional experience developing with modern JavaScript",
+      "source_span": "Professional experience developing with Ruby on Rails and modern JavaScript, along with solid Git, feature development, and deployment workflows.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023",
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Solid Git, feature development, and deployment workflows",
+      "source_span": "Professional experience developing with Ruby on Rails and modern JavaScript, along with solid Git, feature development, and deployment workflows.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Lead and mentor cohorts of student engineers through month-long React projects, guiding teams from planning through delivery across Git, GitHub, and Slack.",
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience working with relational databases",
+      "source_span": "Experience working with relational databases and a solid understanding of web performance optimization.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Solid understanding of web performance optimization",
+      "source_span": "Experience working with relational databases and a solid understanding of web performance optimization.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "Optimized users experience with intuitive, custom built, user-facing React features."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Track record of shipping features to production and owning them after release",
+      "source_span": "A track record of shipping features to production and owning them after release.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Conducted thorough code reviews that reduced bug-related issues by 40%, ensuring high-quality production features."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Ability to use product data to decide what to build, keep, or roll back",
+      "source_span": "Ability to use product data to decide what to build, keep, or roll back.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with Vue.js",
+      "source_span": "Preferred, not required: experience with Vue.js, PostgreSQL, A/B testing, feature flags, experimentation frameworks, or SaaS sign-up, trial, billing, or checkout flows.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with PostgreSQL",
+      "source_span": "Preferred, not required: experience with Vue.js, PostgreSQL, A/B testing, feature flags, experimentation frameworks, or SaaS sign-up, trial, billing, or checkout flows.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with A/B testing",
+      "source_span": "Preferred, not required: experience with Vue.js, PostgreSQL, A/B testing, feature flags, experimentation frameworks, or SaaS sign-up, trial, billing, or checkout flows.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with feature flags",
+      "source_span": "Preferred, not required: experience with Vue.js, PostgreSQL, A/B testing, feature flags, experimentation frameworks, or SaaS sign-up, trial, billing, or checkout flows.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with experimentation frameworks",
+      "source_span": "Preferred, not required: experience with Vue.js, PostgreSQL, A/B testing, feature flags, experimentation frameworks, or SaaS sign-up, trial, billing, or checkout flows.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with SaaS sign-up, trial, billing, or checkout flows",
+      "source_span": "Preferred, not required: experience with Vue.js, PostgreSQL, A/B testing, feature flags, experimentation frameworks, or SaaS sign-up, trial, billing, or checkout flows.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  }
+]

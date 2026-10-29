@@ -1,0 +1,100 @@
+[
+  {
+    "requirement": {
+      "text": "4+ years of experience developing large-scale backend or infrastructure systems, with a strong emphasis on distributed services, reliability, and scalability",
+      "source_span": "4+ years of experience developing large-scale backend or infrastructure systems, with a strong emphasis on distributed services, reliability, and scalability.",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Architected React components with a loosely coupled, modular pattern for improved scalability.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Proficiency in Python or TypeScript",
+      "source_span": "Proficiency in Python or TypeScript, with experience designing high-performance APIs and backend architectures using frameworks such as FastAPI, Flask, Express, or NestJS.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience designing high-performance APIs and backend architectures using frameworks such as FastAPI, Flask, Express, or NestJS",
+      "source_span": "experience designing high-performance APIs and backend architectures using frameworks such as FastAPI, Flask, Express, or NestJS.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability.",
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Implemented microservice architecture to facilitate client requests and database management boosting code maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Deep familiarity with cloud infrastructure (AWS and Azure preferred), including container orchestration (Kubernetes, Docker) and Infrastructure-as-Code tools like Terraform",
+      "source_span": "Deep familiarity with cloud infrastructure (AWS and Azure preferred), including container orchestration (Kubernetes, Docker) and Infrastructure-as-Code tools like Terraform.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience managing relational and NoSQL databases (PostgreSQL, DynamoDB, etc.) and building pipelines for data-intensive applications",
+      "source_span": "Experience managing data systems such as relational and NoSQL databases (PostgreSQL, DynamoDB, etc.) and building pipelines for data-intensive applications.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Hands-on experience with GenAI applications, model integration, or AI agent systems\u2014understanding how to deploy, evaluate, and scale AI workloads in production",
+      "source_span": "Hands-on experience with GenAI applications, model integration, or AI agent systems\u2014understanding how to deploy, evaluate, and scale AI workloads in production.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Job Search Agent (GitHub): Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Strong understanding of observability, CI/CD, and security best practices for running services in enterprise or multi-tenant environments",
+      "source_span": "Strong understanding of observability, CI/CD, and security best practices for running services in enterprise or multi-tenant environments.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "Uphold coding standards through comprehensive code reviews while managing Agile task delegation for high-quality, on-time delivery."
+    ],
+    "evidence_verified": true
+  }
+]

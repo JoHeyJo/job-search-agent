@@ -1,0 +1,126 @@
+[
+  {
+    "requirement": {
+      "text": "Fluency in using AI-assisted and agentic development tools as part of day-to-day software engineering, including critically reviewing, validating, and improving generated code",
+      "source_span": "Fluency in using AI-assisted and agentic development tools as part of day-to-day software engineering, including critically reviewing, validating, and improving generated code",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Job Search Agent (GitHub): Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence.",
+      "Job Search Agent (GitHub): Added an automatic check that rejects any AI claim it can't point to in the source text, so fabrication can't reach the results."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "2+ years of professional software engineering experience, or equivalent practical experience, building, shipping, and operating production systems",
+      "source_span": "2+ years of professional software engineering experience, or equivalent practical experience, building, shipping, and operating production systems",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Architected React components with a loosely coupled, modular pattern for improved scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Strong knowledge of backend technologies and infrastructure, including the fundamentals of APIs, data storage, distributed systems, and production operations",
+      "source_span": "Strong knowledge of backend technologies and infrastructure, including the fundamentals of APIs, data storage, distributed systems, and production operations",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience building backend-for-frontend systems, UI platform services, developer platforms, or shared infrastructure",
+      "source_span": "Experience building backend-for-frontend systems, UI platform services, developer platforms, or shared infrastructure",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience designing or integrating APIs, including GraphQL APIs",
+      "source_span": "Experience designing or integrating APIs, including GraphQL APIs",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with high-throughput event ingestion, feature flag or experimentation systems, or other latency-sensitive platform services",
+      "source_span": "Experience with high-throughput event ingestion, feature flag or experimentation systems, or other latency-sensitive platform services",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Implemented real-time communication features with WebSockets (Socket.IO), enabling live updates and messaging between concurrent logged-in clients."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with caching, asynchronous systems, configuration systems, or data-consistency tradeoffs",
+      "source_span": "Familiarity with caching, asynchronous systems, configuration systems, or data-consistency tradeoffs",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Implemented real-time communication features with WebSockets (Socket.IO), enabling live updates and messaging between concurrent logged-in clients."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience executing large migrations using automated validation, shadow traffic, feature flags, or staged rollouts",
+      "source_span": "Experience executing large migrations using automated validation, shadow traffic, feature flags, or staged rollouts",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience using data, developer feedback, or operational signals to improve a platform or developer-facing product",
+      "source_span": "Experience using data, developer feedback, or operational signals to improve a platform or developer-facing product",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Practicum Lead / Mentor, Code The Dream, Remote, Sep 2023 \u2013 Present: Uphold coding standards through comprehensive code reviews while managing Agile task delegation for high-quality, on-time delivery.",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023: Conducted thorough code reviews that reduced bug-related issues by 40%, ensuring high-quality production features."
+    ],
+    "evidence_verified": true
+  }
+]

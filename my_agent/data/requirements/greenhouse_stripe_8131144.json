@@ -1,0 +1,35 @@
+{
+  "kept": [
+    {
+      "text": "2\u201310+ years of industry software engineering experience",
+      "source_span": "2\u201310+ years of industry software engineering experience (does not include internships or co-ops)",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Strong coding skills in any programming language",
+      "source_span": "Strong coding skills in any programming language",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with large-scale financial tracking systems",
+      "source_span": "Experience with large-scale financial tracking systems",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Good understanding and practical knowledge in cloud-based services",
+      "source_span": "Good understanding and practical knowledge in cloud-based services",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with, or enthusiasm for, building with AI and agentic workflows",
+      "source_span": "Experience with, or enthusiasm for, building with AI and agentic workflows",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "requirement": {
+      "text": "6+ years in engineering across a wide range of products",
+      "source_span": "6+ years in engineering across a wide range of products",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022",
+      "Software Engineer, Pantry, Emeryville, CA, Aug 2022 \u2013 Sep 2023",
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "3+ years of experience as a Golang software engineer",
+      "source_span": "3+ years of experience as a Golang software engineer",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Interest in working with multiple programming languages",
+      "source_span": "An interest in working with multiple programming languages",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "TypeScript",
+      "JavaScript (ES6)",
+      "Python",
+      "Ruby",
+      "SQL"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience in PHP and Ruby",
+      "source_span": "Experience in PHP and Ruby",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Ruby"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience building libraries and/or SDKs",
+      "source_span": "Experience building libraries and/or SDKs",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Knowledge of Open API spec and protobuf",
+      "source_span": "Knowledge of Open API spec and protobuf",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  }
+]

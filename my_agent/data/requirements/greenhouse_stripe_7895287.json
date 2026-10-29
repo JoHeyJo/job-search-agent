@@ -1,0 +1,35 @@
+{
+  "kept": [
+    {
+      "text": "2+ years of backend engineering experience",
+      "source_span": "2+ years of backend engineering experience",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience working across geographies",
+      "source_span": "Experience working across geographies",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building extensible, leveraged software solutions that scale to different kinds of user needs",
+      "source_span": "Experience building extensible, leveraged software solutions that scale to different kinds of user needs, with the ability to empathize with users and advocate for exceptional user experiences",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Previous experience working in payments and on payments technology",
+      "source_span": "Previous experiences working in payments and on payments technology",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Previous experience using Stripe products",
+      "source_span": "Previous experience using Stripe products",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

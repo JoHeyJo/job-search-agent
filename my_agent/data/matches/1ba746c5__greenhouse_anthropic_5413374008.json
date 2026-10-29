@@ -1,0 +1,165 @@
+[
+  {
+    "requirement": {
+      "text": "Hands-on Salesforce development experience with Apex, SOQL, LWC, and Flow in a production org",
+      "source_span": "Hands-on Salesforce development experience (Apex, SOQL, LWC, Flow) in a production org",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience building or extending CPQ and quote-to-cash functionality in Salesforce (Salesforce CPQ, Revenue Cloud, Nue, or similar), including product and pricing data models, quote and order lifecycle, approval automation, and amendments and renewals, with custom code against the CPQ package",
+      "source_span": "Experience building or extending CPQ and quote-to-cash functionality in Salesforce (Salesforce CPQ, Revenue Cloud, Nue, or similar): product and pricing data models, quote and order lifecycle, approval automation, and amendments and renewals, including custom code written against the CPQ package rather than configuration alone",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience integrating Salesforce with billing, ERP, or provisioning systems via REST/Bulk APIs, middleware, or direct callouts",
+      "source_span": "Experience integrating Salesforce with billing, ERP, or provisioning systems via REST/Bulk APIs, middleware (Workato, Mulesoft, or similar), or direct callouts",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Fluency with SFDX, source-controlled metadata, and a sandbox-to-prod release process with peer review",
+      "source_span": "Fluency with SFDX, source-controlled metadata, and a sandbox-to-prod release process with peer review",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Active use of AI-assisted development tools (Claude, Copilot, Cursor, or similar) as part of how you write and review code, with ability to steer and verify their output",
+      "source_span": "Active use of AI-assisted development tools (Claude, Copilot, Cursor, or similar) as part of how you write and review code, and the ability to speak to how you steer and verify their output",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Job Search Agent (GitHub): Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence.",
+      "Split the work so the AI makes only judgment calls (what a posting asks for, whether a r\u00e9sum\u00e9 meets it) and Python does everything else: fetching, verifying, scoring, ranking. Cut a typical search from 16 AI steps to 3\u20134."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Basic SQL skills and comfort working alongside a data warehouse",
+      "source_span": "Basic SQL skills and comfort working alongside a data warehouse",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "SQL",
+      "a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Salesforce Platform Developer I and II certifications",
+      "source_span": "Salesforce Platform Developer I and II certifications",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Advanced Administrator or Application/System Architect certification",
+      "source_span": "Advanced Administrator or Application/System Architect certification",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Deep understanding of Salesforce platform constraints: governor limits, bulkification, sharing and visibility, recursion control, and how they surface in CPQ-specific situations",
+      "source_span": "Deep understanding of Salesforce platform constraints: governor limits, bulkification, sharing and visibility, recursion control, and how they surface in CPQ-specific situations such as large quotes, calculation performance, and bulk amendments",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience implementing a CPQ solution end to end or re-platforming from one CPQ to another",
+      "source_span": "Experience implementing a CPQ solution end to end or re-platforming from one CPQ to another, not just maintaining an existing one",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with billing and finance platforms such as Stripe, Metronome, or Oracle, and with usage-based or consumption pricing models",
+      "source_span": "Experience with billing and finance platforms such as Stripe, Metronome, or Oracle, and with usage-based or consumption pricing models",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Working understanding of how CPQ design decisions flow through to bookings, invoicing, and revenue recognition",
+      "source_span": "Working understanding of how CPQ design decisions flow through to bookings, invoicing, and revenue recognition",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Proven experience scaling Salesforce in a high-growth GTM environment",
+      "source_span": "Proven experience scaling Salesforce in a high-growth GTM environment",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Bachelor's degree or equivalent combination of education, training, and/or experience in a relevant field",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  }
+]

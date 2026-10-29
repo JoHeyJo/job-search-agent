@@ -1,0 +1,89 @@
+{
+  "kept": [
+    {
+      "text": "3+ years of hands-on software engineering experience, including a track record of owning the architecture of complex, distributed, production-critical systems end to end",
+      "source_span": "3+ years of hands-on software engineering experience, including a track record of owning the architecture of complex, distributed, production-critical systems end to end.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Programming experience in Go or Rust and a desire to improve skills in both",
+      "source_span": "Programming experience in Go or Rust and a desire to improve your skills in both.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Solid grasp of networking protocols in Layers 3 and 4 of the OSI Model",
+      "source_span": "A solid grasp of networking protocols in Layers 3 and 4 of the OSI Model.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Knowledge of HTTP, TLS, and CDN networks",
+      "source_span": "Knowledge of HTTP, TLS, and CDN networks.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience implementing secure and highly-available distributed systems",
+      "source_span": "Experience in implementing secure and highly-available distributed systems.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong ability to debug issues in complex systems",
+      "source_span": "Strong ability to debug issues in complex systems.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience or interest in HTTP networking and VPN technologies",
+      "source_span": "Experience/interest in HTTP networking and VPN technologies.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience or interest in network performance monitoring and tuning",
+      "source_span": "Experience/interest in network performance monitoring and tuning.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Knowledge of TCP/IP and Internet routing",
+      "source_span": "Knowledge of TCP/IP and Internet routing.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Professional systems-level programming experience in Rust",
+      "source_span": "Professional systems-level programming experience in Rust.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience building tools and APIs",
+      "source_span": "Experience building tools and APIs.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with monitoring, alerting, and debugging large-scale distributed systems",
+      "source_span": "Experience with monitoring, alerting, and debugging large-scale distributed systems",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience participating in an on-call rotation",
+      "source_span": "Experience participating in an on-call rotation.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience using AI-assisted development tools (e.g., code completion, codebase analysis, log/data exploration) in a professional setting",
+      "source_span": "Experience using AI-assisted development tools (e.g., code completion, codebase analysis, log/data exploration) in a professional setting.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

@@ -1,0 +1,77 @@
+{
+  "kept": [
+    {
+      "text": "Bachelor's or Master's degree in Electrical Engineering or a related field",
+      "source_span": "Bachelor's or Master's degree in Electrical Engineering or a related field.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "8+ years of hands-on product-development experience spanning electrical hardware and embedded firmware",
+      "source_span": "8+ years of hands-on product-development experience spanning electrical hardware and embedded firmware.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Has taken customer-facing or field-deployed hardware from early concept through production, with experience scaling designs beyond initial deployments",
+      "source_span": "You have taken customer-facing or field-deployed hardware from early concept through production, with experience scaling designs beyond initial deployments.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Has personally designed a board and written its production firmware on the same product (genuine dual capability in hardware and firmware)",
+      "source_span": "You have personally designed a board and written its production firmware on the same product. This is the core requirement: genuine dual capability, not adjacency to it.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Hands-on depth in compute-based board design, embedded C/C++, board bring-up, and hardware debugging",
+      "source_span": "You have hands-on depth in compute-based board design, embedded C/C++, board bring-up, and hardware debugging.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Able to independently develop a system architecture from incomplete requirements",
+      "source_span": "You can independently develop a system architecture from incomplete requirements.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Sufficient experience across power, wireless, sensors, and interfaces to lead the whole electrical system",
+      "source_span": "You have sufficient experience across power, wireless, sensors, and interfaces to lead the whole electrical system.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience developing tablets, POS systems, or other connected consumer/enterprise devices",
+      "source_span": "Experience developing tablets, POS systems, or other connected consumer/enterprise devices.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with regulatory compliance and certification processes (FCC, CE, etc.)",
+      "source_span": "Experience with regulatory compliance and certification processes (FCC, CE, etc.).",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Exposure to electromechanical or robotics systems",
+      "source_span": "Exposure to electromechanical or robotics systems.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Has shipped hardware at scale in customer-facing products",
+      "source_span": "You've shipped hardware at scale in customer-facing products.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Has worked with in-house and contract manufacturing teams",
+      "source_span": "Have worked with in-house and contract manufacturing teams.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

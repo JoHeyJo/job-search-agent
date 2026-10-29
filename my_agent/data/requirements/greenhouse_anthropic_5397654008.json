@@ -1,0 +1,53 @@
+{
+  "kept": [
+    {
+      "text": "Experience designing and shipping complex workflows, enterprise/B2B SaaS, developer tools, or API products end-to-end",
+      "source_span": "Experience designing and shipping complex workflows, enterprise/B2B SaaS, developer tools, or API products end-to-end",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Proven track record of executing end-to-end on large and complex products, or a series of products, in ambiguous environments",
+      "source_span": "Proven track record of executing end-to-end on large and complex products, or a series of products, in ambiguous environments",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "A portfolio demonstrating user-centered design thinking and polished UI craftsmanship",
+      "source_span": "A portfolio demonstrating user-centered design thinking and polished UI craftsmanship",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Proficiency with modern design and prototyping tools, such as Figma",
+      "source_span": "Proficiency with modern design and prototyping tools, such as Figma",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience using AI tools such as Claude Code as a creative partner in your own design practice",
+      "source_span": "Experience using AI tools such as Claude Code as a creative partner in your own design practice",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience prototyping with front-end code (e.g., HTML/CSS/JS)",
+      "source_span": "Experience prototyping with front-end code (e.g., HTML/CSS/JS)",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Field of study relevant to the role as demonstrated through coursework, training, or professional experience",
+      "source_span": "Required field of study: A field relevant to the role as demonstrated through coursework, training, or professional experience",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

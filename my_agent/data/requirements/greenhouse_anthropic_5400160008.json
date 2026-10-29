@@ -1,0 +1,41 @@
+{
+  "kept": [
+    {
+      "text": "6+ years of experience building production software, ideally full-stack",
+      "source_span": "Have 6+ years of experience building production software, ideally full-stack",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Proficiency across the stack (Python, TypeScript, React)",
+      "source_span": "Proficiency across the stack (we use Python, TypeScript, React)",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building platforms, primitives, or internal tools that others build on top of",
+      "source_span": "Experience building platforms, primitives, or internal tools that others build on top of",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Track record of shipping products independently",
+      "source_span": "A track record of shipping products independently\u2014not just contributing to larger efforts",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's degree or equivalent combination of education, training, and/or experience",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Field of study relevant to the role",
+      "source_span": "Required field of study: A field relevant to the role as demonstrated through coursework, training, or professional experience",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

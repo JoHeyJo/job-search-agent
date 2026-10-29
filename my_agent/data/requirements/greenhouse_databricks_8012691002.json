@@ -1,0 +1,29 @@
+{
+  "kept": [
+    {
+      "text": "Bachelor's degree in Computer Science or equivalent practical experience in databases or distributed systems",
+      "source_span": "BS in Computer Science or equivalent practical experience in databases or distributed systems",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "3+ years of production level experience in Java, Scala, or C++",
+      "source_span": "3+ years of production level experience in either Java, Scala or C++",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Solid foundation in algorithms and data structures and their real-world use cases",
+      "source_span": "Solid foundation in algorithms and data structures and their real-world use cases",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with distributed systems, databases, and big data systems (Apache Spark, Hadoop)",
+      "source_span": "Experience with distributed systems, databases, and big data systems (Apache Spark\u2122, Hadoop)",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

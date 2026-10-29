@@ -1,0 +1,85 @@
+[
+  {
+    "requirement": {
+      "text": "Experience designing, building and operating complex production systems in security engineering, cloud infrastructure, platform engineering or a related area.",
+      "source_span": "Experience designing, building and operating complex production systems in security engineering, cloud infrastructure, platform engineering or a related area.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Strong experience with AWS security architecture, Terraform and infrastructure-as-code, ideally in large-scale or multi-account environments.",
+      "source_span": "Strong experience with AWS security architecture, Terraform and infrastructure-as-code, ideally in large-scale or multi-account environments.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience in cloud governance, CI/CD security, vulnerability management, security automation, compliance platforms or developer security tooling.",
+      "source_span": "Experience in one or more relevant areas such as cloud governance, CI/CD security, vulnerability management, security automation, compliance platforms or developer security tooling.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Demonstrated ownership of complex or ambiguous technical initiatives, including defining architecture, evaluating tradeoffs and delivering impact beyond a single team.",
+      "source_span": "Demonstrated ownership of complex or ambiguous technical initiatives, including defining architecture, evaluating tradeoffs and delivering impact beyond a single team.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Strong software engineering judgment across system design, APIs, reliability, observability, testing and the safe operation of security-critical systems.",
+      "source_span": "Strong software engineering judgment across system design, APIs, reliability, observability, testing and the safe operation of security-critical systems.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Conducted thorough code reviews that reduced bug-related issues by 40%, ensuring high-quality production features.",
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Bachelor's degree in Computer Science, Engineering or a related field, or equivalent experience.",
+      "source_span": "Bachelor's degree in Computer Science, Engineering or a related field, or equivalent experience.",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  }
+]

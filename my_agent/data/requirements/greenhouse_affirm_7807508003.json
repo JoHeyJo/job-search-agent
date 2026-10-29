@@ -1,0 +1,35 @@
+{
+  "kept": [
+    {
+      "text": "Previous work or internship experience designing, developing and launching backend systems at scale",
+      "source_span": "You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using one of Python or Kotlin.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experienced using one of Python or Kotlin",
+      "source_span": "experienced using one of Python or Kotlin",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiar with the building blocks of distributed systems, and technologies like AWS, MySQL and Kubernetes",
+      "source_span": "You are familiar with the building blocks of distributed systems, and the technologies like AWS, MySQL and Kubernetes.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to translate a simple problem or business scenario into a solution that interacts with multiple software components, writing clear, well tested and extensible code",
+      "source_span": "You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Comfortable navigating a large code base, debugging others' code, and providing feedback through code reviews",
+      "source_span": "You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.",
+      "preferred": false,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

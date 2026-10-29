@@ -1,0 +1,47 @@
+{
+  "kept": [
+    {
+      "text": "Minimum of 2 years of experience in analytics engineering or data solutions",
+      "source_span": "Minimum of 2 years of experience delivering analytics engineering or data solutions in a fast-paced, data-driven environment.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience using SQL and Python, R or a comparable programming language to work with large, high-dimensional datasets, including nested data structures, window functions, query optimization and data partitioning",
+      "source_span": "Experience using SQL and Python, R or a comparable programming language to work with large, high-dimensional datasets, including nested data structures, window functions, query optimization and data partitioning.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience building and operating data workflows, including workflow orchestration, ETL/ELT pipelines and DAG dependencies across complex datasets",
+      "source_span": "Experience building and operating data workflows, including workflow orchestration, ETL/ELT pipelines and DAG dependencies across complex datasets.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience translating open-ended partner needs into clear, impactful technical objectives and collaborating across Product, Engineering, Data Science, Data Engineering and Business Intelligence teams",
+      "source_span": "Experience translating open-ended partner needs into clear, impactful technical objectives and collaborating across Product, Engineering, Data Science, Data Engineering and Business Intelligence teams.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Demonstrated ability to use AI to improve speed and quality in day-to-day engineering workflows",
+      "source_span": "Demonstrated ability to use AI to improve speed and quality in day-to-day engineering workflows.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Track record of critically evaluating and verifying AI-assisted work through testing, data validation, source-checking or peer review",
+      "source_span": "Strong track record of critically evaluating and verifying AI-assisted work through testing, data validation, source-checking or peer review.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's degree in Computer Science, Statistics, Mathematics or a related discipline, or equivalent experience",
+      "source_span": "Bachelor's degree in a relevant field such as Computer Science, Statistics, Mathematics or a related discipline, or equivalent experience.",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

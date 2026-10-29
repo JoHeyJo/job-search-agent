@@ -1,0 +1,89 @@
+{
+  "kept": [
+    {
+      "text": "2+ years of software engineering experience in device driver development, embedded systems, or operating systems",
+      "source_span": "2+ years software engineering experience in device driver development, embedded systems, or operating systems",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "2+ years working with mobile or other connected devices",
+      "source_span": "2+ years working with mobile or other connected devices",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience using automated testing, build systems, and inter-component communication protocols such as UART, GPIO, SPI, I2C, etc.",
+      "source_span": "Experience using automated testing, build systems, and inter-component communication protocols such as UART, GPIO, SPI, I2C, etc.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Proficiency in C/C++ or Kotlin/Java",
+      "source_span": "Proficiency in C/C++ or Kotlin/Java",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with Android OS, and familiarity with associated software development tools",
+      "source_span": "Experience with Android OS, and familiarity with associated software development tools",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Degree in CS, CE, EE, or equivalent practical experience",
+      "source_span": "Degree in CS, CE, EE, or equivalent practical experience",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience adding, monitoring and parsing telemetry data to proactively resolve issues",
+      "source_span": "Experience adding, monitoring and parsing telemetry data to proactively resolve issues",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Fluency in both written and spoken English and Mandarin Chinese",
+      "source_span": "Fluency in both written and spoken English and Mandarin Chinese to be able to communicate with our vendors and users/customers",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with ARM platform",
+      "source_span": "Experience with ARM platform",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience working with microcontrollers",
+      "source_span": "Experience working with microcontrollers",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Knowledge of EMV",
+      "source_span": "Knowledge of EMV.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Knowledge of cryptography, symmetric, asymmetric, key management and exchange",
+      "source_span": "Knowledge of cryptography, symmetric, asymmetric, key management and exchange is an asset.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Experience with POS Hardware and peripherals",
+      "source_span": "Experience with POS Hardware and peripherals.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Knowledge and expertise of PCI technology, transaction processing, and related retail standards",
+      "source_span": "Knowledge and expertise of PCI technology, transaction processing, and related retail standards.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

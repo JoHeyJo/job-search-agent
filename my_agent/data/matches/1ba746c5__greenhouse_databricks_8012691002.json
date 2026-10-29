@@ -1,0 +1,52 @@
+[
+  {
+    "requirement": {
+      "text": "Bachelor's degree in Computer Science or equivalent practical experience in databases or distributed systems",
+      "source_span": "BS in Computer Science or equivalent practical experience in databases or distributed systems",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022",
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "3+ years of production level experience in Java, Scala, or C++",
+      "source_span": "3+ years of production level experience in either Java, Scala or C++",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Solid foundation in algorithms and data structures and their real-world use cases",
+      "source_span": "Solid foundation in algorithms and data structures and their real-world use cases",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with distributed systems, databases, and big data systems (Apache Spark, Hadoop)",
+      "source_span": "Experience with distributed systems, databases, and big data systems (Apache Spark\u2122, Hadoop)",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability.",
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  }
+]

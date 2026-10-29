@@ -1,0 +1,74 @@
+[
+  {
+    "requirement": {
+      "text": "Experience building and maintaining production Python backend applications, including APIs, asynchronous or background processing, and data models.",
+      "source_span": "Experience building and maintaining production Python backend applications, including APIs, asynchronous or background processing, and data models.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability.",
+      "Modeled data tables with SQLAlchemy, backed by Jest tests, ensuring reliable functionality."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience with LLM application frameworks such as LangGraph, or designing and shipping AI-powered backend features or harnesses.",
+      "source_span": "Experience with LLM application frameworks such as LangGraph, or designing and shipping AI-powered backend features or harnesses.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Job Search Agent (GitHub): Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence.",
+      "Split the work so the AI makes only judgment calls (what a posting asks for, whether a r\u00e9sum\u00e9 meets it) and Python does everything else: fetching, verifying, scoring, ranking. Cut a typical search from 16 AI steps to 3\u20134."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Skill in designing or extending APIs (REST, GraphQL or gRPC) with attention to scalability, maintainability and backward compatibility.",
+      "source_span": "Skill in designing or extending APIs (REST, GraphQL or gRPC) with attention to scalability, maintainability and backward compatibility.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability.",
+      "Implemented microservice architecture to facilitate client requests and database management boosting code maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with Ruby on Rails and/or JavaScript and Vue.",
+      "source_span": "Familiarity with Ruby on Rails and/or JavaScript and Vue is a plus.",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Ruby",
+      "Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience finding and fixing performance bottlenecks in applications.",
+      "source_span": "Experience finding and fixing performance bottlenecks in applications.",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability.",
+      "Conducted thorough code reviews that reduced bug-related issues by 40%, ensuring high-quality production features."
+    ],
+    "evidence_verified": true
+  }
+]

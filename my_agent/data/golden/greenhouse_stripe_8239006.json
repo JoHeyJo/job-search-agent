@@ -1,0 +1,94 @@
+{
+  "listing_id": "greenhouse:stripe:8239006",
+  "title": "Android BSP Engineer",
+  "company": "Stripe",
+  "url": "https://stripe.com/jobs/search?gh_jid=8239006",
+  "labeled": false,
+  "requirements": [
+    {
+      "span": "2+ years software engineering experience in device driver development, embedded systems, or operating systems",
+      "preferred": false,
+      "gate": true,
+      "status": ""
+    },
+    {
+      "span": "2+ years working with mobile or other connected devices",
+      "preferred": false,
+      "gate": true,
+      "status": ""
+    },
+    {
+      "span": "Experience using automated testing, build systems, and inter-component communication protocols such as UART, GPIO, SPI, I2C, etc.",
+      "preferred": false,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Proficiency in C/C++ or Kotlin/Java",
+      "preferred": false,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Experience with Android OS, and familiarity with associated software development tools",
+      "preferred": false,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Degree in CS, CE, EE, or equivalent practical experience",
+      "preferred": false,
+      "gate": true,
+      "status": ""
+    },
+    {
+      "span": "Experience adding, monitoring and parsing telemetry data to proactively resolve issues",
+      "preferred": false,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Fluency in both written and spoken English and Mandarin Chinese to be able to communicate with our vendors and users/customers",
+      "preferred": false,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Experience with ARM platform",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Experience working with microcontrollers",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Knowledge of EMV.",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Knowledge of cryptography, symmetric, asymmetric, key management and exchange is an asset.",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Experience with POS Hardware and peripherals.",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    },
+    {
+      "span": "Knowledge and expertise of PCI technology, transaction processing, and related retail standards.",
+      "preferred": true,
+      "gate": false,
+      "status": ""
+    }
+  ],
+  "description": "About Stripe\nStripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.\nAbout the team\nStripe Terminal helps Stripe users extend their online presence into the physical world. The Terminal team’s mission is to make it as easy for businesses to accept in-person payments as the Stripe API has done for online payments. With Terminal, businesses can unlock in-person payments use cases that are right for their business model—whether it’s creating a flagship retail experience, extending their website to a pop-up store, or enabling a mobile point-of-sale at their next event.\nWhat we are looking for:\nAs an Android BSP Engineer, you will be responsible for the kernel and driver level system development, which includes building, troubleshooting, and writing automated tests for the Android system on our embedded payments platforms. This team works closely with partner teams throughout the hardware and software product lifecycle, from hardware manufacturing to Android app teams. We also work with external vendors on part selection and initial hardware bring-up.\nWhat you’ll do:\nBring up new devices and lead debugging and performance tuning exercises that span multiple hardware/firmware/software teams.\nDesign, implement, and maintain drivers and Android services that operate efficiently in a constrained environment and meet the reliability and security requirements of the industry.\nOwn the definition of one or more work streams focused on hardware bring-up, peripheral drivers and communication, and power and performance management and optimization.\nAnalyze bug reports and manage the defect resolution process (disposition issues, resolve issues, and report issue status).\nInteract with global teams with excellent communication skills to provide support information\nRoutinely perform code reviews to ensure high quality designs and implementation\nAssist in ensuring quality and timeliness of product/feature development. Work closely with QA staff to ensure appropriate test cases are created, maintained, and executed.\nProactively solve problems and work independently and within a team environment, with limited guidance.\nWho you are\nWe’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.\nMinimum requirements\n2+ years software engineering experience in device driver development, embedded systems, or operating systems\n2+ years working with mobile or other connected devices\nExperience using automated testing, build systems, and inter-component communication protocols such as UART, GPIO, SPI, I2C, etc.\nProficiency in C/C++ or Kotlin/Java\nExperience with Android OS, and familiarity with associated software development tools\nDegree in CS, CE, EE, or equivalent practical experience\nExperience adding, monitoring and parsing telemetry data to proactively resolve issues\nFluency in both written and spoken English and Mandarin Chinese to be able to communicate with our vendors and users/customers\nPreferred qualifications\nExperience with ARM platform\nExperience working with microcontrollers\nKnowledge of EMV.\nKnowledge of cryptography, symmetric, asymmetric, key management and exchange is an asset.\nExperience with POS Hardware and peripherals.\nKnowledge and expertise of PCI technology, transaction processing, and related retail standards."
+}

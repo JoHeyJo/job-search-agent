@@ -1,0 +1,71 @@
+{
+  "kept": [
+    {
+      "text": "Deep experience building production software for iOS with Swift or Android with Kotlin, with familiarity with the other ecosystem",
+      "source_span": "Deep experience building production software for either iOS with Swift or Android with Kotlin, and enough familiarity with the other ecosystem to guide shared architectural decisions",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience designing or owning customer-distributed SDKs, libraries, or similarly constrained developer-facing products",
+      "source_span": "Experience designing or owning customer-distributed SDKs, libraries, or similarly constrained developer-facing products",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with mobile platform security concepts, including app and device integrity, secure key storage, application signing, authentication, and secure communications",
+      "source_span": "Experience with mobile platform security concepts, including app and device integrity, secure key storage, application signing, authentication, and secure communications",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with native mobile networking stacks, HTTP APIs, and integration challenges from different application architectures and networking libraries",
+      "source_span": "Familiarity with native mobile networking stacks, HTTP APIs, and the integration challenges introduced by different application architectures and networking libraries",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience diagnosing production issues across application, SDK, network, and service boundaries, while designing safe diagnostics that do not expose sensitive data",
+      "source_span": "Experience diagnosing production issues that cross application, SDK, network, and service boundaries, while designing safe diagnostics that do not expose sensitive data",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Understanding of mobile package distribution, source and binary compatibility, dependency management, and reliable release practices",
+      "source_span": "Understanding of mobile package distribution, source and binary compatibility, dependency management, and reliable release practices",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience writing technical designs and aligning decisions across product, client, backend, edge, and security teams",
+      "source_span": "Experience writing technical designs and aligning decisions across product, client, backend, edge, and security teams",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience mentoring engineers and raising a team's technical bar through design review, code review, and knowledge sharing",
+      "source_span": "Experience mentoring engineers and raising a team's technical bar through design review, code review, and knowledge sharing",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Proven ability to operate within strict mobile performance budgets, including binary size, battery use, startup time, and main-thread overhead",
+      "source_span": "Proven ability to operate within strict mobile performance budgets, including binary size, battery use, startup time, and main-thread overhead",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with how native SDKs are consumed by cross-platform frameworks such as React Native and Flutter",
+      "source_span": "Familiarity with how native SDKs are consumed by cross-platform frameworks such as React Native and Flutter is a plus",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with lower-level languages like C++ or Rust for high-performance, cross-platform security modules",
+      "source_span": "Familiarity with lower-level languages like C++ or Rust for high-performance, cross-platform security modules is a plus",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

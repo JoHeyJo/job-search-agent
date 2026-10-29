@@ -1,0 +1,106 @@
+[
+  {
+    "requirement": {
+      "text": "Bachelor's degree in Computer Science, Cybersecurity, or a related field or equivalent experience",
+      "source_span": "Bachelor's degree in Computer Science, Cybersecurity or, a related field or equivalent experience",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Strong knowledge of intrusion detection and incident response with an engineering focus in a modern cloud first environment",
+      "source_span": "Strong knowledge of intrusion detection and incident response with an engineering focus in a modern cloud first environment",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Knowledge of the attacker lifecycle, common attack and detection techniques",
+      "source_span": "Knowledge of the attacker lifecycle, common attack and detection techniques",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Hands on experience with writing SIEM queries for alerting, response, and threat hunting",
+      "source_span": "Hands on experience with writing SIEM queries for alerting, response, and threat hunting",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience consuming threat intel and applying it to improve detection capabilities",
+      "source_span": "Experience consuming threat intel and applying it to improve detection capabilities",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Familiarity with using multiple sources of telemetry for threat investigations (e.g. EDR, Osquery, Firewall logs)",
+      "source_span": "Familiarity with using multiple sources of telemetry for threat investigations: Eg. EDR, Osquery, Firewall logs",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Understanding of networking technologies and/or network security, basic TCP/IP network fundamentals",
+      "source_span": "Understanding of networking technologies and/or network security, basic TCP/IP network fundamentals",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Depth in MacOS internals, or alternatively Linux/UNIX or Windows internals, persistence mechanisms, and privilege escalation techniques",
+      "source_span": "Depth in ideally MacOS internals, or alternatively in Linux/UNIX or Windows internals, persistence mechanisms, privilege escalation techniques",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Scripting or automation experience (e.g., Python, Go, Ruby) for tool development or integration",
+      "source_span": "Scripting or automation experience (e.g., Python, Go, Ruby) for tool development or integration",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Software Engineer Intern, Numbers API, San Francisco, CA, May 2022 \u2013 Jun 2022: Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  }
+]

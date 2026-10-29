@@ -1,0 +1,77 @@
+{
+  "kept": [
+    {
+      "text": "BS or graduate degree in Computer Science, Engineering, or related field",
+      "source_span": "BS or a graduate degree in Computer Science, Engineering or related field.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "1\u20133 years of experience working on Linux development as a Software Engineer",
+      "source_span": "1-3 years of experience working on Linux development as a Software Engineer.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Proficient in C/C++",
+      "source_span": "Proficient in C/C++.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiar with Linux servers, Linux device drivers, Linux kernel patches, secure operating systems and security focused programming",
+      "source_span": "Familiar with Linux servers, Linux device drivers, Linux kernel patches, secure operating systems and security focused programming.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience working with embedded Linux",
+      "source_span": "Preferred experience working with embedded Linux",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Bash scripting experience",
+      "source_span": "Bash scripting experience",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience working with Distributed Systems",
+      "source_span": "Experience working with Distributed Systems",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Understanding of HTTP and practical debugging technique",
+      "source_span": "Understanding of HTTP and practical debugging technique",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with Yocto",
+      "source_span": "Experience with Yocto",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with Secure Boot",
+      "source_span": "Familiarity with Secure Boot",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with Go and Python",
+      "source_span": "Familiarity with Go and Python.",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with WebRTC",
+      "source_span": "Familiarity with WebRTC",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

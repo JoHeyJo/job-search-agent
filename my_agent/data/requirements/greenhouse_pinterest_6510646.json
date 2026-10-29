@@ -1,0 +1,41 @@
+{
+  "kept": [
+    {
+      "text": "4+ years of industry full-stack development experience, building consumer or business facing products",
+      "source_span": "4+ years of industry full-stack development experience, building consumer or business facing products",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Proven ability to build scalable web UIs using React, Typescript, Redux, GraphQL, and REST APIs",
+      "source_span": "Proven ability to build scalable web UIs using React, Typescript, Redux, GraphQL, and REST APIs",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Comfortable architecting and building scalable web UIs with React, Typescript, Redux, GraphQL and REST APIs",
+      "source_span": "Comfortable architecting and building scalable web UIs with React, Typescript, Redux, GraphQL and REST APIs",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Proficiency in one or more common frontend and fullstack tech stacks: e.g. Javascript, React, API, storage, caching and data processing",
+      "source_span": "Proficiency in one or more common frontend and fullstack tech stacks: e.g. Javascript, React, API, storage, caching and data processing.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience following best practices in writing reliable and maintainable code",
+      "source_span": "Experience in following best practices in writing reliable and maintainable code that may be used by many other engineers",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's or Master's degree in a relevant field such as Computer Science, or equivalent experience",
+      "source_span": "Bachelor's or Master's degree in a relevant field such as Computer Science, or equivalent experience",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

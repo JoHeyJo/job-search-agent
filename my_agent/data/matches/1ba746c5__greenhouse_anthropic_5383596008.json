@@ -1,0 +1,131 @@
+[
+  {
+    "requirement": {
+      "text": "5+ years of experience in developer relations, developer experience, or technical product/engineering roles",
+      "source_span": "You have 5+ years of experience in developer relations, developer experience, or technical product/engineering roles, with a track record of shipping content or tools that measurably grew a developer ecosystem",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Track record of shipping content or tools that measurably grew a developer ecosystem",
+      "source_span": "with a track record of shipping content or tools that measurably grew a developer ecosystem",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Ability to deeply understand AI/ML and API concepts and translate complex technical ideas for various audiences",
+      "source_span": "You can deeply understand AI/ML and API concepts and translate complex technical ideas for various audiences, from individual developers to enterprise engineers",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence.",
+      "Split the work so the AI makes only judgment calls (what a posting asks for, whether a r\u00e9sum\u00e9 meets it) and Python does everything else: fetching, verifying, scoring, ranking. Cut a typical search from 16 AI steps to 3\u20134."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Can write production-quality code demos, critically review developer samples for quality and best practices, and give specific, actionable technical feedback",
+      "source_span": "You can write production-quality code demos, critically review developer samples for quality and best practices, and give specific, actionable technical feedback",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Conducted thorough code reviews that reduced bug-related issues by 40%, ensuring high-quality production features.",
+      "Uphold coding standards through comprehensive code reviews while managing Agile task delegation for high-quality, on-time delivery.",
+      "Coach engineers on core professional skills: debugging, troubleshooting, version control, and effective research methods, accelerating their growth and collaboration."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Real insight into developer psychology and behavior, knowing how to reach developers through the right channels, build authentic affinity for products, and design content that drives meaningful adoption",
+      "source_span": "You have real insight into developer psychology and behavior. You know how to reach developers through the right channels, build authentic affinity for products, and design content that drives meaningful adoption",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Lead and mentor cohorts of student engineers through month-long React projects, guiding teams from planning through delivery across Git, GitHub, and Slack.",
+      "Coach engineers on core professional skills: debugging, troubleshooting, version control, and effective research methods, accelerating their growth and collaboration."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience working specifically with large language models or generative AI",
+      "source_span": "Experience working specifically with large language models or generative AI",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "AI agent (AWS Bedrock, Strands)",
+      "Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Background in AI safety, ethics, or responsible AI development",
+      "source_span": "Background in AI safety, ethics, or responsible AI development",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Public speaking experience at industry conferences and events",
+      "source_span": "Public speaking experience at industry conferences and events",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Content creation experience (technical writing, video tutorials, etc.)",
+      "source_span": "Content creation experience (technical writing, video tutorials, etc.)",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Bachelor's degree or an equivalent combination of education, training, and/or experience in a field relevant to the role",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  }
+]

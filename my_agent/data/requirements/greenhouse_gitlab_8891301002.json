@@ -1,0 +1,59 @@
+{
+  "kept": [
+    {
+      "text": "Professional experience building backend web applications, services, or APIs using Ruby",
+      "source_span": "Professional experience building backend web applications, services, or application programming interfaces, with experience using Ruby and GraphQL.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience using GraphQL",
+      "source_span": "Professional experience building backend web applications, services, or application programming interfaces, with experience using Ruby and GraphQL.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Understanding of relational databases, SQL, data modeling, caching, background processing, and backend performance practices",
+      "source_span": "An understanding of relational databases, structured query language, data modeling, caching, background processing, and backend performance practices.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with full-stack development to build and maintain user-facing workflows and their underlying systems",
+      "source_span": "Experience with full-stack development to build and maintain user-facing workflows and their underlying systems.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience writing backend unit and integration tests, with familiarity with the testing pyramid",
+      "source_span": "Experience writing backend unit and integration tests, with familiarity with the testing pyramid, Git, and collaborative code review processes.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with Git and collaborative code review processes",
+      "source_span": "Experience writing backend unit and integration tests, with familiarity with the testing pyramid, Git, and collaborative code review processes.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience using AI coding agents to speed up software development while critically reviewing their output",
+      "source_span": "Experience using AI coding agents to speed up software development while critically reviewing their output.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Located in the United Kingdom or Poland",
+      "source_span": "You'll work remotely from the United Kingdom or Poland.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Has built agents or agent-based workflows that run in production, not just prototypes",
+      "source_span": "Bonus: you've built agents or agent-based workflows that run in production, not just prototypes.",
+      "preferred": true,
+      "gate": false
+    }
+  ],
+  "dropped": []
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "requirement": {
+      "text": "6+ years building and shipping web products, with deep expertise across the stack",
+      "source_span": "6+ years building and shipping web products, with deep expertise across the stack",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Strong front-end craft: TypeScript/JavaScript, React, CSS",
+      "source_span": "Strong front-end craft: TypeScript/JavaScript, React, CSS\u2014with an eye for interaction design, motion, and visual detail",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Overhauled the JavaScript codebase to TypeScript, improving reliability, maintainability, and developer productivity.",
+      "Designed a polished, responsive UI/UX with React and Tailwind, elevating the product's visual quality.",
+      "Optimized users experience with intuitive, custom built, user-facing React features."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Solid back-end and data pipeline experience: Python, API design, analytics infrastructure",
+      "source_span": "Solid back-end and data pipeline experience: Python, API design, analytics infrastructure",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Converted Node.js services to Flask, enforcing RESTful endpoints and DRY principles for better maintainability and scalability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "A portfolio showcasing innovative interaction designs and high-quality implementations",
+      "source_span": "A portfolio showcasing innovative interaction designs and high-quality implementations",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Job Search Agent (GitHub): Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Track record of independently driving features from prototype to production",
+      "source_span": "Track record of independently driving features from prototype to production",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Constructed and deployed a custom AWS suite to run a high-availability full stack application, improving performance, security, and maintainability."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience or genuine passion for skill development, HCI, developer tools, or products that help people become more capable",
+      "source_span": "Experience or genuine passion for skill development, HCI, developer tools, or products that help people become more capable",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Lead and mentor cohorts of student engineers through month-long React projects, guiding teams from planning through delivery across Git, GitHub, and Slack.",
+      "Coach engineers on core professional skills: debugging, troubleshooting, version control, and effective research methods, accelerating their growth and collaboration."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Ability to rapidly prototype, test with users, and iterate toward production",
+      "source_span": "Ability to rapidly prototype, test with users, and iterate toward production",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end.",
+      "Redesigned an early version that hallucinated qualifications: Python now fetches full postings directly from company job boards, so the AI only ever reads real text."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Experience setting vision, shaping team strategy, and building conviction across cross-functional stakeholders",
+      "source_span": "Experience setting vision, shaping team strategy, and building conviction across cross-functional stakeholders",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Track record of influencing roadmaps and decisions beyond your immediate team",
+      "source_span": "Track record of influencing roadmaps and decisions beyond your immediate team",
+      "preferred": false,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience in developer tools, creative tools, learning platforms, or other products where user skill development and mastery matter",
+      "source_span": "Experience in developer tools, creative tools, learning platforms, or other products where user skill development and mastery matter more than time-on-site",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Lead and mentor cohorts of student engineers through month-long React projects, guiding teams from planning through delivery across Git, GitHub, and Slack.",
+      "Coach engineers on core professional skills: debugging, troubleshooting, version control, and effective research methods, accelerating their growth and collaboration."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Background in learning sciences, cognitive science, HCI, skill acquisition research, or educational psychology (formal or self-directed)",
+      "source_span": "Background in learning sciences, cognitive science, HCI, skill acquisition research, or educational psychology (formal or self-directed)",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience with experimentation frameworks, A/B testing, or analytics that measure capability development in production",
+      "source_span": "Experience with experimentation frameworks, A/B testing, or analytics that measure capability development in production",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Previous experience in research labs, frontier tech companies, or startups with high autonomy and ambiguity",
+      "source_span": "Previous experience in research labs, frontier tech companies, or startups with high autonomy and ambiguity",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "partial",
+    "evidence": [
+      "Software Engineer, Freelance, Oakland, CA, Apr 2024 \u2013 Present: Designed, built, and shipped a full stack application, in production with local businesses (beta), owning every layer from concept to production: a React/TypeScript front end, a Python/PostgreSQL back end."
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Published writing, talks, or open-source work on skill development, human-AI interaction, or product philosophy",
+      "source_span": "Published writing, talks, or open-source work on skill development, human-AI interaction, or product philosophy",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "unmet",
+    "evidence": [],
+    "evidence_verified": false
+  },
+  {
+    "requirement": {
+      "text": "Experience building AI-native product experiences or working with LLMs in production contexts",
+      "source_span": "Experience building AI-native product experiences or working with LLMs in production contexts",
+      "preferred": true,
+      "gate": false
+    },
+    "status": "met",
+    "evidence": [
+      "Job Search Agent (GitHub): Built an AI job-search agent that interprets a plain-English request, picks companies to search, reads each posting, and ranks listings against a r\u00e9sum\u00e9 with cited evidence.",
+      "AI agent (AWS Bedrock, Strands)"
+    ],
+    "evidence_verified": true
+  },
+  {
+    "requirement": {
+      "text": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "source_span": "Minimum education: Bachelor's degree or an equivalent combination of education, training, and/or experience",
+      "preferred": false,
+      "gate": true
+    },
+    "status": "partial",
+    "evidence": [
+      "Full Stack Web Development, Rithm School, San Francisco, CA, Mar 2022 \u2013 Jun 2022"
+    ],
+    "evidence_verified": true
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "kept": [
+    {
+      "text": "At least 1.5 years of experience as a software engineer",
+      "source_span": "You have a total of 1.5+ years of experience as a software engineer.",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Experience designing, developing, and launching backend systems",
+      "source_span": "You have experience designing, developing and launching backend systems",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Proficiency in Python or Kotlin",
+      "source_span": "are proficient in one of Python or Kotlin.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Familiarity with building blocks of distributed systems and technologies like AWS, MySQL, and Kubernetes",
+      "source_span": "You are familiar with the building blocks of distributed systems, and the technologies like AWS, MySQL and Kubernetes.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to translate a simple problem or business scenario into a solution interacting with multiple software components, writing clear, well-tested, and extensible code",
+      "source_span": "You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Comfortable navigating a large codebase, debugging others' code, and providing feedback through code reviews",
+      "source_span": "You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's degree in a related field or equivalent practical experience",
+      "source_span": "This position requires either equivalent practical experience or a Bachelor's degree in a related field.",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

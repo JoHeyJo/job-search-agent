@@ -1,0 +1,53 @@
+{
+  "kept": [
+    {
+      "text": "Bachelor's or Master's degree in Computer Science or a related technical field, expected by June 2027",
+      "source_span": "Bachelor's or Master's degree in Computer Science or a related technical field, expected by June 2027",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Must be available to start full-time between January 2027 and September 2027",
+      "source_span": "Must be available to start full-time between January 2027 and September 2027",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "At least one year of programming experience through internships, research, coursework, teaching, personal projects, open source, or hackathons",
+      "source_span": "At least one year of programming experience through internships, research, coursework, teaching, personal projects, open source, or hackathons",
+      "preferred": false,
+      "gate": true
+    },
+    {
+      "text": "Familiarity using AI as a learning, productivity, and engineering tool and as an iterative coding partner",
+      "source_span": "Familiarity using AI as a learning, productivity, and engineering tool, and as an iterative coding partner, to accelerate engineering work while exercising strong judgment around accuracy, security, and when to ask for help",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Strong foundation in computer science fundamentals, including data structures, algorithms, and software design",
+      "source_span": "Strong foundation in computer science fundamentals, including data structures, algorithms, and software design",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Experience with one or more programming languages such as Python, Java, JavaScript/TypeScript, Go, or C++, and familiarity with relevant frameworks, tools, or technologies such as React or similar",
+      "source_span": "Experience with one or more programming languages such as Python, Java, JavaScript/TypeScript, Go, or C++, and familiarity with relevant frameworks, tools, or technologies such as React or similar.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Previous software engineering internship experience strongly preferred",
+      "source_span": "Previous software engineering internship experience strongly preferred",
+      "preferred": true,
+      "gate": false
+    },
+    {
+      "text": "Must be currently legally authorized to work in the United States on a full-time basis; position is not eligible for immigration sponsorship",
+      "source_span": "For this role, applicants must be currently legally authorized to work in the United States on a full-time basis. The Company complies with all applicable federal, state, and/or local equal employment opportunity and/or anti-discrimination laws.\nThis position is not eligible for immigration sponsorship.",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}

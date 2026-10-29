@@ -1,0 +1,35 @@
+{
+  "kept": [
+    {
+      "text": "Previous work or internship experience with JavaScript/TypeScript",
+      "source_span": "You have previous work or internship experience working with Javascript/Typescript.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Previous work or internship experience designing, developing and launching backend systems at scale using Python or Kotlin",
+      "source_span": "You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using Python or Kotlin.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Ability to write clear, well-tested, and extensible code that interacts with multiple software components",
+      "source_span": "You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Comfortable navigating a large codebase, debugging others' code, and providing feedback through code reviews",
+      "source_span": "You are comfortable navigating a large code base, debugging others' code, and providing feedback to other engineers through code reviews.",
+      "preferred": false,
+      "gate": false
+    },
+    {
+      "text": "Bachelor's degree in a related field or equivalent practical experience",
+      "source_span": "This position requires either equivalent practical experience or a Bachelor's degree in a related field.",
+      "preferred": false,
+      "gate": true
+    }
+  ],
+  "dropped": []
+}
