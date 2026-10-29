@@ -48,13 +48,24 @@ def _same(a: str, b: str) -> bool:
 # --- init --------------------------------------------------------------------------------------
 
 
-def init(boards: list[str], per_board: int) -> None:
+def init(
+    boards: list[str],
+    per_board: int,
+    title_any: list[str] | None = None,
+    match: list[str] | None = None,
+) -> None:
     GOLDEN.mkdir(parents=True, exist_ok=True)
-    f = Filters(per_board=per_board)
+    f = Filters(per_board=per_board, **({"title_any": title_any} if title_any else {}))
     written = 0
     for slug in boards:
-        kept = [l for l in fetch_board(slug) if _keep(l, f)][:per_board]
-        for l in kept:
+        listings = [l for l in fetch_board(slug) if _keep(l, f)]
+        if match:  # pick by title substring, ignore the per-board cap
+            listings = [
+                l for l in listings if any(m.lower() in l.title.lower() for m in match)
+            ]
+        else:
+            listings = listings[:per_board]
+        for l in listings:
             path = GOLDEN / (l.id.replace(":", "_") + ".json")
             if path.exists():
                 continue
@@ -78,7 +89,9 @@ def init(boards: list[str], per_board: int) -> None:
             }
             path.write_text(json.dumps(template, indent=2, ensure_ascii=False))
             written += 1
-            print(f"wrote {path.name}  ({len(model_reqs)} requirements prefilled)")
+            print(
+                f"wrote {path.name}  {l.title}  ({len(model_reqs)} requirements prefilled)"
+            )
     print(
         f"\n{written} templates. Prefilled from the model's extraction — delete what's wrong, ADD what it missed."
     )
@@ -182,12 +195,19 @@ def run(resume_path: Path) -> None:
 if __name__ == "__main__":
     args = sys.argv[1:]
     if args and args[0] == "init":
-        per = 3
-        if "--per-board" in args:
-            i = args.index("--per-board")
-            per = int(args[i + 1])
-            args = args[:i] + args[i + 2 :]
-        init(args[1:], per)
+        import argparse
+
+        ap = argparse.ArgumentParser(prog="eval.py init")
+        ap.add_argument("boards", nargs="+")
+        ap.add_argument("--per-board", type=int, default=3)
+        ap.add_argument(
+            "--title", nargs="*", help="title terms, same as rank_jobs title_any"
+        )
+        ap.add_argument(
+            "--match", nargs="*", help="only listings whose title contains one of these"
+        )
+        a = ap.parse_args(args[1:])
+        init(a.boards, a.per_board, a.title, a.match)
     elif args and args[0] == "run":
         run(Path(args[1]) if len(args) > 1 else Path("resume.pdf"))
     else:

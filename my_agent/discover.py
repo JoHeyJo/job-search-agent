@@ -160,7 +160,6 @@ def discover(role: str, limit: int = 10) -> list[Board]:
     boards.sort(key=lambda b: (-b.matching, -b.hits))
     return boards[:limit]
 
-
 if __name__ == "__main__":
     role = (
         sys.argv[1]

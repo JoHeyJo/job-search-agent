@@ -29,6 +29,11 @@ Rules:
 - Only extract from requirement/qualification sections. Skip responsibilities, company blurbs,
   and benefits.
 - Skip personality and soft-skill items (curiosity, communication, team player, collaboration, passion, ownership, or mindset) — they cannot be verified against a résumé.
+- Skip items about working style, personality, or logistics, even when phrased as qualifications.
+  Examples to skip: "Can prototype quickly and iterate confidently", "Strong verbal and written
+  English language skills", "Comfortable working on projects with tight deadlines", "Passion for
+  collaboration", "Strong collaboration and communication skills", "Ability to take a well-scoped
+  problem and drive it to completion", "Willing to travel", "may require on-call", "hybrid policy".
 - If the posting has no requirements, return an empty list. Never invent.
 """
 

@@ -28,9 +28,10 @@ For each requirement, decide:
 - unmet: nothing in the profile addresses it. If you would need to explain why the
   evidence is related, it is unmet. When torn between partial and unmet, choose unmet.
 
-evidence: for met or partial, copy ONE profile line (or a contiguous substring of one)
-exactly as written. Do not include the leading ‘- ‘ bullet. The line must support the specific part you are crediting. For unmet,
-evidence is null.
+evidence: one to three profile lines, each copied exactly (or a contiguous substring of one).
+Use more than one line when the requirement needs it: for "N years of X", cite every role line
+whose dates should count; for compound requirements, cite the line for each part. For unmet,
+evidence is an empty list. Do not include the leading ‘- ‘ bullet.
 
 Be strict:
 - A skill merely listed does not satisfy a stated minimum of years. Use partial unless the
@@ -102,6 +103,7 @@ def verify(
     judgments: list[_Judgment], reqs: list[Requirement], lines: list[str]
 ) -> list[RequirementMatch]:
     """Pure Python: zip judgments back to requirements, check evidence, apply the downgrade rule."""
+    _Judgment.evidence: list[str] = []
     by_index = {
         j.requirement_index: j
         for j in judgments

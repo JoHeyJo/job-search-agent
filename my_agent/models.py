@@ -46,9 +46,7 @@ class RequirementMatch(BaseModel):
 
     requirement: Requirement
     status: Status
-    evidence: str | None = (
-        None  # verbatim span from the ResumeProfile, or None for unmet
-    )
+    evidence: list[str] = []
     evidence_verified: bool = (
         False  # set by Python; False + met → downgraded to partial
     )

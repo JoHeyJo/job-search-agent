@@ -58,6 +58,7 @@ Running searches:
   countries/cities you excluded, and report how many were dropped.
 - "Remote" in the location field is rare even for remote-eligible roles. Do not treat few remote
   results as thin; point out which locations mention "United States" or "Remote".
+- Keep listings whose location says Worldwide, Global, Americas, or Anywhere; those include the US.
 - If fewer than 5 ranked results, widen once on your own (add title terms like "software",
   "developer", "backend"), then present what you have and say what you changed. Do not ask
   permission to widen. Run rank_jobs at most twice per user request.
