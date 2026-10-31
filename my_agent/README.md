@@ -80,6 +80,11 @@ A hand-labeled golden set of 10 postings (`data/golden/`), scored by `eval.py`:
 Disagreements are split into *generous* (model rated higher than I did — the dangerous direction)
 and *strict*. Each one became a prompt fix, a policy constant, or a corrected label.
 
+
+python eval.py init stripe cloudflare doordashusa anthropic databricks \
+    --match "Radar" "Deploy at Scale" "Backend (All Teams)" "Web Products" "Link" \
+            "Money as a Service" "Front End Engineer, Marketing" "Egress" "Mobile SDK" "Business Technology"
+
 ## Setup
 
 ```bash

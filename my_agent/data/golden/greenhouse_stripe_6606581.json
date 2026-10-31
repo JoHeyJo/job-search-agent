@@ -3,43 +3,33 @@
   "title": "Full Stack Engineer, Money as a Service",
   "company": "Stripe",
   "url": "https://stripe.com/jobs/search?gh_jid=6606581",
-  "labeled": false,
+  "labeled": true,
   "requirements": [
     {
       "span": "2-12+ years of industry software engineering experience (does not include internships or co-ops).",
       "preferred": false,
       "gate": true,
-      "status": ""
-    },
-    {
-      "span": "You enjoy data modeling challenges and have a high bar for keeping your solutions expressive yet simple to use.",
-      "preferred": false,
-      "gate": false,
-      "status": ""
+      "status": "partial"
     },
     {
       "span": "Enjoy being a generalist working on both the frontend, backend, and anything it takes to solve problems and delight users both internally and externally.",
       "preferred": false,
       "gate": false,
-      "status": ""
+      "status": "met"
     },
-    {
-      "span": "Uphold best practices in engineering, security, and design.",
-      "preferred": false,
-      "gate": false,
-      "status": ""
-    },
+    {"span": "Enjoy being a generalist working on both the frontend, backend, and anything it takes to solve problems and delight users both internally and externally.", "preferred": false, "gate": false, "status": "met"},
+  {"span": "Can stitch together many different services and processes together even if you have not worked with them before.", "preferred": false, "gate": false, "status": "met"},
     {
       "span": "Experience working in high-growth teams similar to Stripe.",
       "preferred": true,
       "gate": false,
-      "status": ""
+      "status": "unmet"
     },
     {
       "span": "Experience building financial systems or tools for financial experts.",
       "preferred": true,
       "gate": false,
-      "status": ""
+      "status": "unmet"
     }
   ],
   "description": "Note: if you are an intern or new grad applicant, please do not apply using this link and visit our jobs page for those specific postings.\nWho we are\nAbout Stripe\nStripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.\nAbout the Organization\nMoney as a Service (MaaS) oversees a diverse portfolio of Stripe's core products and platforms. These offerings facilitate the global movement and management of funds for users. The teams that fall under the MaaS umbrella include: Accounts and Connect, Money Movement and Storage (MMS), Crypto and Banking as a Service (BaaS). Together, these teams work to ensure Stripe users have the robust financial infrastructure and tools they need to power their businesses on a global scale.\nTeam Matching: exact team matching for one of the sub-teams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found here.\nWhat you’ll do\nWe’re looking for Full Stack engineers who are interested in building software services and platforms that impact thousands of employees and millions of Stripe users, regardless of whether they’re an end user, developer, or partner.\nResponsibilities\nBuild end-to-end experiences for Connect that make it as easy as possible to participate in the Internet economy and receive money online. Some of Stripe’s largest users are platforms that connect senders of payments with receivers of payments. Lyft connects riders to drivers, Kickstarter connects backers to projects, and Squarespace connects shoppers to online stores. All of them participate in doing business online, and all of them use Connect.\nMake it easy for Connect platforms to scale their business through leveraging the full power of Stripe’s products via the dashboard, adding to their business models and product functionality while reducing integration lift and complexity.\nBuild great product experiences (integrate with Instant Payouts, Issuing, Capital, Terminal, etc) into all of Connect’s dashboard surfaces.\nWho you are\nWe're looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.\nMinimum requirements\n2-12+ years of industry software engineering experience (does not include internships or co-ops).\nYou enjoy data modeling challenges and have a high bar for keeping your solutions expressive yet simple to use.\nExcellent written and verbal communication.\nEnjoy being a generalist working on both the frontend, backend, and anything it takes to solve problems and delight users both internally and externally.\nThrive in a collaborative environment involving different stakeholders and subject matter experts.\nTake pride in working on projects to successful completion involving a wide variety of technologies and systems.\nCan stitch together many different services and processes together even if you have not worked with them before.\nCan put yourself in the shoes of your users and be a steward of crafting great experiences.\nEnjoy working with a diverse group of people with different expertise.\nUphold best practices in engineering, security, and design.\nPreferred Qualifications\nExperience working in high-growth teams similar to Stripe.\nExperience building financial systems or tools for financial experts."
