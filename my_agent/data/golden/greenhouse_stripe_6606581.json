@@ -17,8 +17,6 @@
       "gate": false,
       "status": "met"
     },
-    {"span": "Enjoy being a generalist working on both the frontend, backend, and anything it takes to solve problems and delight users both internally and externally.", "preferred": false, "gate": false, "status": "met"},
-  {"span": "Can stitch together many different services and processes together even if you have not worked with them before.", "preferred": false, "gate": false, "status": "met"},
     {
       "span": "Experience working in high-growth teams similar to Stripe.",
       "preferred": true,

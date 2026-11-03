@@ -41,7 +41,6 @@
       "gate": false,
       "status": "met"
     },
-    {"span": "Experience scoping and delivering work with minimal oversight in a fast-moving, cross-functional environment", "preferred": false, "gate": false, "status": "met"},
     {
       "span": "Demonstrated ability to work across multiple codebases and technology stacks simultaneously",
       "preferred": false,

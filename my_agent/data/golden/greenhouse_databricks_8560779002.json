@@ -22,9 +22,7 @@
       "preferred": false,
       "gate": false,
       "status": "unmet"
-    },
-    {"span": "Comfort adopting AI native development tools and embedding them into daily engineering practice", "preferred": false, "gate": false, "status": "met"},
-
+    }
     {
       "span": "Familiarity with headless CMS architectures, edge delivery, or modern frontend frameworks is a strong plus",
       "preferred": true,

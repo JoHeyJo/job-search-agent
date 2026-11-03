@@ -17,7 +17,6 @@
       "gate": false,
       "status": "met"
     },
-    {"span": "Interest in working as a generalist across varying technologies and stacks to solve problems and delight both internal and external users", "preferred": false, "gate": false, "status": "met"},
     {
       "span": "Experience with large-scale financial tracking systems",
       "preferred": true,
