@@ -45,7 +45,7 @@
       "span": "Experience/interest in HTTP networking and VPN technologies.",
       "preferred": false,
       "gate": false,
-      "status": "unmet"
+      "status": "partial"
     },
     {
       "span": "Experience/interest in network performance monitoring and tuning.",
