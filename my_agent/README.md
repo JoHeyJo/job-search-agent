@@ -1,4 +1,4 @@
-# JOB-SEARCH-AGENT — résumé-matched job search agent
+# Lumbergh — résumé-matched job search agent
 
 An AI agent that takes a plain-English request ("backend roles at mid-size product companies, skip
 defense"), finds companies hiring for it, reads their live postings, and ranks them against your
@@ -69,21 +69,33 @@ v0 on the same kind of request: 16 tool calls, 2 blocked extractions, fabricated
 
 ## Evaluation
 
-A hand-labeled golden set of 10 postings (`data/golden/`), scored by `eval.py`:
+A hand-labeled golden set of 14 postings (`data/golden/`, labeling rules in `data/golden/RULES.md`),
+scored by `eval.py` against the current résumé. Labels were made from the résumé text only.
 
-| metric | result |
-|---|---|
-| extraction precision (model requirements that are real) | _n/a_ |
-| extraction recall (real requirements the model found) | _n/a_ |
-| match agreement (model status == my status) | _n/a_ |
+| run | set | extraction P / R | match agreement | generous / strict | what changed |
+|---|---|---|---|---|---|
+| 1 | 10 listings | 85.2 / 100* | 69.7% | 9 / 14 | baseline; single-line evidence |
+| 2 | 10 | 97.4 / 97.4 | 70.3% | 10 / 12 | soft-skill negatives in extraction prompt; evidence may cite up to 3 lines |
+| 3 | 15 (new set) | 97.6 / 96.1 | 71.5% | 12 / 23 | same prompts, larger set; plateau confirmed |
+| 4 | 15 | 97.3 / 100 | 80.6% | 15 / 6 | `reason` field emitted before `status`; rules reordered with explicit priority; tie-breaks removed |
+| 5 | 14 | 97.3 / 100 | 85.2% | 8 / 8 | tie-break rules restored; label consistency pass |
 
-Disagreements are split into *generous* (model rated higher than I did — the dangerous direction)
-and *strict*. Each one became a prompt fix, a policy constant, or a corrected label.
+\* run-1 recall is an artifact: templates were prefilled from the model's extraction and no missed
+requirements were added. Later runs include a read-through of each posting.
 
+What moved the number and what didn't:
+- Changing how evidence is *cited* (run 2) improved the citations and changed almost no verdicts.
+- Making the model write its reasoning *before* its verdict (run 4) was worth nine points.
+- Tie-break wording controls which way the residual errors fall (run 4 → 5). That matters more than
+  the point total: a generous error puts a listing you don't qualify for at the top; a strict one
+  hides a listing in the blocked bucket, which is still visible.
 
-python eval.py init stripe cloudflare doordashusa anthropic databricks \
-    --match "Radar" "Deploy at Scale" "Backend (All Teams)" "Web Products" "Link" \
-            "Money as a Service" "Front End Engineer, Marketing" "Egress" "Mobile SDK" "Business Technology"
+Residual disagreements (16/108) are mostly one pattern: when the only evidence is a skills-list
+entry, the model holds to "listed skill → at most partial" even where the requirement's own wording
+("such as", "e.g.", "or equivalent") would make it met. Verdicts are also not perfectly stable: an
+identical years requirement on three Stripe postings was judged partial, partial, and met against
+the same résumé; per-listing context shifts borderline calls. Roughly a third of the remainder are
+items two careful readers would split on. No fabricated requirements in any run.
 
 ## Setup
 
