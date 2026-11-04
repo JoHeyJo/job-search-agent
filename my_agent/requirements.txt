@@ -1,2 +1,2 @@
 strands-agents==1.55.1
-strands-agents-tools==0.8.8
+strands-agents-tools==0.8
