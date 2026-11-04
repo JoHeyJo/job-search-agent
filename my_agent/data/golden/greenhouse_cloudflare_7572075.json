@@ -15,7 +15,7 @@
       "span": "Application Security Expertise: Extensive and proven knowledge of development platforms such as Cloudflare's Application Security, Workers and Workers AI, cybersecurity, web performance, and cloud infrastructure.",
       "preferred": false,
       "gate": false,
-      "status": "partial"
+      "status": "unmet"
     },
     {
       "span": "Terraform Proficiency: Extensive experience implementing and supporting complex technical solutions using Terraform for infrastructure management.",

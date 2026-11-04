@@ -18,36 +18,48 @@ from config import settings
 from extract import extract_requirements
 from models import Listing, Requirement, RequirementMatch, ResumeProfile, Status
 
-SYSTEM_PROMPT = """You compare job requirements against a candidate profile.
+SYSTEM_PROMPT = """You compare job requirements against a candidate profile. For each requirement you
+output a reason, a status, and evidence, in that order.
 
-For each requirement, decide:
-- met: a profile line explicitly demonstrates the whole requirement.
-- partial: a profile line demonstrates the requirement with one clear, nameable gap —
-  fewer years than asked, a sibling technology in the same family, the same task at
-  smaller scale, or one half of an "A and B" requirement explicitly satisfied.
-- unmet: nothing in the profile addresses it. If you would need to explain why the
-  evidence is related, it is unmet. When torn between partial and unmet, choose unmet.
+STEP 1 — Read the requirement. These rules decide WHAT is being asked, and they take priority
+over everything below.
+- Alternatives: "X, Y, or Z" asks for any one of them. The requirement is met if any one is met.
+- Examples: items introduced by "such as", "e.g.", "like", "including", or ending in "etc." are
+  illustrations of a category, not a checklist. Judge the category. "Cloud services (e.g., gRPC,
+  Docker, AWS)" asks for cloud-service experience; AWS alone can meet it. "Frameworks such as
+  LangGraph" asks for an agent framework; any agent framework can meet it.
+- "Or equivalent experience": judge the experience branch. A degree requirement with this phrase
+  and no degree on the profile is partial if the experience is relevant, never unmet for lack
+  of the degree.
+- Conjunctions: "A, B, and C" asks for all of them. All shown → met; some shown → partial.
+- "N years of X": count only role lines that name X; sum their date ranges.
 
-evidence: one to three profile lines, each copied exactly (or a contiguous substring of one).
-Use more than one line when the requirement needs it: for "N years of X", cite every role line
-whose dates should count; for compound requirements, cite the line for each part. For unmet,
-evidence is an empty list. Do not include the leading ‘- ‘ bullet.
+STEP 2 — Decide the status.
+- met: profile lines demonstrate the requirement as read in step 1.
+- partial: profile lines demonstrate it with one clear, nameable gap — fewer years, a sibling
+  technology, the same task at smaller scale, or some but not all parts of a conjunction.
+- unmet: nothing in the profile addresses it. A shared word is not evidence: "Spoken language:
+  English" does not address localization; using Slack or GitHub does not address integrating or
+  administering IT platforms; a deployment bullet containing "security" does not address security
+  judgment; mentoring a cohort does not address building platforms others build on. If the only
+  link is vocabulary, say unmet.
+- A skill that is merely listed, with no role line showing it in use, supports at most partial.
+- Do not infer skills from job titles or company names.
+- When torn between met and partial, choose partial. When torn between partial and unmet,
+  choose unmet. A conjunction with any part missing is never met.
 
-- The evidence must demonstrate the requirement, not share a word with it. Not evidence:
-  "Spoken language: English" for localization systems; using Slack and GitHub for integrating
-  IT platforms; a deployment bullet mentioning "security" for security judgment; mentoring a
-  cohort for building platforms others build on. If the only link is a shared word, say unmet.
-- For "N years of X", count only role lines that name X, and sum their date ranges.
+STEP 3 — Cite evidence: one to three profile lines, each copied exactly (or a contiguous
+substring of one). Do not include the leading "- ". Cite every role line that counts toward a
+years requirement, and a line for each part of a conjunction. For unmet, evidence is an empty
+list.
 
-- A requirement listing alternatives ("X, Y, or Z"; "such as A or B") is met if any one alternative
-  is met. The named tools are examples, not a checklist.
-- A requirement offering "or equivalent experience" is judged on the experience branch.
+Output per requirement:
+- reason: one sentence naming the step-1 reading and what the evidence shows, e.g. "OR-list;
+  React satisfies 'modern frontend frameworks'" or "conjunction; prompting and tool use shown,
+  retrieval not shown". Write the reason before choosing the status.
+- status, evidence as above.
 
-Be strict:
-- A skill merely listed does not satisfy a stated minimum of years. Use partial unless the
-  experience lines clearly cover the duration.
-- Do not assume unstated skills from job titles or company names.
-- Judge every requirement by its index. Do not skip any."""
+Judge every requirement by its index. Do not skip any."""
 
 _TYPO = str.maketrans(
     {
@@ -66,6 +78,7 @@ _BULLET = re.compile(r"^\s*[-*•]\s+")
 
 class _Judgment(BaseModel):
     requirement_index: int
+    reason: str  
     status: Status
     evidence: list[str] = []
 

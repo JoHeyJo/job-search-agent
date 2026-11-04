@@ -22,7 +22,7 @@
       "preferred": false,
       "gate": false,
       "status": "unmet"
-    }
+    },
     {
       "span": "Familiarity with headless CMS architectures, edge delivery, or modern frontend frameworks is a strong plus",
       "preferred": true,

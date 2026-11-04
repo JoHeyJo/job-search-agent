@@ -15,7 +15,7 @@
       "span": "Hands-on experience building applications or agents on top of LLM APIs, including prompting, tool use, and retrieval",
       "preferred": false,
       "gate": false,
-      "status": "met"
+      "status": "partial"
     },
     {
       "span": "Experience designing integrations with third-party APIs, data sources, and services",
@@ -27,7 +27,7 @@
       "span": "Experience in a demo engineering, solutions engineering, sales engineering, forward deployed engineering, developer relations, or product engineering role",
       "preferred": false,
       "gate": false,
-      "status": "met"
+      "status": "unmet"
     },
     {
       "span": "A track record of building reusable internal tools, templates, or self-service assets that other teams adopted",
@@ -69,7 +69,7 @@
       "span": "Experience supporting product launches or running launch-readiness programs",
       "preferred": false,
       "gate": false,
-      "status": "partial"
+      "status": "unmet"
     },
     {
       "span": "A history of turning field feedback into concrete product input that influenced a roadmap",
