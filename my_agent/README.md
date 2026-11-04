@@ -1,4 +1,4 @@
-# Lumbergh — résumé-matched job search agent
+# Jon Search Agent — résumé-matched job search agent
 
 An AI agent that takes a plain-English request ("backend roles at mid-size product companies, skip
 defense"), finds companies hiring for it, reads their live postings, and ranks them against your
